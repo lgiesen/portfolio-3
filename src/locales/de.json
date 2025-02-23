@@ -1,0 +1,16 @@
+{
+  "parallaxText": {
+    "about": {
+      "title": "Über Leo",
+      "subtitle": "Ich liebe es komplexe und abstrakte Probleme runterzubrechen und zu lösen!"
+    },
+    "experience": {
+      "title": "Berufserfahrung <br>und Bildung",
+      "subtitle": "Ich möchte meinen Horizont erweitern, indem ich Neues lerne und mich Herausforderungen stelle!"
+    },
+    "projects": {
+      "title": "Projekt-Erfahrung",
+      "subtitle": "Inspiration durch meine Projekte"
+    }
+  }
+}
