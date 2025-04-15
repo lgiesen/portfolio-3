@@ -1,55 +1,36 @@
-<template lang="pug">
-  v-app#app
-    //- TheNavigation#scroll-target
-    v-main
-      router-view
-    TheFooter
-  </template>
-
 <script lang="ts">
-import { defineComponent, onMounted, onUnmounted } from "vue";
-import { useTheme } from "vuetify";
-import { useStore } from "vuex";
+import { defineComponent, onMounted } from 'vue'
+import { useTheme } from 'vuetify'
+import { useStore } from 'vuex'
 
-import TheNavigation from "@/components/navigation/TheNavigation.vue";
-import TheFooter from "@/components/TheFooter.vue";
+import TheNavigation from '@/components/navigation/TheNavigation.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
     TheNavigation,
-    TheFooter,
+    TheFooter
   },
   setup() {
-    const store = useStore();
-    const theme = useTheme();
-
-    const onResize = () => {
-      store.state.isMobile = window.innerWidth < 600;
-    };
+    const store = useStore()
+    const theme = useTheme()
 
     onMounted(() => {
-      // Set theme from localStorage
-      const isDarkThemeActive = localStorage.getItem("isDarkTheme");
-      if (isDarkThemeActive === "true") {
-        theme.global.name.value = "dark";
-      } else {
-        theme.global.name.value = "light";
-      }
-
-      onResize();
-      window.addEventListener("resize", onResize, { passive: true });
-    });
-
-    onUnmounted(() => {
-      window.removeEventListener("resize", onResize);
-    });
-
-    return {};
-  },
-});
+      const isDarkThemeActive = localStorage.getItem('isDarkTheme')
+      theme.global.name.value = isDarkThemeActive === 'true' ? 'dark' : 'light'
+    })
+  }
+})
 </script>
 
+<template lang="pug">
+  v-app#app
+    TheNavigation#scroll-target
+    //- v-main
+      //- router-view
+    TheFooter
+  </template>
 
 <style lang="scss">
 /* eslint-disable */

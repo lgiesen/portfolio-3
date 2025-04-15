@@ -1,20 +1,19 @@
-<template lang="pug">
-v-btn(icon @click="toggleTheme") 
-  v-icon mdi-theme-light-dark
+<template>
+  <v-btn icon @click="toggleTheme">
+    <v-icon>mdi-theme-light-dark</v-icon>
+  </v-btn>
 </template>
 
-<script>
-export default {
-  name: "ToggleTheme",
-  methods: {
-    toggleTheme() {
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-      // update theme
-      // console.log("active theme: " + this.$store.getters.ActiveTheme);
-      localStorage.setItem("isDarkTheme", this.$vuetify.theme.dark.toString());
-    },
-  },
-};
-</script>
+<script setup lang="ts">
+import { useTheme } from 'vuetify'
 
-<style scoped></style>
+const theme = useTheme()
+
+function toggleTheme() {
+  const current = theme.global.name.value
+  const newTheme = current === 'dark' ? 'light' : 'dark'
+
+  theme.global.name.value = newTheme
+  localStorage.setItem("isDarkTheme", (newTheme === "dark").toString())
+}
+</script>
