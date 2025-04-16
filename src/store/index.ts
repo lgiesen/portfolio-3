@@ -19,12 +19,6 @@ export default createStore({
     isDE(): boolean {
       return i18n.global.locale.value === "de";
     },
-    isDarkTheme(): boolean {
-      return vuetify.theme.global.current.value.dark;
-    },
-    ActiveTheme(): string | undefined {
-      return vuetify.theme.global.current.value.dark ? "dark" : "light";
-    },
     GetShowContactDialog: (state) => state.showContactDialog,
     // 💡 Responsive info (nicht reaktiv – Vuetify direkt)
     ResponsiveFontSize(): string {

@@ -17,10 +17,10 @@ function loadLocaleMessages(): Record<string, any> {
   });
   return messages;
 }
-
 export default createI18n({
-  legacy: false, // Set to false to use the Composition API
+  legacy: false, 
   locale: process.env.VUE_APP_I18N_LOCALE || "en",
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
+  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "de",
+  globalInjection: true,
   messages: loadLocaleMessages(),
 });

@@ -1,47 +1,47 @@
-<template lang="pug">
-section.mb-0
-  section.fullwidth.mb-0
-    v-parallax.pt-12(
-      :class="parallaxHeight"
-      :src="parallaxImage" :alt="parallaxImage")
-      v-overlay(absolute :color="overlayColor")
-        //- Another section is necessary to provide the max-width for ultra-wide screens
-        section.mb-0.mt-2
-          v-container
-            v-row.pa-md-12.d-flex.text-center
-              v-col(order-md="2")
-                h1.text-break.display-3.font-weight-thin.mb-12(
-                  v-html="$t('parallaxText.' + translationKey + '.title')")
-                p.text-break.subheading(
-                  v-html="$t('parallaxText.' + translationKey + '.subtitle')")
-                ScrollHero.mt-16.pt-16
-              v-col.center-items.col-12.col-md-6(v-if="smallImgPath" order-md="1")
-                v-img(:alt="imgAlt" :src="smallImgPath"
-                  height="500" width="100%" contain)
+<template>
+  <section class="mb-0">
+    <section class="fullwidth mb-0">
+      <v-parallax class="pt-12" :class="parallaxHeight" :src="parallaxImage" :alt="parallaxImage">
+        <v-overlay absolute :color="overlayColor">
+          <!-- max-width container für große Screens -->
+          <section class="mb-0 mt-2">
+            <v-container>
+              <v-row class="pa-md-12 d-flex text-center">
+                <v-col :order-md="2">
+                  <h1 class="text-break display-3 font-weight-thin mb-12"
+                    v-html="$t(`parallaxText.${translationKey}.title`)"></h1>
+                  <p class="text-break subheading" v-html="$t(`parallaxText.${translationKey}.subtitle`)"></p>
+                  <ScrollHero class="mt-16 pt-16" />
+                </v-col>
+
+                <v-col v-if="smallImgPath" class="center-items col-12 col-md-6" :order-md="1">
+                  <v-img :alt="imgAlt" :src="smallImgPath" height="500" width="100%" contain />
+                </v-col>
+              </v-row>
+            </v-container>
+          </section>
+        </v-overlay>
+      </v-parallax>
+    </section>
+  </section>
 </template>
 
-<script>
+<script setup lang="ts">
 import ScrollHero from "@/components/scroll/ScrollHero.vue";
+import { computed } from "vue";
+import { useDisplay } from "vuetify";
 
-export default {
-  name: "Parallax",
-  components: {
-    ScrollHero,
-  },
-  computed: {
-    parallaxHeight() {
-      // Full height for phones (xs) and Laptops (lg). 80% vh for xs handy ipad (sm) and wide screen (xl)
-      return ["xs", "lg"].includes(this.$vuetify.breakpoint.name)
-        ? "h-100vh"
-        : "h-80vh";
-    },
-  },
-  props: [
-    "parallaxImage",
-    "overlayColor",
-    "translationKey",
-    "smallImgPath",
-    "imgAlt",
-  ],
-};
+defineProps<{
+  parallaxImage: string;
+  overlayColor: string;
+  translationKey: string;
+  smallImgPath?: string;
+  imgAlt?: string;
+}>();
+
+const { name: breakpointName } = useDisplay();
+
+const parallaxHeight = computed(() =>
+  ["xs", "lg"].includes(breakpointName.value) ? "h-100vh" : "h-80vh"
+);
 </script>

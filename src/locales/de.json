@@ -12,5 +12,14 @@
       "title": "Projekt-Erfahrung",
       "subtitle": "Inspiration durch meine Projekte"
     }
-  }
+  },
+  "experience": {
+    "intro": {
+      "title": "Berufserfahrung <br>und Bildung",
+      "subtitle": "Ich möchte meinen Horizont erweitern, indem ich Neues lerne und mich Herausforderungen stelle!"
+    },
+    "workExperience": "Berufserfahrung",
+    "education": "Bildung"
+  },
+  "socialTitle": "Kontakt"
 }

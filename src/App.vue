@@ -1,7 +1,5 @@
 <script lang="ts">
-import { defineComponent, onMounted } from 'vue'
-import { useTheme } from 'vuetify'
-import { useStore } from 'vuex'
+import { defineComponent } from 'vue'
 
 import TheNavigation from '@/components/navigation/TheNavigation.vue'
 import TheFooter from '@/components/TheFooter.vue'
@@ -13,13 +11,8 @@ export default defineComponent({
     TheFooter
   },
   setup() {
-    const store = useStore()
-    const theme = useTheme()
-
-    onMounted(() => {
-      const isDarkThemeActive = localStorage.getItem('isDarkTheme')
-      theme.global.name.value = isDarkThemeActive === 'true' ? 'dark' : 'light'
-    })
+    // const store = useStore()
+    // const theme = useTheme()
   }
 })
 </script>
@@ -27,8 +20,8 @@ export default defineComponent({
 <template lang="pug">
   v-app#app
     TheNavigation#scroll-target
-    //- v-main
-      //- router-view
+    v-main
+      router-view
     TheFooter
   </template>
 

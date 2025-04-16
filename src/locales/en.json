@@ -12,5 +12,14 @@
       "title": "Project <br>Experience",
       "subtitle": "Get Inspired by my Projects"
     }
-  }
+  },
+  "experience": {
+    "intro": {
+      "title": "Work Experience <br>and Education",
+      "subtitle": "I want to broaden my horizons by learning new things and facing challenges!"
+    },
+    "workExperience": "Work Experience",
+    "education": "Education"
+  },
+  "socialTitle": "Connect with me"
 }
