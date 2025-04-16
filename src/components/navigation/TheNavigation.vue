@@ -27,7 +27,6 @@
         </v-tab>
       </v-tabs>
       <LanguageSwitcher
-        @language-changed="updateSlider"
         :class="dontShowAtTopComputed"
       />
       <ToggleTheme class="mr-5" :class="dontShowAtTopComputed" />
@@ -92,7 +91,6 @@
           @click="mobileDialog = false"
         >
           <LanguageSwitcher
-            @language-changed="updateSlider"
             :class="dontShowAtTopComputed"
           />
           <ToggleTheme :class="dontShowAtTopComputed" />
@@ -151,10 +149,6 @@ export default {
       dontShowAtTop.value = top > 700;
     };
 
-    const updateSlider = () => {
-      tabsRef.value.callSlider();
-    };
-
     const tabsRef = ref(null);
     
     const theme = useTheme()
@@ -182,7 +176,6 @@ export default {
       mobileDialog,
       dontShowAtTop,
       onScroll,
-      updateSlider,
       tabsRef,
       themespecificLogoSrc,
       dontShowAtTopComputed,
