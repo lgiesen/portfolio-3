@@ -1,26 +1,32 @@
 <template>
   <section class="mb-0">
     <section class="fullwidth mb-0">
-      <v-parallax class="pt-12" :class="parallaxHeight" :src="parallaxImage" :alt="parallaxImage">
-        <v-overlay absolute :color="overlayColor">
-          <!-- max-width container für große Screens -->
+      <v-parallax class="pt-12 position-relative" :class="parallaxHeight" :src="parallaxImage" :alt="parallaxImage"
+        height="100vh">
+        <!-- Farb-Overlay über das Bild -->
+        <div class="position-absolute top-0 left-0 w-100 h-100"
+          :style="{ backgroundColor: overlayColor, opacity: 0.7, zIndex: 1 }"></div>
+
+        <!-- Inhalt über dem Overlay -->
+        <div class="position-relative" style="z-index: 2">
           <section class="mb-0 mt-2">
             <v-container>
               <v-row class="pa-md-12 d-flex text-center">
                 <v-col :order-md="2">
-                  <h1 class="text-break display-3 font-weight-thin mb-12"
+                  <h1 class="text-white text-h2 font-weight-light mb-8"
                     v-html="$t(`parallaxText.${translationKey}.title`)"></h1>
-                  <p class="text-break subheading" v-html="$t(`parallaxText.${translationKey}.subtitle`)"></p>
+                  <h5 class="text-white text-h5 text-subtitle-1" v-html="$t(`parallaxText.${translationKey}.subtitle`)">
+                  </h5>
                   <ScrollHero class="mt-16 pt-16" />
                 </v-col>
 
-                <v-col v-if="smallImgPath" class="center-items col-12 col-md-6" :order-md="1">
-                  <v-img :alt="imgAlt" :src="smallImgPath" height="500" width="100%" contain />
+                <v-col v-if="smallImgPath" cols="12" md="6" :order-md="1" class="d-flex justify-center align-center">
+                  <v-img :alt="imgAlt" :src="smallImgPath" height="500" width="100%" contain class="rounded-lg" />
                 </v-col>
               </v-row>
             </v-container>
           </section>
-        </v-overlay>
+        </div>
       </v-parallax>
     </section>
   </section>

@@ -1,34 +1,18 @@
 <template>
   <div style="position: fixed; z-index: 99; width: 100vw;" v-scroll="onScroll">
     <!-- Tablet and desktop navigation -->
-    <v-app-bar
-      class="appBar hidden-sm-and-down"
-      :class="!dontShowAtTop ? 'transparent-background' : ''"
-      flat
-      elevation="0"
-    >
+    <v-app-bar class="appBar hidden-sm-and-down" :class="!dontShowAtTop ? 'transparent-background' : ''" flat
+      elevation="0">
       <!-- transparent-background class is defined in @/App.vue -->
-      <v-img
-        class="shrink mr-2"
-        alt="Leo Giesen Logo"
-        contain
-        width="40"
-        transition="scale-transition"
-        :src="themespecificLogoSrc"
-      ></v-img>
+      <v-img class="shrink mr-2" alt="Leo Giesen Logo" contain width="40" transition="scale-transition"
+        :src="themespecificLogoSrc"></v-img>
       <v-tabs align-with-title ref="tabs">
-        <v-tab
-          v-for="view in views"
-          :key="view.to.name"
-          :to="view.to"
-          :class="dontShowAtTopComputed"
-        >
+        <v-tab v-for="view in views" :key="view.to.name" :to="view.to" :class="dontShowAtTopComputed">
           {{ isDE ? view.tag_de : view.tag_en }}
         </v-tab>
       </v-tabs>
-      <LanguageSwitcher
-        :class="dontShowAtTopComputed"
-      />
+      <v-spacer></v-spacer>
+      <LanguageSwitcher :class="dontShowAtTopComputed" />
       <ToggleTheme class="mr-5" :class="dontShowAtTopComputed" />
     </v-app-bar>
 
@@ -37,62 +21,31 @@
       <!-- App bar to open the navigation overlay -->
       <v-app-bar class="appBar" flat elevation="0">
         <v-spacer></v-spacer>
-        <v-app-bar-nav-icon
-          class="justify-end mr-1"
-          @click.stop="mobileDialog = !mobileDialog"
-        ></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon class="justify-end mr-1" @click.stop="mobileDialog = !mobileDialog"></v-app-bar-nav-icon>
       </v-app-bar>
 
       <!-- Navigation overlay -->
-      <v-overlay
-        class="appBar"
-        v-if="mobileDialog"
-        transition="dialog-top-transition"
-        opacity="1"
-      >
+      <v-overlay class="appBar" v-if="mobileDialog" transition="dialog-top-transition" opacity="1">
         <div class="d-flex justify-center mb-12">
-          <v-img
-            class="shrink mr-2"
-            alt="Leo Giesen Logo"
-            contain
-            width="70"
-            transition="scale-transition"
-            :src="themespecificLogoSrc"
-          ></v-img>
+          <v-img class="shrink mr-2" alt="Leo Giesen Logo" contain width="70" transition="scale-transition"
+            :src="themespecificLogoSrc"></v-img>
         </div>
 
         <v-divider></v-divider>
 
-        <v-btn
-          fixed
-          top
-          right
-          icon
-          @click="mobileDialog = false"
-        >
+        <v-btn fixed top right icon @click="mobileDialog = false">
           <v-icon>mdi-close</v-icon>
         </v-btn>
 
-        <v-tab
-          class="ma-8"
-          v-for="view in views"
-          :key="view.to.name"
-          @click="mobileDialog = false"
-          :to="view.to"
-        >
+        <v-tab class="ma-8" v-for="view in views" :key="view.to.name" @click="mobileDialog = false" :to="view.to">
           <v-icon color="secondary">mdi-{{ view.icon }}</v-icon>
           {{ isDE ? view.tag_de : view.tag_en }}
         </v-tab>
 
         <v-divider></v-divider>
 
-        <div
-          class="d-flex flex-wrap justify-space-around mt-12"
-          @click="mobileDialog = false"
-        >
-          <LanguageSwitcher
-            :class="dontShowAtTopComputed"
-          />
+        <div class="d-flex flex-wrap justify-space-around mt-12" @click="mobileDialog = false">
+          <LanguageSwitcher :class="dontShowAtTopComputed" />
           <ToggleTheme :class="dontShowAtTopComputed" />
         </div>
       </v-overlay>
@@ -150,7 +103,7 @@ export default {
     };
 
     const tabsRef = ref(null);
-    
+
     const theme = useTheme()
     const currentTheme = computed(() => theme.global.name.value) // 'light' | 'dark'
     const isDarkTheme = computed(() => currentTheme.value === 'dark')
@@ -211,4 +164,3 @@ i.v-icon {
   margin-right: 12px;
 }
 </style>
-  

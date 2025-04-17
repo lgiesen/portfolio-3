@@ -1,24 +1,25 @@
-<template lang="pug">
-div.text-center.mb-6(v-if="!this.$vuetify.breakpoint.mobile")
-  v-btn#heroScrollBtn(
-    @click="scrollHero"
-    fab text outlined color="white") 
-    v-icon mdi-chevron-down
+<template>
+  <div v-if="!isMobile" class="text-center mb-6">
+    <v-btn id="heroScrollBtn" @click="scrollHero" variant="outlined" color="white" icon>
+      <v-icon>mdi-chevron-down</v-icon>
+    </v-btn>
+  </div>
 </template>
 
-<script>
-export default {
-  name: "ScrollHero",
-  methods: {
-    scrollHero() {
-      this.$vuetify.goTo("#scroll");
-    },
-  },
-};
+<script setup lang="ts">
+import { useDisplay, useGoTo } from 'vuetify'
+
+const { mobile: isMobile } = useDisplay()
+const goTo = useGoTo()
+
+function scrollHero() {
+  goTo('#scroll')
+}
 </script>
 
-<style>
+<style scoped>
 @keyframes bounce {
+
   0%,
   20%,
   50%,

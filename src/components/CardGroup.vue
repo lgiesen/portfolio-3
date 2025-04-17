@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-weight-thin mb-12 text-center" :class="responsiveFontSize">
+    <h1 class="text-h3 font-weight-light mb-12 text-center" :class="responsiveFontSize">
       {{ sectionTitle }}
     </h1>
 
