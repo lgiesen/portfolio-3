@@ -18,7 +18,7 @@ export default defineComponent({
 <template lang="pug">
   v-app#app
     TheNavigation#scroll-target
-    v-main
+    v-main.pt-0
       router-view
     TheFooter
   </template>
