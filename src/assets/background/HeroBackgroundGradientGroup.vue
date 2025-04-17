@@ -1,36 +1,32 @@
 <template>
-  <!-- Hide the horizontal overflow on mobile (otherwise there are side effects on desktop) -->
-  <div :style="mobile.value ? 'overflow: hidden;' : ''" class="center-items">
-    <svg :class="mobile.value ? 'isMobile' : 'isDesktop'" fill="none" viewBox="0 0 1440 1024"
+  <div :style="mobile ? 'overflow: hidden;' : ''" class="center-items">
+    <svg :class="mobile ? 'isMobile' : 'isDesktop'" fill="none" viewBox="0 0 1440 1024"
       xmlns="http://www.w3.org/2000/svg">
-      <g id="background-gradient-group" clip-path="url(#clip0)">
-        <path id="background-gradient"
-          d="M-45.3998 -84.2708L1506.45 -84.2708L1506.45 639.532L-45.3998 830.076L-45.3998 -84.2708Z"
-          fill="url(#paint0_linear)" />
-        <path id="Intersect" fill-rule="evenodd" clip-rule="evenodd"
+      <g clip-path="url(#clip0)">
+        <path d="M-45.4 -84.27H1506.45V639.532L-45.4 830.076V-84.27Z" fill="url(#paint0_linear)" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
           d="M1067.54 693.424L146.811 806.475V206.734L1067.54 93.6823V693.424Z" fill="url(#paint1_linear)"
           fill-opacity="0.1" />
-        <path id="Intersect_2" fill-rule="evenodd" clip-rule="evenodd"
+        <path fill-rule="evenodd" clip-rule="evenodd"
           d="M1353.29 658.339L432.554 771.391V514.607L1353.29 401.555V658.339Z" fill="url(#paint2_linear)"
           fill-opacity="0.1" />
-        <path id="Intersect_3" fill-rule="evenodd" clip-rule="evenodd"
+        <path fill-rule="evenodd" clip-rule="evenodd"
           d="M961.711 706.418L40.9785 819.47V731.08L961.711 618.028V706.418Z" fill="url(#paint3_linear)"
           fill-opacity="0.1" />
-        <path id="Intersect_4" fill-rule="evenodd" clip-rule="evenodd"
-          d="M370.018 -84.2708L-45.3994 -84.2708L-45.3994 378.417L370.018 325.189V-84.2708Z" fill="url(#paint4_radial)"
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M370.018 -84.2708L-45.3994 -84.2708V378.417L370.018 325.189V-84.2708Z" fill="url(#paint4_radial)"
           fill-opacity="0.1" />
-        <path id="Intersect_5" fill-rule="evenodd" clip-rule="evenodd"
-          d="M1067.54 -84.2864H421.972V123.384L1067.54 44.1182V-84.2864Z" fill="url(#paint5_radial)"
-          fill-opacity="0.1" />
-        <path id="Intersect_6" fill-rule="evenodd" clip-rule="evenodd"
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1067.54 -84.2864H421.972V123.384L1067.54 44.1182V-84.2864Z"
+          fill="url(#paint5_radial)" fill-opacity="0.1" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
           d="M1136.31 684.98L1506.45 639.532V-84.2708H1317.03L1114.68 -64.6149V545.62L1136.31 684.98Z"
           fill="url(#paint6_linear)" fill-opacity="0.1" />
       </g>
       <defs>
         <linearGradient id="paint0_linear" x1="-610.723" y1="491.163" x2="366.02" y2="1537.78"
           gradientUnits="userSpaceOnUse">
-          <stop class="stopColorLeft" />
-          <stop class="stopColorRight" offset="1" />
+          <stop :style="{ stopColor: heroGradientBackgroundLeft }" />
+          <stop :style="{ stopColor: heroGradientBackgroundRight }" offset="1" />
         </linearGradient>
         <linearGradient id="paint1_linear" x1="266.592" y1="-101.415" x2="600.69" y2="611.934"
           gradientUnits="userSpaceOnUse">
@@ -71,26 +67,17 @@
 </template>
 
 <script setup lang="ts">
-import { useDisplay } from 'vuetify';
+import { computed } from 'vue'
+import { useDisplay, useTheme } from 'vuetify'
 
+const theme = useTheme()
 const { mobile } = useDisplay()
+
+const heroGradientBackgroundLeft = computed(() => theme.current.value.colors.heroGradientBackgroundLeft)
+const heroGradientBackgroundRight = computed(() => theme.current.value.colors.heroGradientBackgroundRight)
 </script>
 
-
-<style lang="scss" scoped>
-$heroGradientBackgroundLeft: var(--v-heroGradientBackgroundLeft-base);
-$heroGradientBackgroundRight: var(--v-heroGradientBackgroundRight-base);
-
-.stopColorLeft {
-  stop-color: $heroGradientBackgroundLeft;
-}
-
-.stopColorRight {
-  stop-color: $heroGradientBackgroundRight;
-}
-
-// SVG needs to distinguish between the different viewports
-// to display correctly
+<style scoped>
 .isMobile {
   min-width: 100vw;
   height: 100vh;
