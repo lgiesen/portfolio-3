@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="fullwidth">
       <div>
-        <HeroBackgroundGradientGroup class="absolute" />
+        <HeroBackgroundGradientGroup class="position-absolute" />
         <v-container class="text-center">
           <v-row class="pa-md-12 pb-md-0 align-center justify-center h-screen">
             <v-col cols="12" md="6">
