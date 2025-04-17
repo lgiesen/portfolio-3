@@ -21,5 +21,17 @@
     "workExperience": "Work Experience",
     "education": "Education"
   },
-  "socialTitle": "Connect with me"
+  "socialTitle": "Connect with me",
+  "about": {
+    "intro": {
+      "title": "About Leo",
+      "subtitle": "I love breaking down and solving complex and abstract problems!"
+    },
+    "introHeader": "What is most important to you?",
+    "friendsAndFamily": "For me, my family and friends are the highest priority, because without a great social life as a foundation, it's easy to become unbalanced, burn out and lose sight of what's important in life. That is why I try to make great memories with my family and friends as often as possible. These include our annual ski trips, weekend getaways, or carnival with a group of friends and my family in Cologne.",
+    "career": "Besides my private life I invest a lot of energy in my work and career because I have a passion for different IT topics. That's why I study Information Systems (M. Sc.) in Münster and have two part-time jobs with IT focus. The jobs are at the Chair of Information Systems and Information Management as a student assistant and as a working student at viadee in research and development in the Data Science area. In addition, I was able to expand my skillset through consulting projects at <a href='https://move-ev.de/' target='_blank'>move e. V.</a>. I also completed other projects in my spare time or at the university. More insights into these and other projects can be found in my <a href='/experience'>experience overview</a>.",
+    "sport": "In addition to work and my private life, I am also very ambitious in sports, as I want to push my limits in various ways: For example, I try to improve my running. Moreover, I ran a half marathon at the age of 16 and run just under 4 min/km on my 10 km route. Over the last few years, I have improved to running a half marathon in under 1h 30 min (see <a href='https://www.strava.com/athletes/17923080' target='_blank'>Strava</a>). During my school years, I played football for a decade and was able to prove myself in the district league. Currently, I only play casually with friends. Instead, I am more active in tennis, home workouts, and beach and indoor volleyball. </br>My favorite sport is skiing because I love the incredible feeling of gliding quickly through the snow and enjoying the great views. It is also fun to do off-piste tours with ascents and then ski through untouched snow. Therefore, I go skiing every year with my family to <a href='https://www.bergfex.com/lech-zuers-arlberg/' target='_blank'>Lech</a> (Austria), with friends to <a href='https://www.bergfex.com/soelden/' target='_blank'>Sölden</a>, or with the university sports to <a href='https://www.bergfex.com/portes-du-soleil/' target='_blank'>Portes du Soleil</a> (Switzerland-France), which is always an eventful and exciting experience because you get to meet many cool people.",
+    "travel": "What is more, I would like to explore new places and get to know different cultures, e.g. Asia and South or Central America. Specifically, I would like to travel to Japan and Argentina, Chile or Nicaragua. Additionally, I would like to visit Canada because I enjoy great landscapes and from what I have heard, it has a lot to offer.",
+    "quote": "Lastly, I'd like to conclude with a quote, which sums up my life attitude:"
+  }
 }
