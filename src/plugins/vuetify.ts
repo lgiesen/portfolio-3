@@ -1,9 +1,9 @@
 // Styles
 import "@mdi/font/css/materialdesignicons.css";
-import "vuetify/styles";
 
 // Composables
 import { createVuetify, ThemeDefinition } from "vuetify";
+import 'vuetify/styles';
 
 // Define light and dark themes
 const lightTheme: ThemeDefinition = {
