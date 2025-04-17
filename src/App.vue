@@ -11,8 +11,6 @@ export default defineComponent({
     TheFooter
   },
   setup() {
-    // const store = useStore()
-    // const theme = useTheme()
   }
 })
 </script>
