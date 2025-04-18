@@ -52,35 +52,29 @@
     <!-- Skills Section -->
     <article>
       <section>
-        <h2 class="text-h3 font-weight-thin mb-6">Skills</h2>
+        <h2 class="text-h3 mb-6">Skills</h2>
         <v-container>
           <v-row class="d-flex flex-wrap justify-space-between">
             <v-col v-for="card in skillCardGroup" :key="card.title" cols="12" md="6">
-              <v-card class="w-100" height="100%" max-width="94vw">
-                <div class="in" :style="animatedBoxStyle">
-                  <v-img class="d-flex align-end text-white" cover max-height="200px" :src="card.backgroundImage"
-                    :alt="card.aria"
+              <v-card height="100%" max-width="94vw">
+                <div class="animated-gradient-box in">
+                  <v-img class="d-flex align-center justify-center text-white fill-height" cover max-height="200px"
+                    :src="card.backgroundImage" :alt="card.aria"
                     :gradient="isDarkTheme ? 'rgba(0,0,0,.6), rgba(0,0,0,.9)' : 'rgba(255,255,255,.6), rgba(255,255,255,.9)'">
-                    <v-card-title class="w-100 text-center">
-                      <pre><h2 class="text-h5 gradient-text" width="94vw" max-width="94vw" min-height="400"
-                        :style="gradientTitle">
-                        {{ $t('home.skills.' + card.title) }}
-                      </h2>
-                      <!-- gradient-text -->
-                      <h2 class="text-h5" :style="gradientTitle">{{ $t('home.skills.' + card.title) }} </h2>
-                    </pre>
+                    <v-card-title class="text-center">
+                      <pre>
+                        <h2 class="font-weight-bold text-h4" :style="gradientTitle" width="94vw" max-width="94vw" min-height="400">{{ $t('home.skills.' + card.title) }} </h2>
+                      </pre>
                     </v-card-title>
                   </v-img>
                 </div>
-
-                <div class="d-flex justify-center my-2">
+                <v-col class="seperatorIcon py-0">
                   <v-btn elevation="15" icon color="background">
                     <v-icon color="primary">mdi-{{ card.icon }}</v-icon>
                   </v-btn>
-                </div>
-
+                </v-col>
                 <v-card-text>
-                  <p class="text-body-1 text-justify" v-html="$t('home.skills.' + card.textSrc)"></p>
+                  <p class="text-body-1 text-justify my-0 py-0" v-html="$t('home.skills.' + card.textSrc)"></p>
                 </v-card-text>
               </v-card>
             </v-col>
@@ -113,25 +107,10 @@ const gradientBtn = computed(() => ({
 const colors = computed(() => theme.current.value.colors)
 
 const gradientTitle = computed(() => ({
-  background: `linear-gradient(120deg, ${colors.value.secondary}, ${colors.value.primary})`,
-}))
-
-const animatedBoxStyle = computed(() => ({
-  position: 'relative',
-  '::after': {
-    content: "''",
-    position: 'absolute',
-    top: '0',
-    left: '0',
-    right: '0',
-    bottom: '0',
-    background: `linear-gradient(120deg, ${colors.value.secondary}, ${colors.value.primary}, ${colors.value.secondary})`,
-    backgroundSize: '300% 300%',
-    clipPath:
-      'polygon(0 100%, 0 calc(100% - 3px), 100% calc(100% - 3px), 100% 100%, 0 100%)',
-    animation: 'gradient-animation 4s ease-in-out infinite',
-    zIndex: 0,
-  },
+  background: `-webkit-linear-gradient(120deg, ${colors.value.secondary}, ${colors.value.primary})`,
+  "background-clip": "text",
+  "-webkit-background-clip": "text",
+  "-webkit-text-fill-color": "transparent"
 }))
 
 const skillCardGroup = [
@@ -194,16 +173,37 @@ const skillCardGroup = [
 ]
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+$primary: var(--v-primary-base, #3949ab);
+$secondary: var(--v-secondary-base, #f4511e);
+
 .text-justify {
   text-align: justify;
 }
 
-.gradient-text {
-  background: -webkit-linear-gradient(120deg, blue, green);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.animated-gradient-box {
+  position: relative;
+
+  &::after {
+    --border-width: 3px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, $primary, $secondary, $primary);
+    background-size: 300% 300%;
+    clip-path: polygon(0 100%,
+        0 calc(100% - var(--border-width)),
+        100% calc(100% - var(--border-width)),
+        100% 100%,
+        0 100%);
+  }
+
+  .animated-gradient-box.in:after {
+    animation: gradient-animation 4s ease-in-out infinite;
+  }
 }
 
 @keyframes gradient-animation {
@@ -218,5 +218,16 @@ const skillCardGroup = [
   100% {
     background-position: 15% 0%;
   }
+}
+
+.seperatorIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // move icon to top
+  position: relative;
+  top: -30px;
+  // make button not clickable
+  pointer-events: none;
 }
 </style>
