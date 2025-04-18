@@ -10,7 +10,7 @@ import { useTheme } from 'vuetify';
 const theme = useTheme()
 const currentTheme = computed(() => theme.global.name.value) // 'light' oder 'dark'
 const rectangleBackground = computed(() =>
-currentTheme.value === 'dark' ? darkBg : lightBg
+  currentTheme.value === 'dark' ? darkBg : lightBg
 )
 const parallaxImagePath = new URL('@/assets/background/Aegina_port.webp', import.meta.url).href;
 const smallImgPath = new URL('@/assets/workExperience/kongress-presentation.webp', import.meta.url).href;
@@ -174,10 +174,15 @@ const education = [
     location: "Gütersloh",
     startDate: "06/2016",
     endDate: "06/2018",
-    description_en: `I completed my Abitur with a GPA of 2.1 at the Evangelisch 
-        Stiftischem Gymnasium, which is a technology-oriented secondary school. My advanced modules were Maths and English.`,
+    description_en: `I completed my Abitur with a GPA of 2.1 (from 1 best to 5 worst) at the Evangelisch 
+        Stiftischem Gymnasium (ESG), which is a technology-oriented secondary school. My advanced modules were Maths and English.
+        I achieved a C1-level English through bilingual classes and a term at Cambridge International School. 
+        I advanced my French skills on an exchange near Lyon and developed strong computer and Microsoft Office skills through daily use at school.`,
     description_de: `Mit einem Notendurchschnitt von 2,1 habe ich mein Abitur an 
-        einem technisch orientierten Gymnasium abgeschlossen. Meine Leistungskurse waren Mathe und Englisch.`,
+        einem technisch orientierten Gymnasium abgeschlossen. Meine Leistungskurse waren Mathe und Englisch.
+        Ich habe ein C1-Niveau in Englisch durch bilingualen Unterricht und ein Trimester an der Cambridge International
+        School erreicht. Außerdem habe ich fundierte Computer- und Microsoft-Office-Kenntnisse durch tägliche Anwendung in der Schule entwickelt.
+        `,
   },
 ]
 </script>
@@ -189,7 +194,7 @@ const education = [
       :smallImgPath="smallImgPath" imgAlt="Leo Giesen Presentation" />
 
     <!-- Main content (avoid wrapping in <section> to keep background full width) -->
-      <article>
+    <article>
       <v-img :src="rectangleBackground">
         <section id="scroll">
           <!-- Work Experience -->
@@ -199,9 +204,9 @@ const education = [
         </section>
       </v-img>
     </article>
-    
+
     <!-- Social contact section -->
-    <SocialContactSection class="mt-12" />
+    <SocialContactSection class="mt-12 fullwidth`" />
   </div>
 
   <!-- Recommendation
