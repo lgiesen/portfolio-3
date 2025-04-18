@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-h3 font-weight-light mb-12 text-center" :class="responsiveFontSize">
+    <h1 class="text-h3 font-weight-light mb-12 text-center text-wrap" :class="responsiveFontSize">
       {{ sectionTitle }}
     </h1>
 
@@ -20,7 +20,7 @@
 
               <v-row>
                 <v-col>
-                  <v-card-title class="justify-center text-center">
+                  <v-card-title class="justify-center text-center break-word">
                     {{ isDE ? item.title_de : item.title_en }}
                   </v-card-title>
                   <v-card-subtitle class="text-center">
@@ -79,3 +79,13 @@ const responsiveFontSize = computed(() => store.getters.ResponsiveFontSize)
 
 const { mobile: isMobile } = useDisplay()
 </script>
+<style>
+.break-word {
+  overflow-wrap: normal;
+  /* Verhindert Umbruch mitten im Wort */
+  word-break: normal;
+  /* Nur Umbruch bei Leerzeichen */
+  white-space: normal;
+  /* Mehrzeilige Darstellung zulassen */
+}
+</style>
