@@ -13,7 +13,7 @@
       </v-tabs>
       <v-spacer></v-spacer>
       <LanguageSwitcher :class="dontShowAtTopComputed" />
-      <ToggleTheme class="mr-5" :class="dontShowAtTopComputed" />
+      <ToggleTheme :class="dontShowAtTopComputed" class="mr-5" />
     </v-app-bar>
 
     <!-- Mobile navigation -->
@@ -114,7 +114,7 @@ export default {
     })
 
     const dontShowAtTopComputed = computed(() => {
-      return dontShowAtTop.value ? "" : "white--text";
+      return dontShowAtTop.value ? "" : "text-white";
     });
 
     const isDE = computed(() => store.getters.isDE);

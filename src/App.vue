@@ -1,39 +1,37 @@
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup>
+import { computed } from 'vue'
+import { useTheme } from 'vuetify'
 
 import TheNavigation from '@/components/navigation/TheNavigation.vue'
 import TheFooter from '@/components/TheFooter.vue'
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    TheNavigation,
-    TheFooter
-  },
-  setup() {
-  }
-})
+const theme = useTheme()
+
+// 💡 Dynamische CSS-Variablen definieren
+const cssVars = computed(() => ({
+  '--color-primary': theme.current.value.colors.primary,
+  '--color-primary-light': theme.current.value.colors['primary-light'],
+  '--color-primary-dark': theme.current.value.colors['primary-dark'],
+  '--color-secondary': theme.current.value.colors.secondary,
+  '--color-secondary-light': theme.current.value.colors['secondary-light'],
+  '--color-secondary-dark': theme.current.value.colors['secondary-dark'],
+  '--btn-color': theme.current.value.colors.surface, // Beispiel für Btn-Hintergrund
+}))
 </script>
 
-<template lang="pug">
-  v-app#app
-    TheNavigation#scroll-target
-    v-main.pt-0
-      router-view
-    TheFooter
-  </template>
+
+<template>
+  <v-app id="app">
+    <TheNavigation id="scroll-target" />
+    <v-main class="pt-0">
+      <router-view />
+    </v-main>
+    <TheFooter />
+  </v-app>
+</template>
+
 
 <style lang="scss">
-/* eslint-disable */
-/* import of vuetify colors */
-$primary: var(--v-primary-base);
-$primaryLight: var(--v-primaryLight-base);
-$primaryDark: var(--v-primaryDark-base);
-$secondary: var(--v-secondary-base);
-$secondaryLight: var(--v-secondaryLight-base);
-$secondaryDark: var(--v-secondaryDark-base);
-$btnColor: var(--v-btnColor-base);
-
 /* $text: var(--v-text-base); */
 /* 1. General Style */
 * {
@@ -89,7 +87,7 @@ $btnColor: var(--v-btnColor-base);
 a:not(a.v-tab, .v-btn) {
   text-decoration: none;
   cursor: pointer;
-  color: $primary;
+  color: #6f74dd;
 
   &:hover {
     text-decoration: underline !important;
@@ -140,36 +138,6 @@ section:not(.fullwidth) {
 }
 
 /* 3. Components */
-/* 3.1 Gradient Button */
-.gradient-btn {
-  color: $btnColor !important;
-  transition: 0.5s;
-  background-size: 200% auto;
-  background-image: linear-gradient(to right,
-      $secondary 0%,
-      $primary 51%,
-      $secondary 100%);
-
-  &:hover {
-    // change the direction of the change here
-    background-position: right center;
-  }
-}
-
-.gradient-btn-secondary {
-  color: $btnColor !important;
-  transition: 0.5s;
-  background-size: 200% auto;
-  background-image: linear-gradient(to right,
-      $secondaryLight 0%,
-      $secondaryDark 51%,
-      $secondaryLight 100%);
-
-  &:hover {
-    // change the direction of the change here
-    background-position: right center;
-  }
-}
 
 .p-absolute {
   position: absolute;
