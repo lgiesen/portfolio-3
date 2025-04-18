@@ -6,7 +6,7 @@
 
     <v-container>
       <v-row class="justify-center">
-        <v-col class="col-11 col-md-8 col-lg-6" v-for="(item, index) in iterableObject" :key="index"
+        <v-col cols="11" md="8" lg="6" v-for="(item, index) in iterableObject" :key="index"
           :id="'card-' + item.institution.split(' ', 1)[0]">
           <v-hover v-slot="{ isHovering }">
             <v-card class="mb-12 px-3 px-md-7 pt-5 transition-swing" height="100%"

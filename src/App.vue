@@ -1,22 +1,8 @@
 <script lang="ts" setup>
-import { computed } from 'vue'
-import { useTheme } from 'vuetify'
 
-import TheNavigation from '@/components/navigation/TheNavigation.vue'
-import TheFooter from '@/components/TheFooter.vue'
+import TheNavigation from '@/components/navigation/TheNavigation.vue';
+import TheFooter from '@/components/TheFooter.vue';
 
-const theme = useTheme()
-
-// 💡 Dynamische CSS-Variablen definieren
-const cssVars = computed(() => ({
-  '--color-primary': theme.current.value.colors.primary,
-  '--color-primary-light': theme.current.value.colors['primary-light'],
-  '--color-primary-dark': theme.current.value.colors['primary-dark'],
-  '--color-secondary': theme.current.value.colors.secondary,
-  '--color-secondary-light': theme.current.value.colors['secondary-light'],
-  '--color-secondary-dark': theme.current.value.colors['secondary-dark'],
-  '--btn-color': theme.current.value.colors.surface, // Beispiel für Btn-Hintergrund
-}))
 </script>
 
 
@@ -32,7 +18,6 @@ const cssVars = computed(() => ({
 
 
 <style lang="scss">
-/* $text: var(--v-text-base); */
 /* 1. General Style */
 * {
   box-sizing: border-box;
@@ -87,7 +72,7 @@ const cssVars = computed(() => ({
 a:not(a.v-tab, .v-btn) {
   text-decoration: none;
   cursor: pointer;
-  color: #6f74dd;
+  color: var(--color-primary, #6f74dd);
 
   &:hover {
     text-decoration: underline !important;
