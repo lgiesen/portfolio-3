@@ -63,5 +63,108 @@
     "sport": "Neben der Arbeit und meinem Privatleben bin ich auch sportlich sehr ambitioniert, denn ich möchte auf verschiedene Weise an meine Grenzen gehen: Zum Beispiel versuche ich, mein Laufen zu verbessern. Außerdem bin ich mit 16 Jahren einen Halbmarathon gelaufen und laufe knapp unter 4 min/km auf meiner Strecke von 10 km. Innerhalb der letzten Jahre habe ich mich auf einen Halbmarathon in unter 1h 30 min gesteigert (siehe <a href='https://www.strava.com/athletes/17923080' target='_blank'>Strava</a>). Zur Schulzeit habe ich ein Jahrzehnt lang Fußball gespielt und konnte mich in der Bezirksliga beweisen. Aktuell spiele ich nur entspannt mit Freunden. Dafür mache ich Tennis, Home-Workouts und Beach- und Hallenvolleyball aktiver. </br> Mein Lieblings-Sport ist das Skifahren, weil ich das unglaubliche Gefühl liebe, wenn man schnell durch den Schnee gleitet und die tolle Aussicht genießen kann. Es macht auch Spaß Touren im Gelände mit Aufsteigen zu machen und dann durch unberührten Schnee zu fahren. Deshalb fahre ich jedes Jahr mit meiner Familie zum Skifahren nach <a href='https://www.bergfex.com/lech-zuers-arlberg/' target='_blank'>Lech</a> (Österreich), mit Freunden nach <a href='https://www.bergfex.com/soelden/' target='_blank'>Sölden</a> oder mit dem Hoschulsport nach <a href='https://www.bergfex.com/portes-du-soleil/' target='_blank'>Portes du Soleil</a> (Schweiz-Frankreich), was immer ein ereignisreiches und spannendes Erlebnis ist, denn man lernt viele coole Leute kennen.",
     "travel": "Außerdem möchte ich gerne neue Orte erkunden und verschiedene Kulturen kennenlernen, z.B. Asien und Süd- oder Mittelamerika. Konkret würde ich gerne nach Japan und Argentinien reisen, Chile oder Nicaragua. Außerdem würde ich gerne Kanada besuchen, weil ich tolle Landschaften mag und nach dem, was ich gehört habe, hat es viel zu bieten.",
     "quote": "Zum Schluss möchte ich mit einem Zitat abschließen, das meine Lebenseinstellung auf den Punkt bringt:"
+  },
+  "projects": {
+    "intro": {
+      "title": "Projekt-Erfahrung",
+      "subtitle": "Inspiration durch Projektes"
+    },
+    "projects": {
+      "links": {
+        "repository": "Code",
+        "website": "Website",
+        "file": "Dokument"
+      },
+      "preview": {
+        "hide": "Vorschau verbergen",
+        "show": "Vorschau anzeigen"
+      },
+      "DImensaToday": {
+        "title": "Intelligentes Speisen in Münster: Ein personalisiertes Mensa-Empfehlungssystem",
+        "desc": "Die Universität Münster ist über das gesamte Stadtgebiet verteilt und verfügt über verschiedene Mensen und Bistros, die ein wöchentlich wechselndes Angebot an Speisen haben. Als Student, der häufig in diesen Mensen isst, muss man alle Gerichte der einzelnen Mensen durchsehen, um eine Mahlzeit zu finden, die den eigenen Bedürfnissen entspricht. Die Idee dieses Empfehlungssystems ist es, Mensa-Gerichte auf der Grundlage verschiedener Faktoren wie Essgewohnheiten, Standort (basierend auf dem Semesterplan), Wetter und vielem mehr vorzuschlagen.Dieses Projekt wurde mit der höchstmöglichen Punktzahl für die Note 1,0 bewertet, was hinsichtlich der Leistungsfähigkeit die Erwartungen der Professoren übertroffen hat. Dies spiegelt meine Fähigkeit wider, im Team zu arbeiten, innovative Lösungen zu entwickeln und eine hohe Qualität in der Umsetzung zu gewährleisten. Die Professoren haben beispielsweise positiv hervorgehoben, dass eine Vielzahl von Datenquellen integriert wurden, ein state-of-the-art Technologie-Stack genutzt wurde und eine produktionsreife Benutzeroberfläche entwickelt wurde.",
+        "files": {
+          "mensaToday_poster": "Poster",
+          "mensaToday_demo": "Demo",
+          "mensaToday_documentation": "Documentation"
+        }
+      },
+      "AutomationOfDocumentChecks": {
+        "title": "Automatisierung von Dokumentenprüfung mit AI",
+        "desc": "Im Rahmen der Marktrahmenumstellung werden bis 2030 etwa fünf Millionen Gasgeräte von L- auf H-Gas umgerüstet werden, da H-Gas mehr Kalorien hat und somit weniger Volumen als L-Gas benötigt. Das Projekts mit Springboard hat den Proof of Work der Umrüstung erfolgreich erleichtert. Durch mehrere Machine Learning Modelle, können die Typenschilder batchweise und parallel automatisiert erfasst und ausgewertet werden. Dafür wurde Klassifikation (InceptionResNetV2), Object Detection (Mask R-CNN), Perspective Correction und Optical Character Recognition genutzt. Außerdem wurden Fälle mit Betrugsverdacht und Fehler bei dem Upload mithilfe von Duplicate Detection (Perceptual Hashing) erkannt."
+      },
+      "NLP": {
+        "title": "Sprachanalyse mit Machine Learning",
+        "desc": "<p style='text-align:center;'> (<a href='#bibliography'>The MathWorks 2021</a>)</p>Im Software Development Praktikum bei zeb habe ich an einem Machine Learning (ML) Projekt gearbeitet, wo ich Erfahrung mit Natural Language Processing (NLP) gemacht habe. Durch die Auswahl und Implementation eines alternativen Support Vector Machine (SVM) Ansatzes konnte ich die ML-Algorithmus Genauigkeit von 50% auf 83% erhöhen.",
+        "files": {}
+      },
+      "ForestHeight": {
+        "title": "Förderung der Umweltüberwachung: Baumsegmentierung in Südafrika mittels Deep Learning",
+        "desc": "Das Bundesministerium für Umwelt ist an der Höhe von den deutschen Wäldern. Angesichts der spärlichen Natur der Labels innerhalb der Satellitenbilder erforderte dieses Projekt innovative Ansätze, um diese Regressionsaufgabe erfolgreich durchzuführen. In dieser Fallstudie setzte ich verschiedene Strategien des maschinellen Lernens ein, um diesen Herausforderungen zu begegnen, was meine tiefgreifende Expertise sowohl im maschinellen Lernen als auch in der Programmierung unterstreicht. Dieses Projekt hebt nicht nur meine Fähigkeit hervor, komplexe Datenaufgaben zu navigieren, sondern unterstreicht auch mein Engagement für wertvolle Beiträge zu Umweltschutzanstrengungen. Diese Initiative beweist meine Fähigkeit zu kritischem Denken, innovativer Problemlösung und Anpassung an technische Herausforderungen, was mich zu einem unschätzbaren Mitglied jedes Teams macht.",
+        "files": {
+          "poster_overview": "Poster"
+        }
+      },
+      "DLCaseStudy": {
+        "title": "Fortschritte in der Klassifizierung von Landnutzung: Ein Deep-Learning-Ansatz",
+        "desc": "In gemeinsamer Anstrengung, entwickelten wir einen Deep Learning Ansatz, der Satellitenbilder in zehn Klassen der Landnutzung und -bedeckung semantisch segmentiert. Dies wird mit einem 3D CNN und Sliding-Window-Ansatz umgesetzt, der eine Genauigkeit von 73% erreicht. Das Projekt ermöglichte uns, Deep-Learning-Konzepte praktisch anzuwenden. Trotz Einschränkungen, die die Verwendung von U-Net-Architekturen verhinderten, erforschten wir Datenanreicherung und nutzten TensorFlow für das Training des Modells. Das Seminar führte auch Transer Learning ein und hob dessen Potenzial zur Leistungssteigerung des Modells hervor, obwohl unsere einzigartigen Anforderungen Herausforderungen darstellten. Diese Fallstudie zeigt nicht nur unsere Geschicklichkeit im Anwenden von Machine-Learning-Techniken, sondern betont auch unsere Fähigkeit, komplexe Datenherausforderungen zu navigieren und zu lösen, was uns zu wertvollen Mitgliedern in Umweltüberwachungs- und datengesteuerten Projekten macht.",
+        "files": {
+          "seminar_thesis": "Seminararbeit",
+          "poster_overview": "Poster",
+          "transfer_learning_presentation": "Transfer Learning Präsentation"
+        }
+      },
+      "BA": {
+        "title": "Umweltmonitoring-Innovation: Deep Learning zur Baumsegmentierung in Südafrika",
+        "desc": "<p style='text-align:center;'> (angepasst von <a href='#bibliography'>Ronneberger, Fischer, and Brox [RFB15]</a>) </p> Dieses Projekt leistet einen wichtigen Beitrag zur Umweltüberwachung in den Trockengebieten Südafrikas. Durch den Einsatz von Deep Learning und der U-Net-Architektur wurde eine Methode zur genauen Detektion von einzelnen Bäumen und Sträuchern aus Satellitenbildern entwickelt. Diese isoliert wachsenden Nicht-Wald-Bäume sind entscheidend für die Biodiversität, die Kohlenstoffspeicherung und die Versorgung von Menschen und Tieren. Die Ermittlung der Baumzahl ermöglicht Einblicke in die Biomasse der Regionen, was für Nachhaltigkeitsbestrebungen unerlässlich ist. Das Projekt präsentiert einen effektiven Ansatz zur Umweltanalyse und unterstreicht meine Fachkenntnisse im Machine Learning und in der Programmierung. Die Ergebnisse sollen auf einer auf Nachhaltigkeit ausgerichteten Website geteilt werden, um das Bewusstsein für wichtige Themen wie Landdegradation, Entwaldung und Aufforstung zu schärfen.",
+        "files": {
+          "BAThesis": "Bachelorarbeit"
+        }
+      },
+      "UASentimentAnalysis": {
+        "title": "Geographische Einblicke in Politische Stimmungen: Analyse von Donald Trump und Boris Johnson durch Soziale Medien",
+        "desc": "In dieser Seminararbeit mit dem Titel 'Popularität und Kontroversität: Eine standortbezogene Ereignis- und Stimmungsanalyse von Donald Trump und Boris Johnson' untersuchte ich den Einfluss geografischer Standorte auf die öffentliche Wahrnehmung dieser politischen Persönlichkeiten von 2018 bis 2022, unter Verwendung von Twitter/X-Beiträgen aus Städten wie Los Angeles, New York City, Birmingham und London. Die Analyse nutzte fortschrittliche Machine Learning Methoden, einschließlich Stimmungsbewertung mit VADER und Ereignisanalyse, um die öffentliche Stimmung und Aufmerksamkeit gegenüber diesen Staatsoberhäuptern zu messen. Im Laufe dieses Projekts setzte ich umfangreich generative AI ein, um zahlreiche Aufgaben effizient zu optimieren, wie Literaturrecherche, Programmierung und die Zusammenfassung der Ergebnisse. Diese Arbeit demonstriert meine Fähigkeit, modernste AI- und Datenanalysetechniken in der akademischen Forschung anzuwenden und unterstreicht Fähigkeiten, die im heutigen datengetriebenen Entscheidungsprozess von unschätzbarem Wert sind.",
+        "files": {
+          "final_presentation": "Präsentation",
+          "seminar_thesis": "Seminararbeit",
+          "genAI_reflection_report": "Generative AI"
+        }
+      },
+      "ITArchitecture": {
+        "title": "Effizienzsteigerung durch Optimierung der IT-Architektur",
+        "desc": "In diesem Projekt wurde die IT-Infrastruktur eines Unternehmens aus dem öffentlichen Nahverkehrssektor unter Verwendung des TOGAF-Frameworks und der ArchiMate-Modellierungssprache umfassend analysiert und optimiert. Durch die Identifizierung und Behebung von Effizienzproblemen in der bestehenden IT-Infrastruktur, insbesondere im Hinblick auf den Zugriff auf Laufwerke, Kalenderverwaltung, Beschlussfassung und Videokonferenz-Software, konnte ich meine Fähigkeiten im Bereich der IT-Infrastruktur und -Transformation unter Beweis stellen. Das Projekt umfasste die Entwicklung eines detaillierten Transformationsplans und die Implementierung von Microsoft 365 als zentrale Plattform für eine verbesserte Zusammenarbeit und Kommunikation. Meine Rolle als Projektleiter und die erfolgreiche Durchführung dieses komplexen Vorhabens unterstreichen meine Kompetenz in der Leitung von IT-Projekten, mein Verständnis für moderne IT-Architekturen und meine Fähigkeit, innovative Lösungen für technische Herausforderungen zu entwickeln."
+      },
+      "DigitalCollaboration": {
+        "title": "Optimierung Digitaler Arbeitsprozesse: Ein Leitfaden für Effiziente Zusammenarbeit",
+        "desc": "In diesem Folgeprojekt haben wir die digitalen Arbeitsabläufe eines führenden Unternehmens im öffentlichen Nahverkehrssektor weiter optimiert, wobei ich erneut die Rolle des Projektleiters übernahm. Dies unterstreicht das Vertrauen des Kunden in meine Fähigkeiten und die Zufriedenheit mit dem vorangegangenen Projekt. Durch die effektive Anwendung von Feedback-Schleifen und die Implementierung innovativer Lösungen wie Shared Folder über Remote Desktop und verbesserte Nutzung von Microsoft Forms in Teams-Meetings, konnten wir die interne Kommunikation und Prozesseffizienz signifikant steigern. Die Verwendung eines IT-gestützten Workflows zur Verwaltung von E-Mail-Verteilern und die Optimierung des Anwesenheitsplans und Desk Sharings zeigen meine Fähigkeit, komplexe Herausforderungen zu navigieren und qualitativ hochwertige Lösungen zu liefern, die über die Kundenerwartungen hinausgehen."
+      },
+      "forum_web_scraper": {
+        "title": "Verborgene Schätze Aufdecken: Innovationspotenziale aus Diskussionsforen Gewinnen",
+        "desc": "Das Vertiefungsmodul Principles of Entrepreneurship wurde durch die Projektgruppenarbeit mit dem Startup pivoty ergänzt. Die grundlegende Geschäftsprozess-Idee von pivoty ist, dass extrahierte Informationen (mittels Web Scraping) aus Diskussionsforen genutzt werden, um mit einer AI-Analyse versteckte Innovationspotenziale abzuleiten. In dem Projekt habe ich mit zwei anderen Projektmitgliedern einen skalierbaren Web Scraper mit Scrapy gebaut, sodass dieser auf so viele Foren wie möglich angewendet werden kann. Hierbei wurde sich an der Struktur von den am weit verbreitensten Forenframeworks orientiert, um knapp 90% aller deutschsprachigen Diskussionsforen abzudecken. <br/><br/>pivoty ist in Münster ansässig und entwickelt 'eine AI-basierte Analysesoftware, die Innovationspotenziale'  (<a href='#bibliography'>Schäper et al. 2021a</a>)für Unternehmen 'durch die Analyse von unvoreingenommenen Customer Insights'  (<a href='#bibliography'>Schäper et al. 2021a</a>)versucht zu entdecken. Die extrahierten Ideen sind zwar subjektiv, aber der Positivitätsbias kann überwunden werden. Diese Erkenntnisse 'stützen sich auf eine Vielzahl von Online-Quellen wie soziale Netzwerke, Foren, Blogs und Produktrezensionen, um systematisch Inspirationen für neue neue Produkte und Dienstleistungen abzuleiten' (<a href='#bibliography'>Schäper et al. 2021b</a>)."
+      },
+      "goc": {
+        "title": "Förderung der Führungskräfte von Morgen: Eine Webbasierte Simulation für die Öffentliche Verwaltung",
+        "desc": "Wir haben die Fortbildung für das Personal im öffentlichen Dienst durch 'Game of Competences', eine webbasierte Simulationsplattform entwickelt mit Vue.js und Flask, erheblich verbessert. Als Leiter des Frontend-Teams hatte ich die Gelegenheit, meine Kollegen in fortgeschrittenen Frontend-Techniken mit Vue.js 2 zu schulen und weiterzubilden. Dieses Projekt war nicht nur außerordentlich bereichernd, sondern erreichte auch einen beachtlichen Erfolg, gekennzeichnet durch eine Gesamtnote von 1,3."
+      },
+      "TitleCase": {
+        "title": "Förderung der Akademischen Exzellenz: Das Tool zur Titel-Kapitalisierung",
+        "desc": "Mit dem Ziel, wissenschaftliche Präzision und Konsistenz zu fördern, stellt das Titel-Kapitalisierungs-Werkzeug eine außerordentliche Innovation dar. Es bietet einen standardisierten Ansatz für die Kapitalisierung von Titeln im akademischen Schreiben, um Klarheit und Einheitlichkeit in wissenschaftlichen Publikationen zu gewährleisten. Dieses Projekt dient der Verbesserung der Zugänglichkeit und Prägnanz von Titeln, was deren Verständlichkeit und Einprägsamkeit für Leser erhöht. Das Werkzeug ermöglicht eine einfache Anwendung der Titel-Kapitalisierung auf Texte und gesamte Bibliografien, was die Effizienz in der akademischen Forschung und bei Präsentationen erheblich steigert. Durch die Integration und Optimierung bestehender Programmierarbeit illustriert dieses Projekt meine Fähigkeit, den Code anderer zu verstehen, anzupassen und effektiv im Team zu arbeiten. Die Umsetzung in Rust und Python erleichtert die wissenschaftliche Arbeit und steigert deren Effizienz um ein Vielfaches."
+      },
+      "lawFirmWebDevelopment": {
+        "title": "Digitale Präsenz stärken: Web-Konzeption für eine Anwaltskanzlei",
+        "desc": "Im Rahmen eines Teams trug ich zur Implementierung einer Website bei, die das Ziel verfolgte, Online-Markenbewusstsein für die Beratungstätigkeit einer Anwaltskanzlei zu schaffen. Die Entwicklung erfolgte mittels WordPress, wobei zahlreiche Plugins und Anpassungen zum Einsatz kamen, um die Website nicht nur funktional, sondern auch visuell ansprechend zu gestalten. Durch die enge Zusammenarbeit mit dem Kunden und die Berücksichtigung seiner Wünsche in mehreren Feedbackschleifen, konnte eine kundenorientierte Lösung realisiert werden. Dieses Projekt demonstriert meine Fähigkeiten in der Implementierung, Kommunikation und Teamarbeit und unterstreicht meine Rolle als wertvolles Teammitglied, das in der Lage ist, anspruchsvolle digitale Projekte erfolgreich umzusetzen."
+      },
+      "portfolioWebDevelopment": {
+        "title": "Mein Digitales Schaufenster: Portfolio-Website mit Vue.js",
+        "desc": "Seit 2021 betreue ich meine eigene Portfolio-Website, die mit Vue.js 2 implementiert wurde. Dieses Projekt dient nicht nur als digitales Schaufenster meiner bisherigen Arbeiten, sondern unterstreicht auch meinen kreativen Ansatz und meine Fähigkeiten im Bereich der Webentwicklung. Die Wahl von Vue.js 2 für die Umsetzung zeigt meine Kompetenz im Umgang mit modernen JavaScript-Frameworks und meine Fähigkeit, ansprechende sowie benutzerfreundliche Webanwendungen zu entwickeln. Die kontinuierliche Wartung und Aktualisierung der Website spiegeln mein Engagement für qualitativ hochwertige Arbeit und das Streben nach technischer Exzellenz wider. Dieses Projekt demonstriert effektiv, wie ich innovative Technologien einsetze, um kreative Lösungen zu schaffen, die sowohl ästhetisch als auch funktional überzeugen."
+      },
+      "eBusinessWebDevelopment": {
+        "title": "Entwicklung eines eBusiness einschließlich Online Branding",
+        "desc": "Als Teil des Projektteams trug ich maßgeblich zur Entwicklung eines Online-Video-Shops bei, der sich durch modernes Design, kreative Content-Erstellung und integrierte erklärende Produktvideos auszeichnet. Die Plattform wurde mit WordPress und einer Reihe von Plugins und Anpassungen realisiert, um nicht nur optisch, sondern auch inhaltlich zu überzeugen. Durch die enge Zusammenarbeit im Team und die kontinuierliche Abstimmung mit dem Kunden wurden dessen Wünsche effektiv in das Projekt integriert, was meine Kompetenzen in den Bereichen Implementierung, Kommunikation und Kundenorientierung unter Beweis stellt. Dieses Projekt verdeutlicht meine Fähigkeit, innovative digitale Lösungen im Teamkontext zu entwickeln und umzusetzen."
+      },
+      "watchtrainer": {
+        "title": "Sportler Stärken: Frontend-Innovation für eine Wearable-Sportplattform",
+        "desc": "WatchTrainer spielte eine bedeutende Rolle in der Weiterentwicklung tragbarer Sporttechnologien und bot eine auf dem Austausch basierende Sportplattform, die die Möglichkeiten von Geräten wie der Apple Watch nutzt. In diesem innovativen Projekt war ich für die Leitung der Frontend-Entwicklung mit Vue.js verantwortlich, um eine intuitive und nahtlose Benutzererfahrung zu sicherstellen. Diese Erfahrung hebt meine Fähigkeit hervor, ansprechende digitale Lösungen zu entwickeln, die sich reibungslos in die neueste Technologie einfügen."
+      }
+    }
   }
 }

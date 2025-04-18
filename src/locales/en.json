@@ -67,5 +67,108 @@
     "sport": "In addition to work and my private life, I am also very ambitious in sports, as I want to push my limits in various ways: For example, I try to improve my running. Moreover, I ran a half marathon at the age of 16 and run just under 4 min/km on my 10 km route. Over the last few years, I have improved to running a half marathon in under 1h 30 min (see <a href='https://www.strava.com/athletes/17923080' target='_blank'>Strava</a>). During my school years, I played football for a decade and was able to prove myself in the district league. Currently, I only play casually with friends. Instead, I am more active in tennis, home workouts, and beach and indoor volleyball. </br>My favorite sport is skiing because I love the incredible feeling of gliding quickly through the snow and enjoying the great views. It is also fun to do off-piste tours with ascents and then ski through untouched snow. Therefore, I go skiing every year with my family to <a href='https://www.bergfex.com/lech-zuers-arlberg/' target='_blank'>Lech</a> (Austria), with friends to <a href='https://www.bergfex.com/soelden/' target='_blank'>Sölden</a>, or with the university sports to <a href='https://www.bergfex.com/portes-du-soleil/' target='_blank'>Portes du Soleil</a> (Switzerland-France), which is always an eventful and exciting experience because you get to meet many cool people.",
     "travel": "What is more, I would like to explore new places and get to know different cultures, e.g. Asia and South or Central America. Specifically, I would like to travel to Japan and Argentina, Chile or Nicaragua. Additionally, I would like to visit Canada because I enjoy great landscapes and from what I have heard, it has a lot to offer.",
     "quote": "Lastly, I'd like to conclude with a quote, which sums up my life attitude:"
+  },
+  "projects": {
+    "intro": {
+      "title": "Project <br>Experience",
+      "subtitle": "Get Inspired by My Projects"
+    },
+    "projects": {
+      "links": {
+        "repository": "repository",
+        "website": "website",
+        "file": "file"
+      },
+      "preview": {
+        "hide": "Hide Preview",
+        "show": "Show Preview"
+      },
+      "DImensaToday": {
+        "title": "Smart Dining in Münster: A Personalized Mensa Meal Recommender System",
+        "desc": "The University of Münster is a distributed across the city with various canteens and bistros that serve different ranges of food which change weekly. As a student who eats at those places frequently, you have to look through all dishes of every canteen to find a meal that serves your needs. The idea this recommender system is to suggest mensa meals based on various different factors, such as your eating habits, location (based on semester schedule), weather and many more.This project was awarded the highest possible score for a grade of 1.0, which exceeded the professors' expectations in terms of performance. This reflects my ability to work in a team, develop innovative solutions, and ensure high-quality implementation. For instance, the professors positively highlighted the integration of a variety of data sources, the use of a state-of-the-art technology stack, and the development of a production-ready user interface.",
+        "files": {
+          "mensaToday_poster": "Poster",
+          "mensaToday_demo": "Demo",
+          "mensaToday_documentation": "Documentation"
+        }
+      },
+      "AutomationOfDocumentChecks": {
+        "title": "Automation of Document Checks with AI",
+        "desc": "As part of the market area conversion, around five million gas appliances will be converted from L-gas to H-gas by 2030, as H-gas has more calories and therefore requires less volume than L-gas. The project with Springboard successfully facilitated the proof of work of the conversion. Using several machine learning models, the type plates can be automatically recorded and evaluated in batches and in parallel. Classification (InceptionResNetV2), Object Detection (Mask R-CNN), Perspective Correction and Optical Character Recognition were used for this. In addition, cases of suspected fraud and upload errors were detected using duplicate detection (perceptual hashing)."
+      },
+      "NLP": {
+        "title": "Language Analysis with Machine Learning",
+        "desc": "<p style='text-align:center;'> (<a href='#bibliography'>The MathWorks 2021</a>) </p> During my software development internship at zeb, I worked on a Machine Learning (ML)  project where I gained experience with Natural Language Processing (NLP). By selecting and  implementing an alternative Support Vector Machine (SVM) approach, I was able to increase  the accuracy of the ML algorithm from 50% to 83%.",
+        "files": {}
+      },
+      "DLCaseStudy": {
+        "title": "Advancements in Land Use Classification: A Deep Learning Approach",
+        "desc": "In a joint effort, we developed a deep learning approach that semantically segments satellite images into ten classes of land use and coverage. This was implemented using a 3D CNN and a sliding window approach, achieving an accuracy of 73%. The project enabled us to apply deep learning concepts in a practical setting. Despite limitations that prevented the use of U-Net architectures, we explored data augmentation and utilized TensorFlow for model training. The seminar also introduced transfer learning, highlighting its potential to enhance model performance, although our unique requirements posed challenges. This case study not only demonstrates our proficiency in applying machine learning techniques but also emphasizes our ability to navigate and solve complex data challenges, making us valuable contributors to environmental monitoring and data-driven projects.",
+        "files": {
+          "seminar_thesis": "Seminar Thesis",
+          "poster_overview": "Poster",
+          "transfer_learning_presentation": "Transfer Learning Presentation"
+        }
+      },
+      "BA": {
+        "title": "Advancing Environmental Monitoring: Tree Segmentation in South Africa with Deep Learning",
+        "desc": "<p style='text-align:center;'> (adapted from <a href = '#bibliography'>Ronneberger, Fischer, and Brox [RFB15]</a>)</p> This project represents a significant step forward in environmental monitoring in South Africa's drylands. Utilizing deep learning with the U-Net architecture, we have devised a method to accurately detect individual trees and shrubs from satellite images. These non-forest trees, growing isolated without canopy closure, are vital for biodiversity, carbon storage, and providing resources to both humans and animals. By assessing tree numbers, we gain insights into the biomass of these areas, which is essential for sustainability initiatives. The project showcases an effective approach to environmental analysis, demonstrating my expertise in machine learning and programming. The findings aim to be shared on a sustainability-focused website, to increase awareness on critical issues such as land degradation, deforestation, and reforestation.",
+        "files": {
+          "BAThesis": "Bachelor Thesis"
+        }
+      },
+      "ForestHeight": {
+        "title": "Elevating Environmental Insights: Forest Height Analysis Using Machine Learning",
+        "desc": "The Federal Ministry for the Environment is interested in the height of German forests. Given the sparse nature of labels within satellite images, this project required innovative approaches to successfully complete this regression task. In this case study, I employed various machine learning strategies to meet these challenges, which underscores my profound expertise in both machine learning and programming. This project not only highlights my ability to navigate complex data tasks but also underscores my commitment to making valuable contributions to environmental protection efforts. This initiative proves my capacity for critical thinking, innovative problem-solving, and adapting to technical challenges, making me an invaluable member of any team.",
+        "files": {
+          "poster_overview": "Poster"
+        }
+      },
+      "UASentimentAnalysis": {
+        "title": "Geographical Insights into Political Sentiment: Analyzing Donald Trump and Boris Johnson through Social Media",
+        "desc": "In this seminar thesis, titled 'Popularity and Controversy: A Location-Based Event and Sentiment Analysis of Donald Trump and Boris Johnson', I explored the influence of geographic location on public perceptions of these political figures from 2018 to 2022, using Twitter/X posts from cities like Los Angeles, New York City, Birmingham, and London. The analysis employed advanced machine learning techniques, including sentiment scoring with VADER and event analysis, to gauge public sentiment and attention towards these leaders. Throughout this project, I extensively utilized generative AI to streamline numerous tasks efficiently, such as literature research, programming, and the synthesis of findings. This work demonstrates my ability to apply cutting-edge AI and data analysis techniques in academic research, showcasing skills that are invaluable in today's data-driven decision-making processes.",
+        "files": {
+          "final_presentation": "Presentation",
+          "seminar_thesis": "Seminar Thesis",
+          "genAI_reflection_report": "Generative AI"
+        }
+      },
+      "forum_web_scraper": {
+        "title": "Uncovering Hidden Gems: Gaining Innovation Potential From Discussion Forums",
+        "desc": "The Information Systems specialization module 'Principles of Entrepreneurship' was supplemented by the project group work with the startup pivoty. The basic business process idea of the start-up is that extracted information from discussion forums (using web scraping) is used to derive hidden innovation potentials with an AI analysis. In the project, I have built a scalable web scraper with Scrapy, so that it can be applied to as many discussion forums as possible. The structure of the most widespread forum frameworks was used to cover almost 90% of all german discussion forums. <br/><br/>pivoty is located in Münster and develops “an AI-based analytics software that tries to discover innovation potentials” (<a href='#bibliography'>Schäper et al. 2021a</a>)for companies “by analyzing unbiased customer insights” (<a href='#bibliography'>Schäper et al. 2021a</a>). To clarify, the extracted ideas are subjective, but the positivity bias may be overcome. These insights “draw on a variety of online sources like social networks, forums, blogs, and product reviews to systematically derive inspirations for new products and services” (<a href='#bibliography'>Schäper et al. 2021b</a>)."
+      },
+      "goc": {
+        "title": "Shaping Tomorrow's Leaders: A Web-Based Simulation for Public Administration",
+        "desc": "We've significantly improved how public administration personnel engage with training using 'Game of Competences,' a web-based simulation platform developed with Vue.js and Flask. Leading the frontend team, I guided and trained my colleagues in advanced frontend techniques using Vue.js 2. This project was not only highly rewarding but also achieved considerable success, marked by an overall grade of 1.3."
+      },
+      "ITArchitecture": {
+        "title": "Enhancing Efficiency by Optimizing IT-Architecture",
+        "desc": "In this project, the IT infrastructure of a company in the public transportation sector was thoroughly analyzed and optimized using the TOGAF framework and ArchiMate modeling language. By identifying and addressing efficiency issues in the existing IT structure, especially regarding drive access, calendar management, decision-making, and video conferencing software, I demonstrated my skills in IT infrastructure and transformation. The project included developing a detailed transformation plan and implementing Microsoft 365 as a central platform for improved collaboration and communication. My role as project leader and the successful execution of this complex initiative highlight my proficiency in managing IT projects, understanding modern IT architectures, and my ability to devise innovative solutions to technical challenges."
+      },
+      "DigitalCollaboration": {
+        "title": "Digital Workflow Optimization: A Guide to Efficient Collaboration",
+        "desc": "In this follow-up project to the one above, we continued to optimize the digital workflows of a leading company in the public transportation sector, where I once again took on the role of project lead. This underscores the customer's confidence in my capabilities and satisfaction with the preceding project. Through effective application of feedback loops and the implementation of innovative solutions such as Shared Folders over Remote Desktop and enhanced use of Microsoft Forms in Teams meetings, we significantly improved internal communication and process efficiency. Utilizing an IT-supported workflow to manage email distribution lists and optimizing the attendance plan and desk sharing showcases my ability to navigate complex challenges and deliver high-quality solutions that exceed customer expectations."
+      },
+      "TitleCase": {
+        "title": "Streamlining Academic Excellence: The Capitalization Tool",
+        "desc": "In the pursuit of academic rigor and coherence, the capitalization guidelines tool emerges as a pivotal innovation, offering a standardized approach to title capitalization within the realm of academic writing. This project is designed to enhance the clarity and uniformity of titles across scholarly publications by adhering to APA style title case capitalization. It is a testament to the importance of presenting work in a manner that is both accessible and memorable to readers. The tool simplifies the application of title case to texts and entire bibliographies, significantly boosting efficiency in academic research and presentations. Through the integration of existing code, modified and optimized for this purpose, this project not only showcases my ability to understand and adapt the work of fellow programmers but also highlights my competency in collaborative development. Written in Rust and Python, the implementation facilitates the work of scholars, thereby enriching the academic community's ability to communicate research findings effectively."
+      },
+      "lawFirmWebDevelopment": {
+        "title": "Enhancing Digital Presence: Web Development for a Law Firm",
+        "desc": "As part of a team, I contributed to the implementation of a website aimed at creating online brand awareness for the consultancy services of a law firm. The website was developed using WordPress, incorporating multiple plugins and customizations to ensure both functionality and visual appeal. My close collaboration with the customer, taking their preferences into account through multiple feedback loops, resulted in a customer-centric solution. This project showcases my skills in implementation, communication, and teamwork, highlighting my value as a team member capable of successfully executing sophisticated digital projects."
+      },
+      "portfolioWebDevelopment": {
+        "title": "My Digital Showcase: Portfolio Website with Vue.js",
+        "desc": "Since 2021, I have been maintaining my portfolio website, implemented using Vue.js 2. This project serves not only as a digital showcase of my work but also highlights my creative approach and capabilities in the web development domain. Opting for Vue.js 2 for its development demonstrates my proficiency with modern JavaScript frameworks and my ability to create engaging and user-friendly web applications. The ongoing maintenance and updating of the site reflect my commitment to quality work and pursuit of technical excellence. This project effectively showcases how I leverage innovative technologies to produce creative solutions that are both aesthetically pleasing and functional."
+      },
+      "eBusinessWebDevelopment": {
+        "title": "Development of an eBusiness Including Online Branding",
+        "desc": "As a key member of the project team, I contributed significantly to the development of an online video shop, focusing on modern design, innovative content creation, and explanatory product videos. The platform was developed using WordPress, along with various plugins and customizations, to ensure both visual appeal and content richness. Through close teamwork and continuous coordination with the customer, their preferences were effectively integrated into the project, showcasing my skills in implementation, communication, and customer-centricity. This project highlights my ability to develop and implement innovative digital solutions within a team context."
+      },
+      "watchtrainer": {
+        "title": "Empowering Athletes: Frontend Innovation for Wearable Sports Platform",
+        "desc": "WatchTrainer played a significant role in the advancement of wearable sports technology, introducing a sports platform that utilizes the capabilities of devices like the Apple Watch. In this innovative project, I was responsible for leading the frontend development with Vue.js, aiming to provide an intuitive and seamless user experience. This project highlighted my ability to craft engaging digital solutions that blend smoothly with the latest technology."
+      }
+    }
   }
 }
