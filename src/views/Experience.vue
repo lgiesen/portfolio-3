@@ -206,7 +206,7 @@ const education = [
     </article>
 
     <!-- Social contact section -->
-    <SocialContactSection class="mt-12 fullwidth`" />
+    <SocialContactSection class="mt-12 fullwidth" />
   </div>
 
   <!-- Recommendation
