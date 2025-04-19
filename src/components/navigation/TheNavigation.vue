@@ -112,7 +112,7 @@ const views = ref([
   },
 ]);
 
-const mobileDialog = ref(true);
+const mobileDialog = ref(false);
 const dontShowAtTop = ref(false);
 const tabsRef = ref<HTMLElement | null>(null);
 
@@ -129,7 +129,7 @@ const themespecificLogoSrc = computed(() =>
 // Scrollverhalten
 const onScroll = (e: Event) => {
   const top = window.pageYOffset || (e.target as HTMLElement)?.scrollTop || 0;
-  dontShowAtTop.value = top > 700;
+  dontShowAtTop.value = top > 600;
 };
 
 const dontShowAtTopComputed = computed(() =>
