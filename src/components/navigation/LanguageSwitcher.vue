@@ -1,5 +1,5 @@
 <template>
-  <v-btn text icon class="pa-0" @click="switchLanguage">
+  <v-btn icon class="pa-0" @click="switchLanguage">
     {{ languageSwitchBtn }}
   </v-btn>
 </template>
