@@ -6,7 +6,7 @@
     },
     "homeIntro": {
       "title": "I love to learn and apply my knowledge in dynamic teams!",
-      "text": "  I am fascinated by information technologies, especially Machine Learning. This passion drives me to study Information Systems at the University of Münster with a focus on Business Intelligence. Through internships and part-time work, I have applied my theoretical knowledge in practice. In personal leisure projects and practical projects at the student consultancy move, I continuously enhance my analytical and conceptual skills. Currently, I aim to further develop my leadership qualities as Chairman of the Board and project manager at move.I am fascinated by information technologies, especially Machine Learning. This passion drives me to study Information Systems at the University of Münster with a focus on Business Intelligence. Through internships and part-time work, I have applied my theoretical knowledge in practice. In personal leisure projects and practical projects at the student consultancy move, I continuously enhance my analytical and conceptual skills. Currently, I aim to further develop my leadership qualities as Chairman of the Board and project manager at move.",
+      "text": "  I am fascinated by information technologies, especially Machine Learning. This passion drives me to study Information Systems at the University of Münster with a focus on Business Intelligence. Through internships and part-time work, I have applied my theoretical knowledge in practice. In personal leisure projects and practical projects at the student consultancy move and as their Chairman of the Board last year, I continuously enhance my analytical and conceptual skills.",
       "downloadCV": "CV"
     },
     "skills": {
@@ -126,7 +126,7 @@
       },
       "UASentimentAnalysis": {
         "title": "Geographical Insights into Political Sentiment: Analyzing Donald Trump and Boris Johnson through Social Media",
-        "desc": "In this seminar thesis, titled 'Popularity and Controversy: A Location-Based Event and Sentiment Analysis of Donald Trump and Boris Johnson', I explored the influence of geographic location on public perceptions of these political figures from 2018 to 2022, using Twitter/X posts from cities like Los Angeles, New York City, Birmingham, and London. The analysis employed advanced machine learning techniques, including sentiment scoring with VADER and event analysis, to gauge public sentiment and attention towards these leaders. Throughout this project, I extensively utilized generative AI to streamline numerous tasks efficiently, such as literature research, programming, and the synthesis of findings. This work demonstrates my ability to apply cutting-edge AI and data analysis techniques in academic research, showcasing skills that are invaluable in today's data-driven decision-making processes.",
+        "desc": "In this seminar thesis, titled 'Popularity and Controversy: A Location-Based Event and Sentiment Analysis of Donald Trump and Boris Johnson', I explored the influence of geographic location on public perceptions of these political figures from 2018 to 2022, using X (formerly Twitter) posts from cities like Los Angeles, New York City, Birmingham, and London. The analysis employed advanced machine learning techniques, including sentiment scoring with VADER and event analysis, to gauge public sentiment and attention towards these leaders. Throughout this project, I extensively utilized generative AI to streamline numerous tasks efficiently, such as literature research, programming, and the synthesis of findings. This work demonstrates my ability to apply cutting-edge AI and data analysis techniques in academic research, showcasing skills that are invaluable in today's data-driven decision-making processes.",
         "files": {
           "final_presentation": "Presentation",
           "seminar_thesis": "Seminar Thesis",
@@ -135,7 +135,7 @@
       },
       "forum_web_scraper": {
         "title": "Uncovering Hidden Gems: Gaining Innovation Potential From Discussion Forums",
-        "desc": "The Information Systems specialization module 'Principles of Entrepreneurship' was supplemented by the project group work with the startup pivoty. The basic business process idea of the start-up is that extracted information from discussion forums (using web scraping) is used to derive hidden innovation potentials with an AI analysis. In the project, I have built a scalable web scraper with Scrapy, so that it can be applied to as many discussion forums as possible. The structure of the most widespread forum frameworks was used to cover almost 90% of all german discussion forums. <br/><br/>pivoty is located in Münster and develops “an AI-based analytics software that tries to discover innovation potentials” (<a href='#bibliography'>Schäper et al. 2021a</a>)for companies “by analyzing unbiased customer insights” (<a href='#bibliography'>Schäper et al. 2021a</a>). To clarify, the extracted ideas are subjective, but the positivity bias may be overcome. These insights “draw on a variety of online sources like social networks, forums, blogs, and product reviews to systematically derive inspirations for new products and services” (<a href='#bibliography'>Schäper et al. 2021b</a>)."
+        "desc": "The Information Systems specialization module 'Principles of Entrepreneurship' was supplemented by the project group work with the startup pivoty. The basic business process idea of the start-up is that extracted information from discussion forums (using web scraping) is used to derive hidden innovation potentials with an AI analysis. In the project, I have built a scalable web scraper with Scrapy, so that it can be applied to as many discussion forums as possible. The structure of the most widespread forum frameworks was used to cover almost 90% of all german discussion forums. <br/><br/>pivoty is located in Münster and develops “an AI-based analytics software that tries to discover innovation potentials” (<a href='#bibliography'>Schäper et al. 2021a</a>) for companies “by analyzing unbiased customer insights” (<a href='#bibliography'>Schäper et al. 2021a</a>). To clarify, the extracted ideas are subjective, but the positivity bias may be overcome. These insights “draw on a variety of online sources like social networks, forums, blogs, and product reviews to systematically derive inspirations for new products and services” (<a href='#bibliography'>Schäper et al. 2021b</a>)."
       },
       "goc": {
         "title": "Shaping Tomorrow's Leaders: A Web-Based Simulation for Public Administration",
@@ -159,7 +159,7 @@
       },
       "portfolioWebDevelopment": {
         "title": "My Digital Showcase: Portfolio Website with Vue.js",
-        "desc": "Since 2021, I have been maintaining my portfolio website, implemented using Vue.js 2. This project serves not only as a digital showcase of my work but also highlights my creative approach and capabilities in the web development domain. Opting for Vue.js 2 for its development demonstrates my proficiency with modern JavaScript frameworks and my ability to create engaging and user-friendly web applications. The ongoing maintenance and updating of the site reflect my commitment to quality work and pursuit of technical excellence. This project effectively showcases how I leverage innovative technologies to produce creative solutions that are both aesthetically pleasing and functional."
+        "desc": "Since 2021, I have been maintaining my portfolio website, implemented using Vue.js 3. This project serves not only as a digital showcase of my work but also highlights my creative approach and capabilities in the web development domain. Opting for Vue.js 3 for its development demonstrates my proficiency with modern JavaScript frameworks and my ability to create engaging and user-friendly web applications. The ongoing maintenance and updating of the site reflect my commitment to quality work and pursuit of technical excellence. This project effectively showcases how I leverage innovative technologies to produce creative solutions that are both aesthetically pleasing and functional."
       },
       "eBusinessWebDevelopment": {
         "title": "Development of an eBusiness Including Online Branding",
@@ -169,6 +169,7 @@
         "title": "Empowering Athletes: Frontend Innovation for Wearable Sports Platform",
         "desc": "WatchTrainer played a significant role in the advancement of wearable sports technology, introducing a sports platform that utilizes the capabilities of devices like the Apple Watch. In this innovative project, I was responsible for leading the frontend development with Vue.js, aiming to provide an intuitive and seamless user experience. This project highlighted my ability to craft engaging digital solutions that blend smoothly with the latest technology."
       }
-    }
+    },
+    "bibliography": "Bibliography"
   }
 }

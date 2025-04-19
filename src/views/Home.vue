@@ -5,7 +5,7 @@
       <div>
         <HeroBackgroundGradientGroup class="position-absolute" />
         <v-container class="text-center">
-          <v-row class="pa-md-12 pb-md-0 align-center justify-center h-screen">
+          <v-row class="pa-md-12 pb-md-0 align-center justify-center" style="min-height: 100vh;">
             <v-col cols="12" md="6">
               <!-- Card for title and subtitle -->
               <v-card class="text-white transparent-background" variant="outlined">
@@ -16,8 +16,7 @@
             </v-col>
             <v-col cols="12" md="6" lg="4">
               <v-card>
-                <v-img alt="Leo Giesen Profil" src="@/assets/profile/leo-giesen.webp" max-height="60vh"
-                  class="rounded" />
+                <v-img alt="Leo Giesen Profil" src="@/assets/profile/leo-giesen.webp" />
               </v-card>
             </v-col>
           </v-row>
@@ -26,12 +25,12 @@
     </section>
 
     <!-- Intro Section -->
-    <section>
+    <section width="100vw" class="d-flex justify-center w-100 mx-auto">
       <v-container id="scroll">
         <v-card class="pa-4">
           <v-row>
             <v-col>
-              <v-card-title class="d-flex justify-center text-h5">
+              <v-card-title class="text-h5 text-center text-wrap">
                 {{ $t("home.homeIntro.title") }}
               </v-card-title>
               <v-card-text class="d-flex flex-column align-center text-justify">

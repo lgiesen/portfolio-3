@@ -2,7 +2,9 @@
 
 import TheNavigation from '@/components/navigation/TheNavigation.vue';
 import TheFooter from '@/components/TheFooter.vue';
+import { useGoTo } from 'vuetify';
 
+const goTo = useGoTo()
 </script>
 
 
