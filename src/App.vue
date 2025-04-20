@@ -1,9 +1,7 @@
 <script lang="ts" setup>
-
 import TheNavigation from '@/components/navigation/TheNavigation.vue';
 import TheFooter from '@/components/TheFooter.vue';
 import { useGoTo } from 'vuetify';
-
 const goTo = useGoTo()
 </script>
 
@@ -20,6 +18,9 @@ const goTo = useGoTo()
 
 
 <style lang="scss">
+$primary: rgba(var(--v-theme-primary), 1);
+$secondary: rgba(var(--v-theme-secondary), 1);
+
 /* 1. General Style */
 * {
   box-sizing: border-box;
@@ -74,7 +75,7 @@ const goTo = useGoTo()
 a:not(a.v-tab, .v-btn) {
   text-decoration: none;
   cursor: pointer;
-  color: var(--color-primary, #6f74dd);
+  color: rgba(var(--v-theme-primary), 1) !important;
 
   &:hover {
     text-decoration: underline !important;

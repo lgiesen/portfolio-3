@@ -1,9 +1,7 @@
-// Styles
 import "@mdi/font/css/materialdesignicons.css";
-
-// Composables
 import { createVuetify, ThemeDefinition } from "vuetify";
 import 'vuetify/styles';
+
 
 // Define light and dark themes
 const lightTheme: ThemeDefinition = {
@@ -13,6 +11,7 @@ const lightTheme: ThemeDefinition = {
     primary: "#3949ab",
     primaryLight: "#6f74dd",
     primaryDark: "#00227b",
+    link: "#061437",
     // Orange
     secondary: "#f4511e",
     secondaryLight: "#ff844c",

@@ -9,7 +9,7 @@
             <v-col cols="12" md="6">
               <!-- Card for title and subtitle -->
               <v-card class="text-white transparent-background" variant="outlined">
-                <h1 class="text-h2 font-weight-thin">{{ $t("home.homeHero.title") }}</h1>
+                <h1 class="text-h3 font-weight-thin">{{ $t("home.homeHero.title") }}</h1>
                 <h2 class="text-subtitle-1">{{ $t("home.homeHero.subtitle") }}</h2>
               </v-card>
               <ScrollHero />
@@ -173,8 +173,8 @@ const skillCardGroup = [
 </script>
 
 <style lang="scss" scoped>
-$primary: var(--v-primary-base, #3949ab);
-$secondary: var(--v-secondary-base, #f4511e);
+$primary: rgba(var(--v-theme-primary), 1);
+$secondary: rgba(var(--v-theme-secondary), 1);
 
 .text-justify {
   text-align: justify;

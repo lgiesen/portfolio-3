@@ -13,7 +13,7 @@
             <v-container>
               <v-row class="pa-md-12 d-flex text-center">
                 <v-col :order-md="2">
-                  <h1 class="text-white text-h2 font-weight-light mb-8"
+                  <h1 class="text-white text-h3 font-weight-light mb-8"
                     v-html="$t(`parallaxText.${translationKey}.title`)"></h1>
                   <h5 class="text-white text-h5 text-subtitle-1" v-html="$t(`parallaxText.${translationKey}.subtitle`)">
                   </h5>
