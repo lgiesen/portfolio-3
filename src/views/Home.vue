@@ -62,7 +62,11 @@
                     :gradient="isDarkTheme ? 'rgba(0,0,0,.6), rgba(0,0,0,.9)' : 'rgba(255,255,255,.6), rgba(255,255,255,.9)'">
                     <v-card-title class="text-center">
                       <pre>
-                        <h2 class="font-weight-bold text-h4" :style="gradientTitle" width="94vw" max-width="94vw" min-height="400">{{ $t('home.skills.' + card.title) }} </h2>
+                        <h2 
+                          class="font-weight-bold text-h4 break text" 
+                          :style="[gradientTitle, { wordBreak: 'break-word', whiteSpace: 'normal' }]" 
+                          width="94vw" max-width="94vw" min-height="400">
+                          {{ $t('home.skills.' + card.title) }} </h2>
                       </pre>
                     </v-card-title>
                   </v-img>
