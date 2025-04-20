@@ -18,7 +18,7 @@
 
     <!-- Mobile navigation -->
     <div class="hidden-md-and-up" max-width="100vw" width="100vw">
-      <v-app-bar class="appBar d-flex justify-center align-center" flat elevation="0" height="64" max-width="100vw"
+      <v-app-bar class="appBar d-flex justify-center align-center" flat elevation="0" height="64" max-width="100vw" app
         width="100vw" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 10;">
         <v-spacer></v-spacer>
         <v-app-bar-nav-icon class="mr-5" @click.stop="mobileDialog = !mobileDialog" v-show="!mobileDialog" />
