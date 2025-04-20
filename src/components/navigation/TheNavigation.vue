@@ -17,37 +17,33 @@
     </v-app-bar>
 
     <!-- Mobile navigation -->
-    <div class="hidden-md-and-up">
-      <!-- App bar to open the navigation overlay -->
-      <!-- <v-app-bar class="appBar" flat elevation="0">
-        <v-app-bar-nav-icon class="justify-end mr-1" @click.stop="mobileDialog = !mobileDialog"></v-app-bar-nav-icon>
-      </v-app-bar> -->
-
-      <v-app-bar class="appBar d-flex justify-center align-center" flat elevation="0" height="64">
+    <div class="hidden-md-and-up" max-width="100vw" width="100vw">
+      <v-app-bar class="appBar d-flex justify-center align-center" flat elevation="0" height="64" max-width="100vw"
+        width="100vw" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 10;">
         <v-spacer></v-spacer>
-        <v-app-bar-nav-icon @click.stop="mobileDialog = !mobileDialog" />
+        <v-app-bar-nav-icon class="mr-5" @click.stop="mobileDialog = !mobileDialog" v-show="!mobileDialog" />
       </v-app-bar>
 
 
       <!-- Navigation overlay -->
-      <v-overlay v-model="mobileDialog" class="appBar" :scrim="true" persistent style="z-index: 200">
+      <v-overlay v-model="mobileDialog" class="appBar" :scrim="true" persistent style="z-index: 200" max-width="100vw"
+        width="100vw">
         <v-sheet class="bg-background text-white d-flex flex-column align-center px-6 pt-6" elevation="4" height="100vh"
           width="100vw" style="position: relative">
-          <!-- Close button (oben rechts) -->
-          <v-spacer></v-spacer>
+          <!-- Close button in the top right corner -->
           <v-btn icon variant="plain" @click="mobileDialog = false" class="position-absolute"
-            style="top: 12px; right: 12px;">
+            style="top: 8px; right: 8px;">
             <v-icon size="28">mdi-close</v-icon>
           </v-btn>
-
           <!-- Logo -->
+          <v-spacer></v-spacer>
           <v-img class="mt-10 mb-8" :src="themespecificLogoSrc" alt="Leo Giesen Logo" contain width="70"
             max-height="70" />
-          <v-spacer></v-spacer>
 
           <!-- Navigation links -->
+          <v-spacer></v-spacer>
           <div class="d-flex flex-column align-center text-center w-100">
-            <v-btn v-for="view in views" :key="view.to.name" :to="view.to" variant="text" class="my-2 text-uppercase"
+            <v-btn v-for="view in views" :key="view.to.name" :to="view.to" variant="text" class="my-3 text-uppercase"
               @click="mobileDialog = false">
               <v-icon class="me-2" color="secondary">mdi-{{ view.icon }}</v-icon>
               {{ isDE ? view.tag_de : view.tag_en }}
@@ -59,14 +55,13 @@
 
           <!-- Language and Theme switchers -->
           <div class="d-flex justify-center mt-4 mb-8">
-            <LanguageSwitcher class="mx-6" />
-            <ToggleTheme class="mx-6" />
+            <LanguageSwitcher class="mx-6" @click="mobileDialog = false" />
+            <ToggleTheme class="mx-6" @click="mobileDialog = false" />
           </div>
           <v-spacer></v-spacer>
           <v-spacer></v-spacer>
         </v-sheet>
       </v-overlay>
-
     </div>
   </div>
 </template>
@@ -116,7 +111,7 @@ const mobileDialog = ref(false);
 const dontShowAtTop = ref(false);
 const tabsRef = ref<HTMLElement | null>(null);
 
-// Theme Computeds
+// Theme 
 const currentTheme = computed(() => theme.global.name.value);
 const isDarkTheme = computed(() => currentTheme.value === "dark");
 
@@ -159,6 +154,12 @@ onUnmounted(() => {
     opacity: 0.9;
     -webkit-backdrop-filter: blur(2em);
     backdrop-filter: blur(2em);
+  }
+
+  .v-overlay {
+    opacity: 0.95 !important;
+    -webkit-backdrop-filter: blur(10em);
+    backdrop-filter: blur(10em);
   }
 }
 
