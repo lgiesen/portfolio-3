@@ -15,13 +15,15 @@
                 <v-col :order-md="2">
                   <h1 class="text-white text-h3 font-weight-light mb-8"
                     v-html="$t(`parallaxText.${translationKey}.title`)"></h1>
-                  <h5 class="text-white text-h5 text-subtitle-1" v-html="$t(`parallaxText.${translationKey}.subtitle`)">
+                  <h5 class="text-white text-h5 text-subtitle-1 mb-0"
+                    v-html="$t(`parallaxText.${translationKey}.subtitle`)">
                   </h5>
                   <ScrollHero class="mt-16 pt-16" />
                 </v-col>
 
                 <v-col v-if="smallImgPath" cols="12" md="6" :order-md="1" class="d-flex justify-center align-center">
-                  <v-img :alt="imgAlt" :src="smallImgPath" height="500" width="100%" contain class="rounded-lg" />
+                  <v-img :alt="imgAlt" :src="smallImgPath" height="500" max-height="50vh" width="100%" contain
+                    class="rounded-lg" />
                 </v-col>
               </v-row>
             </v-container>
