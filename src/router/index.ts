@@ -1,4 +1,5 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { nextTick } from 'vue';
+import { createRouter, createWebHistory, RouteLocationNormalized, RouteRecordRaw } from 'vue-router';
 import Home from "../views/Home.vue";
 
 const routes: Array<RouteRecordRaw> = [
@@ -142,51 +143,52 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes,
-  // scroll to element based on URL
-  // scrollBehavior(to, from, savedPosition) {
-  //   if (to.hash) {
-  //     return new Promise((resolve, reject) => {
-  //       setTimeout(() => {
-  //         if (document.querySelector(to.hash)) {
-  //           resolve({ selector: to.hash, behavior: "smooth" });
-  //         } else {
-  //           resolve({ x: 0, y: 0 });
-  //         }
-  //       }, 500); // Delay to ensure that the element is present
-  //     });
-  //   } else if (savedPosition) {
-  //     return savedPosition;
-  //   } else {
-  //     return { x: 0, y: 0 };
-  //   }
-  // },
-});
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          const element = document.querySelector(to.hash)
+          if (element) {
+            resolve({ el: to.hash, behavior: 'smooth' })
+          } else {
+            resolve({ left: 0, top: 0 })
+          }
+        }, 300)
+      })
+    } else if (savedPosition) {
+      return savedPosition
+    } else {
+      return { left: 0, top: 0 }
+    }
+  }
+})
 
-// router.afterEach((to, from) => {
-//   Vue.nextTick(() => {
-//     // define a fallback title
-//     document.title = to.meta.title || "Leo Giesen Portfolio";
+// Typ für deine Route-Meta-Tags
+interface CustomMetaTags {
+  title?: string
+  metaTags?: { name: string; content: string }[]
+}
 
-//     // remove previous meta-tags
-//     document
-//       .querySelectorAll(
-//         'head meta[name="description"], head meta[name="keywords"]'
-//       )
-//       .forEach((el) => el.remove());
+// Typ Assertion beim Zugriff auf `meta`
+router.afterEach((to: RouteLocationNormalized) => {
+  nextTick(() => {
+    const meta = to.meta as CustomMetaTags
 
-//     // define new meta-tags based on the current route
-//     if (to.meta.metaTags) {
-//       to.meta.metaTags.forEach((tag) => {
-//         const tagElement = document.createElement("meta");
-//         tagElement.name = tag.name;
-//         tagElement.content = tag.content;
-//         document.head.appendChild(tagElement);
-//       });
-//     }
-//   });
-// });
+    document.title = meta.title || 'Leo Giesen Portfolio'
 
+    document
+      .querySelectorAll('meta[name="description"], meta[name="keywords"]')
+      .forEach(el => el.remove())
 
-export default router;
+    meta.metaTags?.forEach((tag) => {
+      const tagElement = document.createElement('meta')
+      tagElement.name = tag.name
+      tagElement.content = tag.content
+      document.head.appendChild(tagElement)
+    })
+  })
+})
+
+export default router
