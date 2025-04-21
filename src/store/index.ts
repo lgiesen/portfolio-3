@@ -5,14 +5,10 @@ import i18n from "../i18n";
 export default createStore({
   state: {
     showContactDialog: false,
-    isMobile: false,
   },
   mutations: {
     ToggleShowContactDialog(state) {
       state.showContactDialog = !state.showContactDialog;
-    },
-    setIsMobile(state, payload: boolean) {
-      state.isMobile = payload;
     },
   },
   getters: {
@@ -24,6 +20,5 @@ export default createStore({
     ResponsiveFontSize(): string {
       return vuetify.display.smAndDown ? "display-1" : "display-2";
     },
-    isMobile: (state) => state.isMobile,
   },
 });

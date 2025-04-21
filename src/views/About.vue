@@ -37,6 +37,7 @@
           <v-row justify="center">
             <v-col cols="11" md="6" order="2">
               <p v-html="$t('about.travel')"></p>
+              <p>{{ isMobile }} ISMOBILE</p>
               <p>{{ $t("about.quote") }}</p>
               <Quote :quoteText="quotes[0].quoteText" :quoteAuthor="quotes[0].quoteAuthor" />
             </v-col>
@@ -71,11 +72,13 @@
 import Parallax from '@/components/Parallax.vue'
 import Quote from '@/components/Quote.vue'
 import { computed } from 'vue'
+import { useDisplay } from 'vuetify'
 import { useStore } from 'vuex'
 
 const store = useStore()
 const isDE = computed(() => store.getters.isDE)
-const isMobile = computed(() => store.getters.isMobile)
+const { mobile } = useDisplay()
+const isMobile = computed(() => mobile.value)
 
 const parallaxImagePath = new URL('@/assets/background/Glatthorn.webp', import.meta.url).href
 const smallImgPath = new URL('@/assets/profile/leo-giesen.webp', import.meta.url).href
