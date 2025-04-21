@@ -39,7 +39,7 @@
       "subtitle": "I love breaking down and solving complex and abstract problems!"
     },
     "experience": {
-      "title": "Work Experience <br>and Education",
+      "title": "Experience <br>and Education",
       "subtitle": "I want to broaden my horizons by learning new things and facing challenges!"
     },
     "projects": {
@@ -49,10 +49,10 @@
   },
   "experience": {
     "intro": {
-      "title": "Work Experience <br>and Education",
+      "title": "Experience <br>and Education",
       "subtitle": "I want to broaden my horizons by learning new things and facing challenges!"
     },
-    "workExperience": "Work Experience",
+    "workExperience": "Experience",
     "education": "Education"
   },
   "socialTitle": "Connect with me",
