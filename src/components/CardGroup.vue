@@ -4,12 +4,12 @@
       {{ sectionTitle }}
     </h1>
 
-    <v-container>
-      <v-row class="justify-center">
-        <v-col cols="11" md="8" lg="6" v-for="(item, index) in iterableObject" :key="index"
-          :id="'card-' + item.institution.split(' ', 1)[0]">
+    <v-container class="mx-0 px-0">
+      <v-row class="justify-center mx-auto">
+        <v-col cols="12" sm="12" md="8" lg="6" v-for="(item, index) in iterableObject" :key="index"
+          :id="'card-' + item.institution.split(' ', 1)[0]" class="justify-center">
           <v-hover v-slot="{ isHovering }">
-            <v-card class="mb-12 px-3 px-md-7 pt-5 transition-swing" height="100%"
+            <v-card class="mb-3 px-md-7 pt-5 transition-swing" height="100%" max-width="94vw"
               :class="`elevation-${isHovering ? 24 : 6}`">
               <v-row>
                 <v-col class="d-flex align-center justify-center">

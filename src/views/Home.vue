@@ -9,7 +9,7 @@
             <v-col cols="12" md="6">
               <!-- Card for title and subtitle -->
               <v-card class="text-white transparent-background" variant="outlined">
-                <h1 class="text-h3 font-weight-thin">{{ $t("home.homeHero.title") }}</h1>
+                <h1 class="text-h3 font-weight-light">{{ $t("home.homeHero.title") }}</h1>
                 <h2 class="text-subtitle-1">{{ $t("home.homeHero.subtitle") }}</h2>
               </v-card>
               <ScrollHero />
