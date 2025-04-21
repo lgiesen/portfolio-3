@@ -1,5 +1,4 @@
-<!-- [![Website](https://img.shields.io/badge/website-f4511e?style=for-the-badge&logo=About.me&logoColor=white)](https://leogiesen.de/#/) -->
-[![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](https://v2.vuejs.org/) 
+![Vue 3](https://img.shields.io/badge/Vue-vue@3.5.13-brightgreen?logo=vue.js&logoColor=white&style=flat)
 [![Is Website Up?](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://leogiesen.de/#/) 
 ![GitHub version](https://img.shields.io/github/v/release/lgiesen/portfolio-3?color=green&include_prereleases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit) 
