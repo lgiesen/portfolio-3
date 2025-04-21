@@ -19,8 +19,8 @@ function loadLocaleMessages(): Record<string, any> {
 }
 export default createI18n({
   legacy: false, 
-  locale: process.env.VUE_APP_I18N_LOCALE || "en",
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "de",
+  locale: localStorage.getItem('locale') || 'de', // en as fallback
+  fallbackLocale: "de",
   globalInjection: true,
   warnHtmlMessage: false,
   messages: loadLocaleMessages(),

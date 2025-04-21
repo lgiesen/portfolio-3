@@ -13,6 +13,7 @@ const { locale } = useI18n()
 
 function switchLanguage() {
   locale.value = locale.value === 'en' ? 'de' : 'en'
+  localStorage.setItem('locale', locale.value)
   emit('language-changed')
 }
 

@@ -1,8 +1,15 @@
 <script lang="ts" setup>
 import TheNavigation from '@/components/navigation/TheNavigation.vue';
 import TheFooter from '@/components/TheFooter.vue';
-import { useGoTo } from 'vuetify';
-const goTo = useGoTo()
+import { onMounted } from 'vue';
+import { useTheme } from 'vuetify';
+
+const theme = useTheme()
+
+onMounted(() => {
+  const savedTheme = localStorage.getItem('isDarkTheme')
+  theme.global.name.value = savedTheme === 'true' ? 'dark' : 'light'
+})
 </script>
 
 
