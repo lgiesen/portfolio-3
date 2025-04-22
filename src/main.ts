@@ -11,5 +11,8 @@ app.use(store)
 app.use(router)
 app.use(i18n) 
 app.use(vuetify)
-
+// Redirect from /#/ to /
+if (window.location.pathname === '/' && window.location.hash === '#/') {
+    window.location.replace('/');
+  }
 app.mount('#app')
