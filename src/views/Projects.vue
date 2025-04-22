@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Parallax from '@/components/Parallax.vue';
 import { useGoTo } from 'vuetify';
-const parallaxImagePath = new URL('@/assets/background/Aasee.webp', import.meta.url).href;
-const smallImgPath = new URL('@/assets/profile/leo-giesen-nature.webp', import.meta.url).href;
+const parallaxImagePath = new URL('@/assets/background/Glatthorn.webp', import.meta.url).href;
+const smallImgPath = new URL('@/assets/profile/Glatthorn_Aufstieg.webp', import.meta.url).href;
 const projects = [
   // MensaToday Recommender System Data Integration
   {
@@ -220,8 +220,8 @@ function scrollBibliography() {
 
 <template>
   <div>
-    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(225,191,156,0)" translationKey="projects"
-      imgAlt="Leo Giesen Projects" />
+    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(61, 103, 62,.3)" translationKey="projects"
+      :smallImgPath="smallImgPath" imgAlt="Leo Giesen Projects" />
 
     <!-- Projects -->
     <article id="scroll">

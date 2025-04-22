@@ -190,7 +190,7 @@ const education = [
 <template>
   <div>
     <!-- Parallax section -->
-    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(37,81,126,.5)" translationKey="experience"
+    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(21, 47, 88,.6)" translationKey="experience"
       :smallImgPath="smallImgPath" imgAlt="Leo Giesen Presentation" />
 
     <!-- Main content (avoid wrapping in <section> to keep background full width) -->

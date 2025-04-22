@@ -1,8 +1,7 @@
 <template>
   <div>
-    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(38,145,66,.3)" translationKey="about"
+    <Parallax :parallaxImage="parallaxImagePath" overlayColor="rgba(184, 113, 89,.3)" translationKey="about"
       :smallImgPath="smallImgPath" imgAlt="Leo Giesen Profil" />
-
     <!-- About me texts alternating with corresponding images -->
     <article>
       <section id="scroll">
@@ -80,8 +79,8 @@ const isDE = computed(() => store.getters.isDE)
 const { mobile } = useDisplay()
 const isMobile = computed(() => mobile.value)
 
-const parallaxImagePath = new URL('@/assets/background/Glatthorn.webp', import.meta.url).href
-const smallImgPath = new URL('@/assets/about/sylt-lachen-strandkorb-polly.webp', import.meta.url).href
+const parallaxImagePath = new URL('@/assets/background/PortesDuSoleilMountains.webp', import.meta.url).href
+const smallImgPath = new URL('@/assets/profile/sylt-lachen-strandkorb-polly.webp', import.meta.url).href
 
 const quotes = [
   {
