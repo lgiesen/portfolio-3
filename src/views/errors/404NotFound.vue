@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template lang="pug">
   v-container
     v-row.text-center.pa-12(align="center" justify="center" fill-height fluid)
