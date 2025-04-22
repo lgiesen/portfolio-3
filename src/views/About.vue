@@ -81,7 +81,7 @@ const { mobile } = useDisplay()
 const isMobile = computed(() => mobile.value)
 
 const parallaxImagePath = new URL('@/assets/background/Glatthorn.webp', import.meta.url).href
-const smallImgPath = new URL('@/assets/profile/leo-giesen.webp', import.meta.url).href
+const smallImgPath = new URL('@/assets/about/sylt-lachen-strandkorb-polly.webp', import.meta.url).href
 
 const quotes = [
   {
