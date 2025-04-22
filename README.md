@@ -6,10 +6,8 @@
 
 # Portfolio - Leo Giesen
 
-
 This project is deployed at [leogiesen.de](https://leogiesen.de/).
 The original version of my portfolio can be inspected [here](https://github.com/lgiesen/portfolio-v1), which I created with HTMl5 CSS3 and JavaScript when I was 18.
- <!-- and on [Netlify](https://giesen.netlify.app/): [![Netlify Status](https://api.netlify.com/api/v1/badges/56383890-7eca-4786-9aad-0d4d3cfcc507/deploy-status)](https://app.netlify.com/sites/giesen/deploys) -->
 
 ## Project Setup
 
@@ -38,33 +36,4 @@ npm run serve
 npm run build #Compiles and minifies for production
 ```
 
-To publish the changes, the "dist" directory contents are to be copied and pushed to the [portfolio-v2-dist](https://github.com/lgiesen/portfolio-v2-dist) repository because the hosting is based on it. This must be performed because the hosting plan is unable to build from production by itself.
-
-## General Advice for Web Projects
-
-### SEO (Search Engine Optimization)
-
-- Keep visitors on your website (dwell time) by providing excellent content (!) (define important keywords, which people search to get to your website)
-- Improve loading speed (see Improve Performance)
-- Optimize your HTML
-  - Use alt attributes in images so that the search engine knows what you display
-  - Use aria tags for more complicated displayed content, e.g., sliders
-  - Use article tags for Bots to know what main content the site presents
-- Increase your Click-Through-Rate (CTR)
-- Make use of metadata (located in head), e.g. description tag displayed in google search results
-- Responsive Web Design ([Mobile Friendly Test](https://search.google.com/test/mobile-friendly))
-- Linked by other sources, e.g. social media and other websites
-- Tools & Guidelines:
-
-  - [Google Starter Guide](https://developers.google.com/search/docs/beginner/seo-starter-guide)
-
-   <img src="SEO.svg" width="500px"> 
-   
-   (see [Moz](https://moz.com/beginners-guide-to-seo))
-
-### Improve Performance
-
-- Reduce the image size with a [compressor](http://jpeg-optimizer.com/)
-- Avoid CDNs
-- Tools & Guidelines:
-  - [Check Page Speed](https://developers.google.com/speed/pagespeed/insights/)
+To publish the changes, the "dist" directory contents are to be copied and pushed to the [portfolio-dist](https://github.com/lgiesen/portfolio-dist) repository because the hosting is based on it. This must be performed because the hosting plan is unable to build from production by itself.
