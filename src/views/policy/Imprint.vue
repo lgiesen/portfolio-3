@@ -25,7 +25,7 @@ export default {
         icon: "email",
       },
       {
-        value: "Catharina Müller Straße 5, 48149 Münster",
+        value: "Catharina-Müller-Straße 5, 48149 Münster",
         icon: "map-marker",
       },
     ],
