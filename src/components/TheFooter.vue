@@ -1,3 +1,54 @@
+<script setup>
+import { computed, ref } from "vue";
+import { useRouter } from "vue-router";
+import { useTheme } from "vuetify";
+import { useStore } from "vuex";
+
+import Icons from "@/components/social-icons/Icons.vue";
+import programmingIcons from "@/components/social-icons/ProgrammingIcons.json";
+import socialIcons from "@/components/social-icons/SocialIcons.json";
+
+const router = useRouter();
+// Vuetify Theme
+const theme = useTheme();
+const currentTheme = computed(() => theme.global.name.value); // 'light' or 'dark'
+
+// Language
+const store = useStore();
+const isDE = computed(() => store.getters.isDE);
+
+// Data
+const links = ref([
+  {
+    title_en: "Contact",
+    title_de: "Kontakt",
+    link: "mailto",
+  },
+  {
+    title_en: "Imprint",
+    title_de: "Impressum",
+    link: "imprint",
+  },
+  {
+    title_en: "Privacy Policy",
+    title_de: "Datenschutz",
+    link: "privacy-policy",
+  },
+]);
+
+const programmingIconsRef = ref(programmingIcons);
+const socialIconsRef = ref(socialIcons);
+
+function goTo(link) {
+  if (link.includes("mailto")) {
+    window.location.href = "mailto:contact@leogiesen.de";
+  } else {
+    router.push("/" + link).catch(() => { });
+  }
+}
+</script>
+
+
 <template>
   <div>
     <v-footer id="footer" class="mt-12 pa-10" :class="currentTheme === 'dark' ? 'darkFooterBg' : 'lightFooterBg'"
@@ -32,58 +83,6 @@
   </div>
 </template>
 
-<script setup>
-import { computed, ref } from "vue";
-import { useRouter } from "vue-router";
-import { useTheme } from "vuetify";
-import { useStore } from "vuex";
-
-import Icons from "@/components/social-icons/Icons.vue";
-import programmingIcons from "@/components/social-icons/ProgrammingIcons.json";
-import socialIcons from "@/components/social-icons/SocialIcons.json";
-
-// Vuetify Theme
-const theme = useTheme();
-const currentTheme = computed(() => theme.global.name.value); // 'light' or 'dark'
-
-// Vuex Store
-const store = useStore();
-const isDE = computed(() => store.getters.isDE);
-
-// Vue Router
-const router = useRouter();
-
-// Daten
-const links = ref([
-  {
-    title_en: "Contact",
-    title_de: "Kontakt",
-    link: "mailto",
-  },
-  {
-    title_en: "Imprint",
-    title_de: "Impressum",
-    link: "imprint",
-  },
-  {
-    title_en: "Privacy Policy",
-    title_de: "Datenschutz",
-    link: "privacy-policy",
-  },
-]);
-
-const programmingIconsRef = ref(programmingIcons);
-const socialIconsRef = ref(socialIcons);
-
-// Methoden
-function goTo(link) {
-  if (link.includes("mailto")) {
-    window.location.href = "mailto:contact@leogiesen.de";
-  } else {
-    router.push("/" + link).catch(() => { });
-  }
-}
-</script>
 
 <style lang="scss" scoped>
 .lightFooterBg {
