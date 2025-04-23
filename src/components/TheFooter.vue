@@ -1,20 +1,10 @@
 <template>
   <div>
-    <v-footer
-      id="footer"
-      class="mt-12 pa-10"
-      :class="currentTheme === 'dark' ? 'darkFooterBg' : 'lightFooterBg'"
-      padless
-    >
+    <v-footer id="footer" class="mt-12 pa-10" :class="currentTheme === 'dark' ? 'darkFooterBg' : 'lightFooterBg'"
+      padless>
       <v-row justify="center">
-        <v-btn
-          v-for="link in links"
-          :key="link.link"
-          class="my-2"
-          color="white"
-          variant="text"
-          @click="goTo(link.link)"
-        >
+        <v-btn v-for="link in links" :key="link.link" class="my-2" color="white" variant="text"
+          @click="goTo(link.link)">
           {{ isDE ? link.title_de : link.title_en }}
         </v-btn>
         <v-col class="text-white text-center" cols="12">
@@ -42,60 +32,57 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed, ref } from "vue";
+import { useRouter } from "vue-router";
+import { useTheme } from "vuetify";
+import { useStore } from "vuex";
+
 import Icons from "@/components/social-icons/Icons.vue";
 import programmingIcons from "@/components/social-icons/ProgrammingIcons.json";
 import socialIcons from "@/components/social-icons/SocialIcons.json";
-import { computed } from "vue";
-import { useTheme } from "vuetify";
 
-export default {
-  name: "TheFooter",
-  components: { Icons },
-  setup() {
-    const theme = useTheme();
-    const currentTheme = computed(() => theme.global.name.value); // 'light' or 'dark'
+// Vuetify Theme
+const theme = useTheme();
+const currentTheme = computed(() => theme.global.name.value); // 'light' or 'dark'
 
-    return { currentTheme };
+// Vuex Store
+const store = useStore();
+const isDE = computed(() => store.getters.isDE);
+
+// Vue Router
+const router = useRouter();
+
+// Daten
+const links = ref([
+  {
+    title_en: "Contact",
+    title_de: "Kontakt",
+    link: "mailto",
   },
-  data() {
-    return {
-      links: [
-        {
-          title_en: "Contact",
-          title_de: "Kontakt",
-          link: "mailto",
-        },
-        {
-          title_en: "Imprint",
-          title_de: "Impressum",
-          link: "imprint",
-        },
-        {
-          title_en: "Privacy Policy",
-          title_de: "Datenschutz",
-          link: "privacy-policy",
-        },
-      ],
-      socialIcons: socialIcons,
-      programmingIcons: programmingIcons,
-    };
+  {
+    title_en: "Imprint",
+    title_de: "Impressum",
+    link: "imprint",
   },
-  methods: {
-    goTo(link) {
-      // if the link is internal, the router should be used. Otherwise open a new page
-      if (link.includes("mailto"))
-        window.location.href = "mailto:contact@leogiesen.de";
-      else this.$router.push("/" + link).catch(() => {});
-    },
+  {
+    title_en: "Privacy Policy",
+    title_de: "Datenschutz",
+    link: "privacy-policy",
   },
-  computed: {
-    isDE() {
-      // Replace with your logic to determine if the language is German
-      return false; // Example: Replace with actual logic
-    },
-  },
-};
+]);
+
+const programmingIconsRef = ref(programmingIcons);
+const socialIconsRef = ref(socialIcons);
+
+// Methoden
+function goTo(link) {
+  if (link.includes("mailto")) {
+    window.location.href = "mailto:contact@leogiesen.de";
+  } else {
+    router.push("/" + link).catch(() => { });
+  }
+}
 </script>
 
 <style lang="scss" scoped>

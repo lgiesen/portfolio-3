@@ -3,14 +3,14 @@ section
   article
     v-container
       div.text-center
-        h1.display-1.font-weight-thin {{ $t("imprintHeader") }}
-        h3.subtitle {{ $t("imprintSubtitle") }}
-      v-card(max-width="300" tile)
+        h1.display-1.text-h3.font-weight-light {{ $t("imprint.imprintHeader") }}
+        h3.subtitle {{ $t("imprint.imprintSubtitle") }}
+      v-card(max-width="600" tile)
         v-list(dense)
           v-list-item-group
             v-list-item(v-for="(contactElem, index) in contactDetails" :key="index")
               v-list-item-icon
-                v-icon mdi-{{contactElem.icon}}
+                v-icon mdi-{{ contactElem.icon }}
               v-list-item-content
                 v-list-item-title {{ contactElem.value }}
 </template>
@@ -21,7 +21,7 @@ export default {
   data: () => ({
     contactDetails: [
       {
-        value: "contact@leogiesen.com",
+        value: "contact@leogiesen.de",
         icon: "email",
       },
       {
@@ -30,25 +30,5 @@ export default {
       },
     ],
   }),
-  i18n: {
-    messages: {
-      en: {
-        imprintHeader: "Imprint",
-        imprintSubtitle: "Contact Details",
-        contactDetails: {
-          email: "Email",
-          address: "Address",
-        },
-      },
-      de: {
-        imprintHeader: "Impressum",
-        imprintSubtitle: "Kontaktdaten",
-        contactDetails: {
-          email: "E-Mail",
-          address: "Adresse",
-        },
-      },
-    },
-  },
 };
 </script>
