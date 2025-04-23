@@ -171,5 +171,13 @@
       }
     },
     "bibliography": "Bibliography"
+  },
+  "imprint": {
+    "imprintHeader": "Imprint",
+    "imprintSubtitle": "Contact Details",
+    "contactDetails": {
+      "email": "E-Mail",
+      "address": "Adress"
+    }
   }
 }

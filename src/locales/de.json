@@ -167,5 +167,13 @@
       }
     },
     "bibliography": "Literaturverzeichnis"
+  },
+  "imprint": {
+    "imprintHeader": "Impressum",
+    "imprintSubtitle": "Kontaktdaten",
+    "contactDetails": {
+      "email": "E-Mail",
+      "address": "Adresse"
+    }
   }
 }
