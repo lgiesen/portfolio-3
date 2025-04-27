@@ -36,7 +36,6 @@
           <v-row justify="center">
             <v-col cols="11" md="6" order="2">
               <p v-html="$t('about.travel')"></p>
-              <p>{{ isMobile }} ISMOBILE</p>
               <p>{{ $t("about.quote") }}</p>
               <Quote :quoteText="quotes[0].quoteText" :quoteAuthor="quotes[0].quoteAuthor" />
             </v-col>
