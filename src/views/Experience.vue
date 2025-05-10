@@ -25,8 +25,8 @@ const employment = [
     location: "Münster",
     startDate: "08/2023",
     endDate: "07/2024",
-    description_en: `Through unwavering dedication and a relentless pursuit of knowledge, I honed my leadership skills to become the inaugural chairman overseeing Human Resources, Quality Management, and IT within our student consultancy. Early on, I recognized the power of effective communication and empathy in fostering a collaborative environment, which resulted in a significant increase in member engagement. Delving into diverse projects, I cultivated a keen eye for quality and a methodical approach to problem-solving. For example, we achieved a green audit from the BDSU. Embracing the rapid evolution of technology, I immersed myself in IT solutions, ensuring our consultancy operated seamlessly. This journey has not only shaped me into a leader but also instilled a deep sense of responsibility to empower and inspire others in their professional journeys.`,
-    description_de: `Durch unerschütterliches Engagement und unermüdliches Streben nach Wissen habe ich meine Führungsqualitäten verfeinert und wurde zum ersten Vorsitzenden, der für die Bereiche Personalwesen, Qualitätsmanagement und IT in unserer studentischen Unternehmensberatung zuständig ist. Schon früh erkannte ich, wie wichtig effektive Kommunikation und Einfühlungsvermögen für die Förderung eines kollaborativen Umfelds sind. Indem ich mich in verschiedene Projekte einarbeitete, entwickelte ich ein scharfes Auge für Qualität und einen methodischen Ansatz zur Problemlösung. Mit der rasanten Entwicklung der Technologie beschäftigte ich mich eingehend mit IT-Lösungen und sorgte dafür, dass unser Beratungsunternehmen reibungslos funktioniert. Dieser Weg hat mich nicht nur zu einer Führungspersönlichkeit gemacht, sondern mir auch ein tiefes Verantwortungsgefühl dafür vermittelt, andere auf ihrem beruflichen Weg zu unterstützen und zu inspirieren.`,
+    description_en: `I took on my first leadership role as the founding board member responsible for HR, Quality Management, and IT in our student consultancy. From the start, I focused on creating a team culture built on trust and good communication - which led to noticeably stronger engagement from our members. In our projects, I developed a structured, quality-focused mindset and helped us achieve a green audit from the BDSU. Curious about how tech can make things better, I dove into digital tools that helped our team work more smoothly. This experience didn’t just sharpen my leadership skills - it also taught me how rewarding it is to support others and drive things forward together.`,
+    description_de: `Ich habe meine erste Führungsrolle als Vorstandsvorsitzender mit den Ressorts Personal, Qualitätsmanagement und IT in der studentischen Unternehmensberatung übernommen. Von Anfang an war mir eine offene Kommunikation und ein vertrauensvolles Miteinander wichtig - das hat die Beteiligung und Motivation im Team deutlich gesteigert. In unseren Projekten habe ich einen Blick für Qualität und eine strukturierte Herangehensweise entwickelt. So konnten wir unter anderem ein grünes Audit des BDSU erreichen. Besonders spannend fand ich, wie digitale Tools unsere Arbeit erleichtern können - hier habe ich viel ausprobiert und umgesetzt. Diese Zeit hat mich nicht nur als Führungskraft geprägt, sondern mir gezeigt, wie viel Freude es macht, gemeinsam etwas zu bewegen und andere zu unterstützen.`,
   },
   {
     title_en: "Software Developer",
@@ -55,8 +55,8 @@ const employment = [
     location: "Münster",
     startDate: "09/2022",
     endDate: "08/2023",
-    description_en: `Application of Machine Learing in IT-projects. Analysis and visualization of data in a Data Science context.`,
-    description_de: `Anwendung von Machine Learing in IT-Projekten. Analyse und Visualisierung von Daten in einem Data Science-Kontext.`,
+    description_en: `As a working student in viadee’s Data Science team, I applied machine learning, process mining, and BPMN 2.0 to analyze and improve Industry 4.0 processes. Within the Change.WorkAROUND research project, I contributed actionable insights through data preparation, modeling, and visualization to support business process optimization.`,
+    description_de: `Als Werkstudent im Data-Science-Team der viadee Unternehmensberatung habe ich Machine Learning, Process Mining und BPMN 2.0 genutzt, um Industrie-4.0-Prozesse datenbasiert zu analysieren und zu verbessern. Im Forschungsprojekt Change.WorkAROUND habe ich praxisnahe Erkenntnisse für die Optimierung von Geschäftsprozessen geliefert – von der Datenvorverarbeitung bis zur Visualisierung.`,
   },
   {
     title_en: "Student Assistant",
@@ -67,14 +67,10 @@ const employment = [
     location: "Münster",
     startDate: "10/2019",
     endDate: "03/2023",
-    description_en: `I enthusiastically work as a student assistant for Dr. Chasin 
-        at the chair of Information Systems and Information Management
-        for IT projects and contribute to scientific research at the European Research 
-        Center for Information Systems / University of Münster, where I gained insights 
-        into modern technologies and co-create and prepare lectures.`,
-    description_de: `Mit Begeisterung arbeite ich als studentische Hilfskraft für 
-        Dr. Chasin an IT- Projekten und wirke an der wissenschaftlichen Forschung am 
-        European Research Center for Information Systems und Universität Münster mit, wo ich Einblicke in 
+    description_en: `I enthusiastically worked as a student assistant for Dr. Chasin at the chair of Information Systems and Information Management for IT projects and contributed to scientific research at the European Research Center for Information Systems / University of Münster, where I gained insights into modern technologies and co-create and prepare lectures.`,
+    description_de: `Mit Begeisterung arbeitete ich als studentische Hilfskraft für 
+        Dr. Chasin an IT- Projekten und wirkte an der wissenschaftlichen Forschung am 
+        European Research Center for Information Systems / Universität Münster mit, wo ich Einblicke in 
         moderne Technologien gewinnen und Vorlesungen mitgestalten und vorbereiten konnte.`,
   },
   {
@@ -134,15 +130,13 @@ const education = [
     location: "Münster",
     startDate: "04/2022",
     endDate: "",
-    description_en: `I am currently studying at the University of Münster with a focus on Business Intelligence. 
-        Other domains of study are Process Management, Information Systems Development and Business Networks.`,
-    description_de: `Aktuell studiere ich an der Universität Münster mit dem Schwerpunkt Business Intelligence. 
-        Weitere Studienschwerpunkte sind Prozessmanagement, Entwicklung von Informationssystemen und Business Networks.`,
+    description_en: `I'm currently pursuing a Master's in Information Systems at the University of Münster, specializing in Business Intelligence and Business Networks. My projects include developing a canteen recommender system, automating document checks with deep learning, analyzing satellite imagery and social media data, and designing an enterprise architecture. I also gained management insights into customer-centric innovation and technology strategy.`,
+    description_de: `Ich studiere aktuell im Master Wirtschaftsinformatik an der Universität Münster mit Schwerpunkt auf Business Intelligence und Business Networks. In praxisnahen Projekten habe ich unter anderem ein Kantinen-Empfehlungssystem entwickelt, Dokumentenprüfungen mit Deep Learning automatisiert, Satellitenbilder und Social Media analysiert sowie ein Unternehmensarchitekturmodell entworfen. Außerdem habe ich Einblicke in kundenorientierte Innovation und Technologiemanagement gewonnen.`,
   },
   {
     title_en: "Business Informatics B. Sc.",
     title_de: "Wirtschaftsinformatik B. Sc.",
-    institution: "Uni Münster",
+    institution: "Universität Münster",
     link: "https://www.wi.uni-muenster.de/de/willkommen",
     imageSrc: require("@/assets/workExperience/Uni Münster.png"),
     location: "Münster",
