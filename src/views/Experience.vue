@@ -25,7 +25,7 @@ const employment = [
     location: "Münster",
     startDate: "08/2023",
     endDate: "07/2024",
-    description_en: `Through unwavering dedication and a relentless pursuit of knowledge, I honed my leadership skills to become the inaugural chairman overseeing Human Resources, Quality Management, and IT within our student consultancy. Early on, I recognized the power of effective communication and empathy in fostering a collaborative environment. Delving into diverse projects, I cultivated a keen eye for quality and a methodical approach to problem-solving. Embracing the rapid evolution of technology, I immersed myself in IT solutions, ensuring our consultancy operated seamlessly. This journey has not only shaped me into a leader but also instilled a deep sense of responsibility to empower and inspire others in their professional journeys.`,
+    description_en: `Through unwavering dedication and a relentless pursuit of knowledge, I honed my leadership skills to become the inaugural chairman overseeing Human Resources, Quality Management, and IT within our student consultancy. Early on, I recognized the power of effective communication and empathy in fostering a collaborative environment, which resulted in a significant increase in member engagement. Delving into diverse projects, I cultivated a keen eye for quality and a methodical approach to problem-solving. For example, we achieved a green audit from the BDSU. Embracing the rapid evolution of technology, I immersed myself in IT solutions, ensuring our consultancy operated seamlessly. This journey has not only shaped me into a leader but also instilled a deep sense of responsibility to empower and inspire others in their professional journeys.`,
     description_de: `Durch unerschütterliches Engagement und unermüdliches Streben nach Wissen habe ich meine Führungsqualitäten verfeinert und wurde zum ersten Vorsitzenden, der für die Bereiche Personalwesen, Qualitätsmanagement und IT in unserer studentischen Unternehmensberatung zuständig ist. Schon früh erkannte ich, wie wichtig effektive Kommunikation und Einfühlungsvermögen für die Förderung eines kollaborativen Umfelds sind. Indem ich mich in verschiedene Projekte einarbeitete, entwickelte ich ein scharfes Auge für Qualität und einen methodischen Ansatz zur Problemlösung. Mit der rasanten Entwicklung der Technologie beschäftigte ich mich eingehend mit IT-Lösungen und sorgte dafür, dass unser Beratungsunternehmen reibungslos funktioniert. Dieser Weg hat mich nicht nur zu einer Führungspersönlichkeit gemacht, sondern mir auch ein tiefes Verantwortungsgefühl dafür vermittelt, andere auf ihrem beruflichen Weg zu unterstützen und zu inspirieren.`,
   },
   {
@@ -61,7 +61,7 @@ const employment = [
   {
     title_en: "Student Assistant",
     title_de: "Studentische Hilfskraft",
-    institution: "ERCIS / Uni Münster",
+    institution: "ERCIS / Universität Münster",
     link: "https://www.ercis.org/",
     imageSrc: require("@/assets/workExperience/ERCIS.png"),
     location: "Münster",
@@ -74,7 +74,7 @@ const employment = [
         into modern technologies and co-create and prepare lectures.`,
     description_de: `Mit Begeisterung arbeite ich als studentische Hilfskraft für 
         Dr. Chasin an IT- Projekten und wirke an der wissenschaftlichen Forschung am 
-        European Research Center for Information Systems und Uni Münster mit, wo ich Einblicke in 
+        European Research Center for Information Systems und Universität Münster mit, wo ich Einblicke in 
         moderne Technologien gewinnen und Vorlesungen mitgestalten und vorbereiten konnte.`,
   },
   {
@@ -128,7 +128,7 @@ const education = [
   {
     title_en: "Information Systems M. Sc.",
     title_de: "Information Systems M. Sc.",
-    institution: "Uni Münster",
+    institution: "Universität Münster",
     link: "https://www.wi.uni-muenster.de/de/willkommen",
     imageSrc: require("@/assets/workExperience/Uni Münster.png"),
     location: "Münster",
@@ -156,7 +156,7 @@ const education = [
         In addition, I acquired important deep learning skills in the advanced module "Deep Learning with Python".
         These have paved the way and laid a foundation for my bachelor thesis, where I implemented a U-Net 
         (technological Deep Learning approach) to derive the tree stock from satellite images.`,
-    description_de: `An der Uni Münster eignete ich mir grundlegendes Wissen der BWL, Wirtschafts- 
+    description_de: `An der Universität Münster eignete ich mir grundlegendes Wissen der BWL, Wirtschafts- 
         und Informatik an. Zusätzlich habe ich mir Modellierungs- und verschiedene Programmiersprachen 
         angeeignet, die ich in meiner Freizeit verbessert habe. Außerdem leitete ich das 
         Projektseminar Frontend-Team, in dem eine komplexe Webanwendung erfolgreich implementiert wurde. 
@@ -174,12 +174,12 @@ const education = [
     location: "Gütersloh",
     startDate: "06/2016",
     endDate: "06/2018",
-    description_en: `I completed my Abitur with a GPA of 2.1 (from 1 best to 5 worst) at the Evangelisch 
+    description_en: `I completed my Abitur at the Evangelisch 
         Stiftischem Gymnasium (ESG), which is a technology-oriented secondary school. My advanced modules were Maths and English.
         I achieved a C1-level English through bilingual classes and a term at Cambridge International School. 
         I advanced my French skills on an exchange near Lyon and developed strong computer and Microsoft Office skills through daily use at school.`,
-    description_de: `Mit einem Notendurchschnitt von 2,1 habe ich mein Abitur an 
-        einem technisch orientierten Gymnasium abgeschlossen. Meine Leistungskurse waren Mathe und Englisch.
+    description_de: `Ich habe mein Abitur an dem Evangelisch Stiftischem Gymnasium (ESG) abgeschlossen. An diesem technisch orientierten Gymnasium habe
+        ich die Leistungskurse Mathe und Englisch.
         Ich habe ein C1-Niveau in Englisch durch bilingualen Unterricht und ein Trimester an der Cambridge International
         School erreicht. Außerdem habe ich fundierte Computer- und Microsoft-Office-Kenntnisse durch tägliche Anwendung in der Schule entwickelt.
         `,
