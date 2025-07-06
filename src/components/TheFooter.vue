@@ -36,9 +36,6 @@ const links = ref([
   },
 ]);
 
-const programmingIconsRef = ref(programmingIcons);
-const socialIconsRef = ref(socialIcons);
-
 function goTo(link) {
   if (link.includes("mailto")) {
     window.location.href = "mailto:contact@leogiesen.de";

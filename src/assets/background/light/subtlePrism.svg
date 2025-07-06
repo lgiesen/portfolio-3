@@ -2,8 +2,8 @@
     <defs>
         <style>
             :root {
-                --primaryLight: #6f74dd;
-                --primaryDark: #00227b;
+                --primaryLight: #7BC0EE;
+                --primaryDark: #013D63;
             }
 
             .gradient-footer-start {

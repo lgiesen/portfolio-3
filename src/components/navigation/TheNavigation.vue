@@ -4,8 +4,10 @@
     <v-app-bar class="appBar hidden-sm-and-down" :class="!dontShowAtTop ? 'transparent-background' : ''" flat
       elevation="0">
       <!-- transparent-background class is defined in @/App.vue -->
+
       <v-img class="shrink mr-2" alt="Leo Giesen Logo" contain width="40" transition="scale-transition"
         :src="themespecificLogoSrc"></v-img>
+
       <v-tabs align-with-title ref="tabs">
         <v-tab v-for="view in views" :key="view.to.name" :to="view.to" :class="dontShowAtTopComputed">
           {{ isDE ? view.tag_de : view.tag_en }}
