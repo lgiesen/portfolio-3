@@ -8,27 +8,21 @@ const lightTheme: ThemeDefinition = {
   dark: false,
   colors: {
     // Blue
-    primary: "#3949ab",
-    primaryLight: "#6f74dd",
-    primaryDark: "#00227b",
-    link: "#061437",
+    primary: "#013D63",
+    primaryLight: "#7BC0EE",
+    // primaryDark: "#052545",
+    link: "#052545",
     // Orange
-    secondary: "#f4511e",
+    secondary: "#7BC0EE",
     secondaryLight: "#ff844c",
-    secondaryDark: "#b91400",
-    // Complementary Sand (unused)
-    complementary: "#b99821",
-    // Purple
-    triadicFirst: "#9c39ab",
-    // Bordeaux Red
-    triadicSecond: "#ab3948",
-    // Text and Background
+    secondaryDark: "#043E38",
+    // accent: "#016358",
     text: "#3e3e3e",
     background: "#ffffff",
     btnColor: "#ffffff",
     // Home Hero Area
-    heroGradientBackgroundLeft: "#3949ab",
-    heroGradientBackgroundRight: "#f4511e",
+    heroGradientBackgroundLeft: "#7BC0EE",
+    heroGradientBackgroundRight: "#013D63",
     // Alerts
     success: "#34c759",
     warning: "#ff954f",
@@ -40,21 +34,18 @@ const darkTheme: ThemeDefinition = {
   dark: true,
   colors: {
     // Blue
-    primary: "#9fa8da",
-    primaryLight: "#d1d9ff",
-    primaryDark: "#6f79a8",
+    primary: "#7BC0EE",
+    // primaryLight: "#d1d9ff",
+    // primaryDark: "#6f79a8",
     // Orange
-    secondary: "#ffab91",
-    secondaryLight: "#ffddc1",
-    secondaryDark: "#c97b63",
-    // Light Purple
-    triadicFirst: "#d19fda",
-    // Light Bordeaux Red
-    triadicSecond: "#da9fa8",
+    secondary: "#dff0fa",
+    // secondaryLight: "#ffddc1",
+    // secondaryDark: "#c97b63",
     // Button and Background
     btnColor: "#121212",
-    heroGradientBackgroundLeft: "#383838",
-    heroGradientBackgroundRight: "#121212",
+    // TODO: MAKE IT DARKER
+    heroGradientBackgroundLeft: "#7BC0EE",
+    heroGradientBackgroundRight: "#052545",
     // Google Material Design Dark Theme Guidelines
     background: "#121212",
     backgroundLight: "#383838",
