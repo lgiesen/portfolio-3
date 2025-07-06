@@ -136,14 +136,14 @@ const projects = [
     files: [],
   },
   // Title Case Free Time Project
-  {
-    year: "2024",
-    link: "https://github.com/lgiesen/title-case",
-    imgSrc: new URL("@/assets/projects/title-case.png", import.meta.url).href,
-    img_width: "170px",
-    translationKey: "TitleCase",
-    files: [],
-  },
+  // {
+  //   year: "2024",
+  //   link: "https://github.com/lgiesen/title-case",
+  //   imgSrc: new URL("@/assets/projects/title-case.png", import.meta.url).href,
+  //   img_width: "170px",
+  //   translationKey: "TitleCase",
+  //   files: [],
+  // },
   // pivoty: Scalable Web Scraper
   {
     year: "2021",
