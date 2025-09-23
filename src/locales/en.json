@@ -83,6 +83,14 @@
         "hide": "Hide Preview",
         "show": "Show Preview"
       },
+      "aPFM": {
+        "title": "Agiles Portfoliomanagement",
+        "desc": "IT-Dienstleister Prozess unterstützt, wo eine halbe Millarde verwaltet wird für die Ressourcenallokation - PL in 2024 und wiederbeauftragung in 2025 mit explizitem Wunsch, dass ich nochmal unterstütze. Vollzeit für 4 Monate"
+      },
+      "WT": {
+        "title": "Digitalisierung",
+        "desc": "Westfalen AG - infrastruktur-Projekt 2022 als PL. Wiederbeauftragung mit mir als PL, wo interne Arbeitsabläufe verbessert werden sollten. Wiederbeauftragung in 2025, wo ich als Projektcontroller unterstützt habe."
+      },
       "DImensaToday": {
         "title": "Smart Dining in Münster: A Personalized Mensa Meal Recommender System",
         "desc": "The University of Münster is a distributed across the city with various canteens and bistros that serve different ranges of food which change weekly. As a student who eats at those places frequently, you have to look through all dishes of every canteen to find a meal that serves your needs. The idea this recommender system is to suggest mensa meals based on various different factors, such as your eating habits, location (based on semester schedule), weather and many more.This project was awarded the highest possible score for a grade of 1.0, which exceeded the professors' expectations in terms of performance. This reflects my ability to work in a team, develop innovative solutions, and ensure high-quality implementation. For instance, the professors positively highlighted the integration of a variety of data sources, the use of a state-of-the-art technology stack, and the development of a production-ready user interface.",

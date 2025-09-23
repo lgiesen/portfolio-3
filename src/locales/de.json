@@ -79,6 +79,14 @@
         "hide": "Vorschau verbergen",
         "show": "Vorschau anzeigen"
       },
+      "aPFM": {
+        "title": "Agiles Portfoliomanagement",
+        "desc": "IT-Dienstleister Prozess unterstützt, wo eine halbe Millarde verwaltet wird für die Ressourcenallokation - PL in 2024 und wiederbeauftragung in 2025 mit explizitem Wunsch, dass ich nochmal unterstütze. Vollzeit für 4 Monate"
+      },
+      "WT": {
+        "title": "Digitalisierung",
+        "desc": "Westfalen AG - infrastruktur-Projekt 2022 als PL. Wiederbeauftragung mit mir als PL, wo interne Arbeitsabläufe verbessert werden sollten. Wiederbeauftragung in 2025, wo ich als Projektcontroller unterstützt habe."
+      },
       "DImensaToday": {
         "title": "Intelligentes Speisen in Münster: Ein personalisiertes Mensa-Empfehlungssystem",
         "desc": "Die Universität Münster ist über das gesamte Stadtgebiet verteilt und verfügt über verschiedene Mensen und Bistros, die ein wöchentlich wechselndes Angebot an Speisen haben. Als Student, der häufig in diesen Mensen isst, muss man alle Gerichte der einzelnen Mensen durchsehen, um eine Mahlzeit zu finden, die den eigenen Bedürfnissen entspricht. Die Idee dieses Empfehlungssystems ist es, Mensa-Gerichte auf der Grundlage verschiedener Faktoren wie Essgewohnheiten, Standort (basierend auf dem Semesterplan), Wetter und vielem mehr vorzuschlagen. Dieses Projekt wurde mit der höchstmöglichen Punktzahl für die Note 1,0 bewertet, was hinsichtlich der Leistungsfähigkeit die Erwartungen der Professoren übertroffen hat. Dies spiegelt meine Fähigkeit wider, im Team zu arbeiten, innovative Lösungen zu entwickeln und eine hohe Qualität in der Umsetzung zu gewährleisten. Die Professoren haben beispielsweise positiv hervorgehoben, dass eine Vielzahl von Datenquellen integriert wurden, ein state-of-the-art Technologie-Stack genutzt wurde und eine produktionsreife Benutzeroberfläche entwickelt wurde.",
@@ -98,7 +106,7 @@
         "files": {}
       },
       "ForestHeight": {
-        "title": "Förderung der Umweltüberwachung: Baumsegmentierung in Südafrika mittels Deep Learning",
+        "title": "Förderung der Umweltüberwachung: Baumhöhen-Regression im Schwarzwald mittels Deep Learning",
         "desc": "Das Bundesministerium für Umwelt ist an der Höhe von den deutschen Wäldern. Angesichts der spärlichen Natur der Labels innerhalb der Satellitenbilder erforderte dieses Projekt innovative Ansätze, um diese Regressionsaufgabe erfolgreich durchzuführen. In dieser Fallstudie setzte ich verschiedene Strategien des maschinellen Lernens ein, um diesen Herausforderungen zu begegnen, was meine tiefgreifende Expertise sowohl im maschinellen Lernen als auch in der Programmierung unterstreicht. Dieses Projekt hebt nicht nur meine Fähigkeit hervor, komplexe Datenaufgaben zu navigieren, sondern unterstreicht auch mein Engagement für wertvolle Beiträge zu Umweltschutzanstrengungen. Diese Initiative beweist meine Fähigkeit zu kritischem Denken, innovativer Problemlösung und Anpassung an technische Herausforderungen, was mich zu einem unschätzbaren Mitglied jedes Teams macht.",
         "files": {
           "poster_overview": "Poster"
