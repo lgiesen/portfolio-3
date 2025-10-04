@@ -81,15 +81,15 @@
       },
       "aPFM": {
         "title": "Agiles Portfoliomanagement",
-        "desc": "IT-Dienstleister Prozess unterstützt, wo eine halbe Millarde verwaltet wird für die Ressourcenallokation - PL in 2024 und wiederbeauftragung in 2025 mit explizitem Wunsch, dass ich nochmal unterstütze. Vollzeit für 4 Monate"
+        "desc": "Leitung von zwei aufeinanderfolgenden Projekten im agilen Portfoliomanagement für einen führenden <b>IT-Dienstleister im Bankensektor</b> mit strategischer und finanzieller Steuerung eines Portfolios von <b>500 Mio. €</b>. Enge Zusammenarbeit mit Führungskräften und Vorständen zur Priorisierung wirkungsstarker Initiativen und Umsetzung maßgeschneiderter Lösungen für Banken und Finanzinstitute."
       },
       "WT": {
-        "title": "Digitalisierung",
-        "desc": "Westfalen AG - infrastruktur-Projekt 2022 als PL. Wiederbeauftragung mit mir als PL, wo interne Arbeitsabläufe verbessert werden sollten. Wiederbeauftragung in 2025, wo ich als Projektcontroller unterstützt habe."
+        "title": "IT-Infrastruktur und Prozessoptimierung",
+        "desc": "Leitung von drei aufeinanderfolgenden Projekten für ein führendes Unternehmen im öffentlichen Nahverkehr – beginnend mit einer umfassenden IT-Infrastrukturanalyse und -optimierung auf Basis von TOGAF und ArchiMate. In den Folgeprojekten wurden digitale Arbeitsabläufe, Kommunikation und Prozesseffizienz mit Microsoft 365 und IT-gestützter Automatisierung weiter verbessert. Die wiederholten Beauftragungen belegen das Vertrauen des Kunden in meine Arbeit und die nachhaltige Qualität der Ergebnisse."
       },
       "DImensaToday": {
-        "title": "Intelligentes Speisen in Münster: Ein personalisiertes Mensa-Empfehlungssystem",
-        "desc": "Die Universität Münster ist über das gesamte Stadtgebiet verteilt und verfügt über verschiedene Mensen und Bistros, die ein wöchentlich wechselndes Angebot an Speisen haben. Als Student, der häufig in diesen Mensen isst, muss man alle Gerichte der einzelnen Mensen durchsehen, um eine Mahlzeit zu finden, die den eigenen Bedürfnissen entspricht. Die Idee dieses Empfehlungssystems ist es, Mensa-Gerichte auf der Grundlage verschiedener Faktoren wie Essgewohnheiten, Standort (basierend auf dem Semesterplan), Wetter und vielem mehr vorzuschlagen. Dieses Projekt wurde mit der höchstmöglichen Punktzahl für die Note 1,0 bewertet, was hinsichtlich der Leistungsfähigkeit die Erwartungen der Professoren übertroffen hat. Dies spiegelt meine Fähigkeit wider, im Team zu arbeiten, innovative Lösungen zu entwickeln und eine hohe Qualität in der Umsetzung zu gewährleisten. Die Professoren haben beispielsweise positiv hervorgehoben, dass eine Vielzahl von Datenquellen integriert wurden, ein state-of-the-art Technologie-Stack genutzt wurde und eine produktionsreife Benutzeroberfläche entwickelt wurde.",
+        "title": "Personalisiertes Mensa-Empfehlungssystem für Münster",
+        "desc": "Entwicklung eines Empfehlungssystems für die Mensen der Universität Münster, das Mahlzeiten basierend auf Essgewohnheiten, Standort und Wetter vorschlägt. Das Projekt wurde mit der Bestnote 1,0 ausgezeichnet und von den Professoren für seine technische Exzellenz, Datenintegration und produktionsreife Benutzeroberfläche hervorgehoben.",
         "files": {
           "mensaToday_poster": "Poster",
           "mensaToday_demo": "Demo",
@@ -107,14 +107,14 @@
       },
       "ForestHeight": {
         "title": "Förderung der Umweltüberwachung: Baumhöhen-Regression im Schwarzwald mittels Deep Learning",
-        "desc": "Das Bundesministerium für Umwelt ist an der Höhe von den deutschen Wäldern. Angesichts der spärlichen Natur der Labels innerhalb der Satellitenbilder erforderte dieses Projekt innovative Ansätze, um diese Regressionsaufgabe erfolgreich durchzuführen. In dieser Fallstudie setzte ich verschiedene Strategien des maschinellen Lernens ein, um diesen Herausforderungen zu begegnen, was meine tiefgreifende Expertise sowohl im maschinellen Lernen als auch in der Programmierung unterstreicht. Dieses Projekt hebt nicht nur meine Fähigkeit hervor, komplexe Datenaufgaben zu navigieren, sondern unterstreicht auch mein Engagement für wertvolle Beiträge zu Umweltschutzanstrengungen. Diese Initiative beweist meine Fähigkeit zu kritischem Denken, innovativer Problemlösung und Anpassung an technische Herausforderungen, was mich zu einem unschätzbaren Mitglied jedes Teams macht.",
+        "desc": "Ziel des Projekts war die Ermittlung der Baumhöhe deutscher Wälder im Auftrag des Bundesumweltministeriums. Aufgrund der begrenzten Datenverfügbarkeit erforderte die Regressionsaufgabe innovative Machine-Learning-Ansätze. Ich entwickelte und evaluierte verschiedene Modelle, um diese Herausforderung zu lösen, und trug damit zu einem besseren Verständnis der Waldstruktur bei. Das Projekt zeigt meine Fähigkeit, datengetriebene Methoden präzise und wirkungsvoll auf Umweltfragestellungen anzuwenden.",
         "files": {
           "poster_overview": "Poster"
         }
       },
       "DLCaseStudy": {
         "title": "Fortschritte in der Klassifizierung von Landnutzung: Ein Deep-Learning-Ansatz",
-        "desc": "In gemeinsamer Anstrengung, entwickelten wir einen Deep Learning Ansatz, der Satellitenbilder in zehn Klassen der Landnutzung und -bedeckung semantisch segmentiert. Dies wird mit einem 3D CNN und Sliding-Window-Ansatz umgesetzt, der eine Genauigkeit von 73% erreicht. Das Projekt ermöglichte uns, Deep-Learning-Konzepte praktisch anzuwenden. Trotz Einschränkungen, die die Verwendung von U-Net-Architekturen verhinderten, erforschten wir Datenanreicherung und nutzten TensorFlow für das Training des Modells. Das Seminar führte auch Transer Learning ein und hob dessen Potenzial zur Leistungssteigerung des Modells hervor, obwohl unsere einzigartigen Anforderungen Herausforderungen darstellten. Diese Fallstudie zeigt nicht nur unsere Geschicklichkeit im Anwenden von Machine-Learning-Techniken, sondern betont auch unsere Fähigkeit, komplexe Datenherausforderungen zu navigieren und zu lösen, was uns zu wertvollen Mitgliedern in Umweltüberwachungs- und datengesteuerten Projekten macht.",
+        "desc": "Entwicklung eines Deep-Learning-Modells zur semantischen Segmentierung von Satellitenbildern in zehn Landnutzungs- und -bedeckungsklassen mittels 3D-CNN und Sliding-Window-Ansatz mit 73 % Genauigkeit. Anwendung von TensorFlow, Datenanreicherung und Transfer Learning. Das Projekt demonstriert fundierte Kenntnisse in Machine Learning und die Fähigkeit, komplexe Datenherausforderungen zu meistern.",
         "files": {
           "seminar_thesis": "Seminararbeit",
           "poster_overview": "Poster",
@@ -130,7 +130,7 @@
       },
       "UASentimentAnalysis": {
         "title": "Geographische Einblicke in Politische Stimmungen: Analyse von Donald Trump und Boris Johnson durch Soziale Medien",
-        "desc": "In dieser Seminararbeit mit dem Titel 'Popularität und Kontroversität: Eine standortbezogene Ereignis- und Stimmungsanalyse von Donald Trump und Boris Johnson' untersuchte ich den Einfluss geografischer Standorte auf die öffentliche Wahrnehmung dieser politischen Persönlichkeiten von 2018 bis 2022, unter Verwendung von X-Beiträgen (zuvor Twitter) aus Städten wie Los Angeles, New York City, Birmingham und London. Die Analyse nutzte fortschrittliche Machine Learning Methoden, einschließlich Stimmungsbewertung mit VADER und Ereignisanalyse, um die öffentliche Stimmung und Aufmerksamkeit gegenüber diesen Staatsoberhäuptern zu messen. Im Laufe dieses Projekts setzte ich umfangreich generative AI ein, um zahlreiche Aufgaben effizient zu optimieren, wie Literaturrecherche, Programmierung und die Zusammenfassung der Ergebnisse. Diese Arbeit demonstriert meine Fähigkeit, modernste AI- und Datenanalysetechniken in der akademischen Forschung anzuwenden und unterstreicht Fähigkeiten, die im heutigen datengetriebenen Entscheidungsprozess von unschätzbarem Wert sind.",
+        "desc": "Analyse der öffentlichen Wahrnehmung von Donald Trump und Boris Johnson (2018–2022) anhand standortbezogener X-Daten (ehemals Twitter) aus Städten wie New York, Los Angeles, London und Birmingham. Einsatz von Machine Learning, VADER-Sentimentanalyse und Ereigniserkennung zur Bewertung von Popularität und Kontroversität. Nutzung generativer KI zur Effizienzsteigerung bei Recherche, Programmierung und Ergebnisaufbereitung.",
         "files": {
           "final_presentation": "Präsentation",
           "seminar_thesis": "Seminararbeit",
@@ -141,13 +141,9 @@
         "title": "Effizienzsteigerung durch Optimierung der IT-Architektur",
         "desc": "In diesem Projekt wurde die IT-Infrastruktur eines Unternehmens aus dem öffentlichen Nahverkehrssektor unter Verwendung des TOGAF-Frameworks und der ArchiMate-Modellierungssprache umfassend analysiert und optimiert. Durch die Identifizierung und Behebung von Effizienzproblemen in der bestehenden IT-Infrastruktur, insbesondere im Hinblick auf den Zugriff auf Laufwerke, Kalenderverwaltung, Beschlussfassung und Videokonferenz-Software, konnte ich meine Fähigkeiten im Bereich der IT-Infrastruktur und -Transformation unter Beweis stellen. Das Projekt umfasste die Entwicklung eines detaillierten Transformationsplans und die Implementierung von Microsoft 365 als zentrale Plattform für eine verbesserte Zusammenarbeit und Kommunikation. Meine Rolle als Projektleiter und die erfolgreiche Durchführung dieses komplexen Vorhabens unterstreichen meine Kompetenz in der Leitung von IT-Projekten, mein Verständnis für moderne IT-Architekturen und meine Fähigkeit, innovative Lösungen für technische Herausforderungen zu entwickeln."
       },
-      "DigitalCollaboration": {
-        "title": "Optimierung Digitaler Arbeitsprozesse: Ein Leitfaden für Effiziente Zusammenarbeit",
-        "desc": "In diesem Folgeprojekt haben wir die digitalen Arbeitsabläufe eines führenden Unternehmens im öffentlichen Nahverkehrssektor weiter optimiert, wobei ich erneut die Rolle des Projektleiters übernahm. Dies unterstreicht das Vertrauen des Kunden in meine Fähigkeiten und die Zufriedenheit mit dem vorangegangenen Projekt. Durch die effektive Anwendung von Feedback-Schleifen und die Implementierung innovativer Lösungen wie Shared Folder über Remote Desktop und verbesserte Nutzung von Microsoft Forms in Teams-Meetings, konnten wir die interne Kommunikation und Prozesseffizienz signifikant steigern. Die Verwendung eines IT-gestützten Workflows zur Verwaltung von E-Mail-Verteilern und die Optimierung des Anwesenheitsplans und Desk Sharings zeigen meine Fähigkeit, komplexe Herausforderungen zu navigieren und qualitativ hochwertige Lösungen zu liefern, die über die Kundenerwartungen hinausgehen."
-      },
       "forum_web_scraper": {
-        "title": "Verborgene Schätze Aufdecken: Innovationspotenziale aus Diskussionsforen Gewinnen",
-        "desc": "Das Vertiefungsmodul Principles of Entrepreneurship wurde durch die Projektgruppenarbeit mit dem Startup pivoty ergänzt. Die grundlegende Geschäftsprozess-Idee von pivoty ist, dass extrahierte Informationen (mittels Web Scraping) aus Diskussionsforen genutzt werden, um mit einer AI-Analyse versteckte Innovationspotenziale abzuleiten. In dem Projekt habe ich mit zwei anderen Projektmitgliedern einen skalierbaren Web Scraper mit Scrapy gebaut, sodass dieser auf so viele Foren wie möglich angewendet werden kann. Hierbei wurde sich an der Struktur von den am weit verbreitensten Forenframeworks orientiert, um knapp 90% aller deutschsprachigen Diskussionsforen abzudecken. <br/><br/>pivoty ist in Münster ansässig und entwickelt 'eine AI-basierte Analysesoftware, die Innovationspotenziale'  (<a href='#bibliography'>Schäper et al. 2021a</a>)für Unternehmen 'durch die Analyse von unvoreingenommenen Customer Insights'  (<a href='#bibliography'>Schäper et al. 2021a</a>)versucht zu entdecken. Die extrahierten Ideen sind zwar subjektiv, aber der Positivitätsbias kann überwunden werden. Diese Erkenntnisse 'stützen sich auf eine Vielzahl von Online-Quellen wie soziale Netzwerke, Foren, Blogs und Produktrezensionen, um systematisch Inspirationen für neue neue Produkte und Dienstleistungen abzuleiten' (<a href='#bibliography'>Schäper et al. 2021b</a>)."
+        "title": "Innovationspotenziale aus Diskussionsforen Extrahieren",
+        "desc": "Im Vertiefungsmodul <em>Principles of Entrepreneurship</em> arbeiteten wir mit dem Münsteraner Startup <em>pivoty</em> zusammen, das eine KI-gestützte Analysesoftware entwickelt, um Innovationspotenziale aus Online-Diskussionen abzuleiten (<a href='#bibliography'>Schäper et al. 2021a</a>). Gemeinsam mit zwei Teammitgliedern konzipierte und implementierte ich einen skalierbaren Web Scraper mit <em>Scrapy</em>, der anhand der Struktur gängiger Forenframeworks rund 90&nbsp;% aller deutschsprachigen Diskussionsforen abdeckt. Die gewonnenen Daten bilden die Grundlage, um aus unvoreingenommenen Nutzerbeiträgen neue Produkt- und Dienstleistungsideen zu identifizieren (<a href='#bibliography'>Schäper et al. 2021b</a>)."
       },
       "goc": {
         "title": "Förderung der Führungskräfte von Morgen: Eine Webbasierte Simulation für die Öffentliche Verwaltung",
@@ -159,7 +155,7 @@
       },
       "lawFirmWebDevelopment": {
         "title": "Digitale Präsenz stärken: Web-Konzeption für eine Anwaltskanzlei",
-        "desc": "Im Rahmen eines Teams trug ich zur Implementierung einer Website bei, die das Ziel verfolgte, Online-Markenbewusstsein für die Beratungstätigkeit einer Anwaltskanzlei zu schaffen. Die Entwicklung erfolgte mittels WordPress, wobei zahlreiche Plugins und Anpassungen zum Einsatz kamen, um die Website nicht nur funktional, sondern auch visuell ansprechend zu gestalten. Durch die enge Zusammenarbeit mit dem Kunden und die Berücksichtigung seiner Wünsche in mehreren Feedbackschleifen, konnte eine kundenorientierte Lösung realisiert werden. Dieses Projekt demonstriert meine Fähigkeiten in der Implementierung, Kommunikation und Teamarbeit und unterstreicht meine Rolle als wertvolles Teammitglied, das in der Lage ist, anspruchsvolle digitale Projekte erfolgreich umzusetzen."
+        "desc": "Entwicklung und Umsetzung einer WordPress-Website zur Steigerung der Online-Sichtbarkeit der Beratungsleistungen einer Anwaltskanzlei. Fokus auf einfache Selbstverwaltung, damit der Kunde Inhalte eigenständig pflegen kann."
       },
       "portfolioWebDevelopment": {
         "title": "Mein Digitales Schaufenster: Portfolio-Website mit Vue.js",
@@ -167,7 +163,7 @@
       },
       "eBusinessWebDevelopment": {
         "title": "Entwicklung eines eBusiness einschließlich Online Branding",
-        "desc": "Als Teil des Projektteams trug ich maßgeblich zur Entwicklung eines Online-Video-Shops bei, der sich durch modernes Design, kreative Content-Erstellung und integrierte erklärende Produktvideos auszeichnet. Die Plattform wurde mit WordPress und einer Reihe von Plugins und Anpassungen realisiert, um nicht nur optisch, sondern auch inhaltlich zu überzeugen. Durch die enge Zusammenarbeit im Team und die kontinuierliche Abstimmung mit dem Kunden wurden dessen Wünsche effektiv in das Projekt integriert, was meine Kompetenzen in den Bereichen Implementierung, Kommunikation und Kundenorientierung unter Beweis stellt. Dieses Projekt verdeutlicht meine Fähigkeit, innovative digitale Lösungen im Teamkontext zu entwickeln und umzusetzen."
+        "desc": "Im Projektteam entwickelte ich eine Online-Videoplattform mit modernem Design, erklärenden Produktvideos und maßgeschneiderten WordPress-Anpassungen. In enger Abstimmung mit dem Kunden setzten wir dessen Anforderungen effizient um. Das Projekt verdeutlicht meine Erfahrung in technischer Umsetzung, Teamarbeit und kundenorientierter Entwicklung digitaler Lösungen."
       },
       "watchtrainer": {
         "title": "Sportler Stärken: Frontend-Innovation für eine Wearable-Sportplattform",

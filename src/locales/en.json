@@ -84,16 +84,16 @@
         "show": "Show Preview"
       },
       "aPFM": {
-        "title": "Agiles Portfoliomanagement",
-        "desc": "IT-Dienstleister Prozess unterstützt, wo eine halbe Millarde verwaltet wird für die Ressourcenallokation - PL in 2024 und wiederbeauftragung in 2025 mit explizitem Wunsch, dass ich nochmal unterstütze. Vollzeit für 4 Monate"
+        "title": "Agile Portfolio Management",
+        "desc": "Led two consecutive agile portfolio management projects for a leading <b>IT service provider in the banking sector</b>, overseeing strategic and financial steering of a <b>€500 million</b> portfolio. Collaborated directly with executives and Board members to prioritize high-impact initiatives and deliver tailored solutions for banks and financial institutions."
       },
       "WT": {
-        "title": "Digitalisierung",
-        "desc": "Westfalen AG - infrastruktur-Projekt 2022 als PL. Wiederbeauftragung mit mir als PL, wo interne Arbeitsabläufe verbessert werden sollten. Wiederbeauftragung in 2025, wo ich als Projektcontroller unterstützt habe."
+        "title": "IT Infrastructure and Process Optimization",
+        "desc": "Led three consecutive projects for a leading public transportation company, starting with a full IT infrastructure analysis and optimization using TOGAF and ArchiMate. Subsequent re-engagements focused on enhancing digital workflows, communication, and process efficiency through Microsoft 365 and IT-supported automation. The repeated assignments underline the client’s strong confidence in my work quality and consistent delivery of impactful results."
       },
       "DImensaToday": {
-        "title": "Smart Dining in Münster: A Personalized Mensa Meal Recommender System",
-        "desc": "The University of Münster is a distributed across the city with various canteens and bistros that serve different ranges of food which change weekly. As a student who eats at those places frequently, you have to look through all dishes of every canteen to find a meal that serves your needs. The idea this recommender system is to suggest mensa meals based on various different factors, such as your eating habits, location (based on semester schedule), weather and many more.This project was awarded the highest possible score for a grade of 1.0, which exceeded the professors' expectations in terms of performance. This reflects my ability to work in a team, develop innovative solutions, and ensure high-quality implementation. For instance, the professors positively highlighted the integration of a variety of data sources, the use of a state-of-the-art technology stack, and the development of a production-ready user interface.",
+        "title": "Personalized Mensa Meal Recommender System for Münster",
+        "desc": "Developed a recommender system for the University of Münster canteens suggesting meals based on eating habits, location, and weather. Awarded the top grade (1.0) for outstanding technical performance, data integration, and a production-ready user interface.",
         "files": {
           "mensaToday_poster": "Poster",
           "mensaToday_demo": "Demo",
@@ -111,7 +111,7 @@
       },
       "DLCaseStudy": {
         "title": "Advancements in Land Use Classification: A Deep Learning Approach",
-        "desc": "In a joint effort, we developed a deep learning approach that semantically segments satellite images into ten classes of land use and coverage. This was implemented using a 3D CNN and a sliding window approach, achieving an accuracy of 73%. The project enabled us to apply deep learning concepts in a practical setting. Despite limitations that prevented the use of U-Net architectures, we explored data augmentation and utilized TensorFlow for model training. The seminar also introduced transfer learning, highlighting its potential to enhance model performance, although our unique requirements posed challenges. This case study not only demonstrates our proficiency in applying machine learning techniques but also emphasizes our ability to navigate and solve complex data challenges, making us valuable contributors to environmental monitoring and data-driven projects.",
+        "desc": "Developed a deep learning model for semantic segmentation of satellite imagery into ten land use and cover classes using a 3D CNN and sliding window approach, achieving 73% accuracy. Applied TensorFlow, data augmentation, and transfer learning. The project demonstrates strong machine learning expertise and the ability to solve complex data challenges.",
         "files": {
           "seminar_thesis": "Seminar Thesis",
           "poster_overview": "Poster",
@@ -127,14 +127,14 @@
       },
       "ForestHeight": {
         "title": "Elevating Environmental Insights: Forest Height Analysis Using Machine Learning",
-        "desc": "The Federal Ministry for the Environment is interested in the height of German forests. Given the sparse nature of labels within satellite images, this project required innovative approaches to successfully complete this regression task. In this case study, I employed various machine learning strategies to meet these challenges, which underscores my profound expertise in both machine learning and programming. This project not only highlights my ability to navigate complex data tasks but also underscores my commitment to making valuable contributions to environmental protection efforts. This initiative proves my capacity for critical thinking, innovative problem-solving, and adapting to technical challenges, making me an invaluable member of any team.",
+        "desc": "The project, commissioned by the Federal Ministry for the Environment, aimed to estimate forest height across Germany. Due to limited labeled data, the regression task required innovative machine learning methods. I developed and evaluated several models to address this challenge, contributing to a better understanding of forest structure. The project demonstrates my ability to apply data-driven methods effectively to environmental analysis.",
         "files": {
           "poster_overview": "Poster"
         }
       },
       "UASentimentAnalysis": {
         "title": "Geographical Insights into Political Sentiment: Analyzing Donald Trump and Boris Johnson through Social Media",
-        "desc": "In this seminar thesis, titled 'Popularity and Controversy: A Location-Based Event and Sentiment Analysis of Donald Trump and Boris Johnson', I explored the influence of geographic location on public perceptions of these political figures from 2018 to 2022, using X (formerly Twitter) posts from cities like Los Angeles, New York City, Birmingham, and London. The analysis employed advanced machine learning techniques, including sentiment scoring with VADER and event analysis, to gauge public sentiment and attention towards these leaders. Throughout this project, I extensively utilized generative AI to streamline numerous tasks efficiently, such as literature research, programming, and the synthesis of findings. This work demonstrates my ability to apply cutting-edge AI and data analysis techniques in academic research, showcasing skills that are invaluable in today's data-driven decision-making processes.",
+        "desc": "Analyzed public perception of Donald Trump and Boris Johnson (2018–2022) using location-based X data (formerly Twitter) from cities like New York, Los Angeles, London, and Birmingham. Applied machine learning, VADER sentiment analysis, and event detection to assess popularity and controversy. Leveraged generative AI to optimize research, coding, and results synthesis.",
         "files": {
           "final_presentation": "Presentation",
           "seminar_thesis": "Seminar Thesis",
@@ -143,19 +143,11 @@
       },
       "forum_web_scraper": {
         "title": "Uncovering Hidden Gems: Gaining Innovation Potential From Discussion Forums",
-        "desc": "The Information Systems specialization module 'Principles of Entrepreneurship' was supplemented by the project group work with the startup pivoty. The basic business process idea of the start-up is that extracted information from discussion forums (using web scraping) is used to derive hidden innovation potentials with an AI analysis. In the project, I have built a scalable web scraper with Scrapy, so that it can be applied to as many discussion forums as possible. The structure of the most widespread forum frameworks was used to cover almost 90% of all german discussion forums. <br/><br/>pivoty is located in Münster and develops “an AI-based analytics software that tries to discover innovation potentials” (<a href='#bibliography'>Schäper et al. 2021a</a>) for companies “by analyzing unbiased customer insights” (<a href='#bibliography'>Schäper et al. 2021a</a>). To clarify, the extracted ideas are subjective, but the positivity bias may be overcome. These insights “draw on a variety of online sources like social networks, forums, blogs, and product reviews to systematically derive inspirations for new products and services” (<a href='#bibliography'>Schäper et al. 2021b</a>)."
+        "desc": "As part of the Principles of Entrepreneurship specialization module, we collaborated with the Münster-based startup pivoty, which develops AI-driven analytics software to identify innovation potential from online discussions (<a href='#bibliography'>Schäper et al. 2021a</a>). Together with two team members, I designed and implemented a scalable web scraper using Scrapy, based on the structure of major forum frameworks, covering about 90&nbsp;% of all German-language discussion forums. The extracted data enables the detection of unbiased customer insights and inspirations for new products and services (<a href='#bibliography'>Schäper et al. 2021b</a>)."
       },
       "goc": {
         "title": "Shaping Tomorrow's Leaders: A Web-Based Simulation for Public Administration",
-        "desc": "We've significantly improved how public administration personnel engage with training using 'Game of Competences,' a web-based simulation platform developed with Vue.js and Flask. Leading the frontend team, I guided and trained my colleagues in advanced frontend techniques using Vue.js 2. This project was not only highly rewarding but also achieved considerable success, marked by an overall grade of 1.3."
-      },
-      "ITArchitecture": {
-        "title": "Enhancing Efficiency by Optimizing IT-Architecture",
-        "desc": "In this project, the IT infrastructure of a company in the public transportation sector was thoroughly analyzed and optimized using the TOGAF framework and ArchiMate modeling language. By identifying and addressing efficiency issues in the existing IT structure, especially regarding drive access, calendar management, decision-making, and video conferencing software, I demonstrated my skills in IT infrastructure and transformation. The project included developing a detailed transformation plan and implementing Microsoft 365 as a central platform for improved collaboration and communication. My role as project leader and the successful execution of this complex initiative highlight my proficiency in managing IT projects, understanding modern IT architectures, and my ability to devise innovative solutions to technical challenges."
-      },
-      "DigitalCollaboration": {
-        "title": "Digital Workflow Optimization: A Guide to Efficient Collaboration",
-        "desc": "In this follow-up project to the one above, we continued to optimize the digital workflows of a leading company in the public transportation sector, where I once again took on the role of project lead. This underscores the customer's confidence in my capabilities and satisfaction with the preceding project. Through effective application of feedback loops and the implementation of innovative solutions such as Shared Folders over Remote Desktop and enhanced use of Microsoft Forms in Teams meetings, we significantly improved internal communication and process efficiency. Utilizing an IT-supported workflow to manage email distribution lists and optimizing the attendance plan and desk sharing showcases my ability to navigate complex challenges and deliver high-quality solutions that exceed customer expectations."
+        "desc": "We've significantly improved how public administration personnel engage with training using 'Game of Competences', a web-based simulation platform developed with Vue.js and Flask. Leading the frontend team, I guided and trained my colleagues in advanced frontend techniques using Vue.js 2. This project was not only highly rewarding but also achieved considerable success, marked by an overall grade of 1.3."
       },
       "TitleCase": {
         "title": "Streamlining Academic Excellence: The Capitalization Tool",
@@ -163,7 +155,7 @@
       },
       "lawFirmWebDevelopment": {
         "title": "Enhancing Digital Presence: Web Development for a Law Firm",
-        "desc": "As part of a team, I contributed to the implementation of a website aimed at creating online brand awareness for the consultancy services of a law firm. The website was developed using WordPress, incorporating multiple plugins and customizations to ensure both functionality and visual appeal. My close collaboration with the customer, taking their preferences into account through multiple feedback loops, resulted in a customer-centric solution. This project showcases my skills in implementation, communication, and teamwork, highlighting my value as a team member capable of successfully executing sophisticated digital projects."
+        "desc": "Developed and implemented a WordPress website to build online brand awareness for a law firm’s consultancy services. The solution focused on simplicity and easy self-maintenance, enabling the client to manage content independently."
       },
       "portfolioWebDevelopment": {
         "title": "My Digital Showcase: Portfolio Website with Vue.js",
@@ -171,7 +163,7 @@
       },
       "eBusinessWebDevelopment": {
         "title": "Development of an eBusiness Including Online Branding",
-        "desc": "As a key member of the project team, I contributed significantly to the development of an online video shop, focusing on modern design, innovative content creation, and explanatory product videos. The platform was developed using WordPress, along with various plugins and customizations, to ensure both visual appeal and content richness. Through close teamwork and continuous coordination with the customer, their preferences were effectively integrated into the project, showcasing my skills in implementation, communication, and customer-centricity. This project highlights my ability to develop and implement innovative digital solutions within a team context."
+        "desc": "As part of the project team, I helped develop an online video platform featuring modern design, explanatory product videos, and customized WordPress integrations. Close coordination with the client ensured efficient implementation of requirements. The project reflects my experience in technical execution, teamwork, and customer-focused digital solution development."
       },
       "watchtrainer": {
         "title": "Empowering Athletes: Frontend Innovation for Wearable Sports Platform",

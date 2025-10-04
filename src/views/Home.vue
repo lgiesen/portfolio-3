@@ -100,12 +100,12 @@ const isDarkTheme = computed(() => currentTheme.value === 'dark')
 const gradientBtn = computed(() => ({
   backgroundImage: `
     linear-gradient(to right,
-      ${theme.current.value.colors.secondary} 0%,
-      ${theme.current.value.colors.primary} 51%,
-      ${theme.current.value.colors.secondary} 100%)`,
+      ${theme.current.value.colors.heroGradientBackgroundLeft} 0%,
+      ${theme.current.value.colors.heroGradientBackgroundRight} 50%,
+      ${theme.current.value.colors.heroGradientBackgroundLeft} 100%)`,
   backgroundSize: "200% auto",
   transition: "0.5s",
-  color: "white",
+  color: "white", // icon color
 }))
 const colors = computed(() => theme.current.value.colors)
 

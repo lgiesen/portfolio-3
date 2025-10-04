@@ -35,7 +35,7 @@ const darkTheme: ThemeDefinition = {
   colors: {
     // Blue
     primary: "#7BC0EE",
-    // primaryLight: "#d1d9ff",
+    primaryLight: "#7BC0EE",
     // primaryDark: "#6f79a8",
     // Orange
     secondary: "#dff0fa",

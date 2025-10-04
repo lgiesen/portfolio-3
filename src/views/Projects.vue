@@ -4,6 +4,24 @@ import { useGoTo } from 'vuetify';
 const parallaxImagePath = new URL('@/assets/background/Glatthorn.webp', import.meta.url).href;
 const smallImgPath = new URL('@/assets/profile/Glatthorn_Aufstieg.webp', import.meta.url).href;
 const projects = [
+  // Atruvia - Agile Portfolio Management
+  {
+    translationKey: "aPFM",
+    year: "2024 & 2025",
+    link: "",
+    imgSrc: "",
+    img_width: "",
+    files: [],
+  },
+  // WestfalenTarif - Internal Revision IT Architecture
+  {
+    translationKey: "WT",
+    year: "2022, 2023 & 2024",
+    link: "",
+    imgSrc: new URL('@/assets/projects/westfalentarif.svg', import.meta.url).href,
+    img_width: "250px",
+    files: [],
+  },
   // MensaToday Recommender System Data Integration
   {
     translationKey: "DImensaToday",
@@ -117,33 +135,6 @@ const projects = [
       },
     ],
   },
-  // IT Architecture
-  {
-    year: "2022",
-    link: null,
-    imgSrc: null,
-    img_width: "",
-    translationKey: "ITArchitecture",
-    files: [],
-  },
-  // Digital Workflow
-  {
-    year: "2023",
-    link: null,
-    imgSrc: null,
-    img_width: "",
-    translationKey: "DigitalCollaboration",
-    files: [],
-  },
-  // Title Case Free Time Project
-  // {
-  //   year: "2024",
-  //   link: "https://github.com/lgiesen/title-case",
-  //   imgSrc: new URL("@/assets/projects/title-case.png", import.meta.url).href,
-  //   img_width: "170px",
-  //   translationKey: "TitleCase",
-  //   files: [],
-  // },
   // pivoty: Scalable Web Scraper
   {
     year: "2021",
@@ -180,7 +171,7 @@ const projects = [
     translationKey: "lawFirmWebDevelopment",
     files: [],
   },
-  // move Entwicklung eines eBusiness einschließlich Online Branding
+  // move Development of an eBusiness with Online Branding (PM, 09/2019 - 01/2020)
   {
     year: "2019-2020",
     link: null,
@@ -230,7 +221,7 @@ function scrollBibliography() {
           <div v-for="project in projects" :id="project.translationKey" :key="project.translationKey">
             <v-row justify="center">
               <v-col cols="11" md="7" class="text-center">
-                <h2 class="text-h4 font-weight-light mb-0" style="word-break: break-word;">
+                <h2 class="text-h4 font-weight-light mb-0 text-primary" style="word-break: break-word;">
                   {{ $t('projects.projects.' + project.translationKey + '.title') }}
                 </h2>
 
