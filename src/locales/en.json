@@ -110,7 +110,7 @@
         "files": {}
       },
       "DLCaseStudy": {
-        "title": "Advancements in Land Use Classification: A Deep Learning Approach",
+        "title": "Land Use Classification with Deep Learning",
         "desc": "Developed a deep learning model for semantic segmentation of satellite imagery into ten land use and cover classes using a 3D CNN and sliding window approach, achieving 73% accuracy. Applied TensorFlow, data augmentation, and transfer learning. The project demonstrates strong machine learning expertise and the ability to solve complex data challenges.",
         "files": {
           "seminar_thesis": "Seminar Thesis",
@@ -119,21 +119,21 @@
         }
       },
       "BA": {
-        "title": "Advancing Environmental Monitoring: Tree Segmentation in South Africa with Deep Learning",
+        "title": "Deep Learning for Tree Segmentation in South Africa",
         "desc": "<p style='text-align:center;'> (adapted from <a href = '#bibliography'>Ronneberger, Fischer, and Brox [RFB15]</a>)</p> This project represents a significant step forward in environmental monitoring in South Africa's drylands. Utilizing deep learning with the U-Net architecture, we have devised a method to accurately detect individual trees and shrubs from satellite images. These non-forest trees, growing isolated without canopy closure, are vital for biodiversity, carbon storage, and providing resources to both humans and animals. By assessing tree numbers, we gain insights into the biomass of these areas, which is essential for sustainability initiatives. The project showcases an effective approach to environmental analysis, demonstrating my expertise in machine learning and programming. The findings aim to be shared on a sustainability-focused website, to increase awareness on critical issues such as land degradation, deforestation, and reforestation.",
         "files": {
           "BAThesis": "Bachelor Thesis"
         }
       },
       "ForestHeight": {
-        "title": "Elevating Environmental Insights: Forest Height Analysis Using Machine Learning",
+        "title": "Forest Height Analysis with Machine Learning",
         "desc": "The project, commissioned by the Federal Ministry for the Environment, aimed to estimate forest height across Germany. Due to limited labeled data, the regression task required innovative machine learning methods. I developed and evaluated several models to address this challenge, contributing to a better understanding of forest structure. The project demonstrates my ability to apply data-driven methods effectively to environmental analysis.",
         "files": {
           "poster_overview": "Poster"
         }
       },
       "UASentimentAnalysis": {
-        "title": "Geographical Insights into Political Sentiment: Analyzing Donald Trump and Boris Johnson through Social Media",
+        "title": "Political Sentiment on Trump and Johnson in Social Media",
         "desc": "Analyzed public perception of Donald Trump and Boris Johnson (2018–2022) using location-based X data (formerly Twitter) from cities like New York, Los Angeles, London, and Birmingham. Applied machine learning, VADER sentiment analysis, and event detection to assess popularity and controversy. Leveraged generative AI to optimize research, coding, and results synthesis.",
         "files": {
           "final_presentation": "Presentation",
@@ -142,11 +142,11 @@
         }
       },
       "forum_web_scraper": {
-        "title": "Uncovering Hidden Gems: Gaining Innovation Potential From Discussion Forums",
+        "title": "Extracting Innovation Potential from Discussion Forums",
         "desc": "As part of the Principles of Entrepreneurship specialization module, we collaborated with the Münster-based startup pivoty, which develops AI-driven analytics software to identify innovation potential from online discussions (<a href='#bibliography'>Schäper et al. 2021a</a>). Together with two team members, I designed and implemented a scalable web scraper using Scrapy, based on the structure of major forum frameworks, covering about 90&nbsp;% of all German-language discussion forums. The extracted data enables the detection of unbiased customer insights and inspirations for new products and services (<a href='#bibliography'>Schäper et al. 2021b</a>)."
       },
       "goc": {
-        "title": "Shaping Tomorrow's Leaders: A Web-Based Simulation for Public Administration",
+        "title": "Web-Based Simulation for Leadership in Public Administration",
         "desc": "We've significantly improved how public administration personnel engage with training using 'Game of Competences', a web-based simulation platform developed with Vue.js and Flask. Leading the frontend team, I guided and trained my colleagues in advanced frontend techniques using Vue.js 2. This project was not only highly rewarding but also achieved considerable success, marked by an overall grade of 1.3."
       },
       "TitleCase": {
@@ -154,11 +154,11 @@
         "desc": "In the pursuit of academic rigor and coherence, the capitalization guidelines tool emerges as a pivotal innovation, offering a standardized approach to title capitalization within the realm of academic writing. This project is designed to enhance the clarity and uniformity of titles across scholarly publications by adhering to APA style title case capitalization. It is a testament to the importance of presenting work in a manner that is both accessible and memorable to readers. The tool simplifies the application of title case to texts and entire bibliographies, significantly boosting efficiency in academic research and presentations. Through the integration of existing code, modified and optimized for this purpose, this project not only showcases my ability to understand and adapt the work of fellow programmers but also highlights my competency in collaborative development. Written in Rust and Python, the implementation facilitates the work of scholars, thereby enriching the academic community's ability to communicate research findings effectively."
       },
       "lawFirmWebDevelopment": {
-        "title": "Enhancing Digital Presence: Web Development for a Law Firm",
+        "title": "Web Development for a Law Firm's Digital Presence",
         "desc": "Developed and implemented a WordPress website to build online brand awareness for a law firm’s consultancy services. The solution focused on simplicity and easy self-maintenance, enabling the client to manage content independently."
       },
       "portfolioWebDevelopment": {
-        "title": "My Digital Showcase: Portfolio Website with Vue.js",
+        "title": "Portfolio Website with Vue.js",
         "desc": "Since 2021, I have been maintaining my portfolio website, implemented using Vue.js 3. This project serves not only as a digital showcase of my work but also highlights my creative approach and capabilities in the web development domain. Opting for Vue.js 3 for its development demonstrates my proficiency with modern JavaScript frameworks and my ability to create engaging and user-friendly web applications. The ongoing maintenance and updating of the site reflect my commitment to quality work and pursuit of technical excellence. This project effectively showcases how I leverage innovative technologies to produce creative solutions that are both aesthetically pleasing and functional."
       },
       "eBusinessWebDevelopment": {
@@ -166,7 +166,7 @@
         "desc": "As part of the project team, I helped develop an online video platform featuring modern design, explanatory product videos, and customized WordPress integrations. Close coordination with the client ensured efficient implementation of requirements. The project reflects my experience in technical execution, teamwork, and customer-focused digital solution development."
       },
       "watchtrainer": {
-        "title": "Empowering Athletes: Frontend Innovation for Wearable Sports Platform",
+        "title": "Frontend Innovation for Wearable Sports Platform",
         "desc": "WatchTrainer played a significant role in the advancement of wearable sports technology, introducing a sports platform that utilizes the capabilities of devices like the Apple Watch. In this innovative project, I was responsible for leading the frontend development with Vue.js, aiming to provide an intuitive and seamless user experience. This project highlighted my ability to craft engaging digital solutions that blend smoothly with the latest technology."
       }
     },

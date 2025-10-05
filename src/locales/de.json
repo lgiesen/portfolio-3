@@ -106,14 +106,14 @@
         "files": {}
       },
       "ForestHeight": {
-        "title": "Förderung der Umweltüberwachung: Baumhöhen-Regression im Schwarzwald mittels Deep Learning",
+        "title": "Baumhöhenanalyse im Schwarzwald mit Deep Learning",
         "desc": "Ziel des Projekts war die Ermittlung der Baumhöhe deutscher Wälder im Auftrag des Bundesumweltministeriums. Aufgrund der begrenzten Datenverfügbarkeit erforderte die Regressionsaufgabe innovative Machine-Learning-Ansätze. Ich entwickelte und evaluierte verschiedene Modelle, um diese Herausforderung zu lösen, und trug damit zu einem besseren Verständnis der Waldstruktur bei. Das Projekt zeigt meine Fähigkeit, datengetriebene Methoden präzise und wirkungsvoll auf Umweltfragestellungen anzuwenden.",
         "files": {
           "poster_overview": "Poster"
         }
       },
       "DLCaseStudy": {
-        "title": "Fortschritte in der Klassifizierung von Landnutzung: Ein Deep-Learning-Ansatz",
+        "title": "Landnutzungsklassifizierung mit Deep Learning",
         "desc": "Entwicklung eines Deep-Learning-Modells zur semantischen Segmentierung von Satellitenbildern in zehn Landnutzungs- und -bedeckungsklassen mittels 3D-CNN und Sliding-Window-Ansatz mit 73 % Genauigkeit. Anwendung von TensorFlow, Datenanreicherung und Transfer Learning. Das Projekt demonstriert fundierte Kenntnisse in Machine Learning und die Fähigkeit, komplexe Datenherausforderungen zu meistern.",
         "files": {
           "seminar_thesis": "Seminararbeit",
@@ -122,14 +122,14 @@
         }
       },
       "BA": {
-        "title": "Umweltmonitoring-Innovation: Deep Learning zur Baumsegmentierung in Südafrika",
+        "title": "Deep Learning für Baumsegmentierung in Südafrika",
         "desc": "<p style='text-align:center;'> (angepasst von <a href='#bibliography'>Ronneberger, Fischer, and Brox [RFB15]</a>) </p> Dieses Projekt leistet einen wichtigen Beitrag zur Umweltüberwachung in den Trockengebieten Südafrikas. Durch den Einsatz von Deep Learning und der U-Net-Architektur wurde eine Methode zur genauen Detektion von einzelnen Bäumen und Sträuchern aus Satellitenbildern entwickelt. Diese isoliert wachsenden Nicht-Wald-Bäume sind entscheidend für die Biodiversität, die Kohlenstoffspeicherung und die Versorgung von Menschen und Tieren. Die Ermittlung der Baumzahl ermöglicht Einblicke in die Biomasse der Regionen, was für Nachhaltigkeitsbestrebungen unerlässlich ist. Das Projekt präsentiert einen effektiven Ansatz zur Umweltanalyse und unterstreicht meine Fachkenntnisse im Machine Learning und in der Programmierung. Die Ergebnisse sollen auf einer auf Nachhaltigkeit ausgerichteten Website geteilt werden, um das Bewusstsein für wichtige Themen wie Landdegradation, Entwaldung und Aufforstung zu schärfen.",
         "files": {
           "BAThesis": "Bachelorarbeit"
         }
       },
       "UASentimentAnalysis": {
-        "title": "Geographische Einblicke in Politische Stimmungen: Analyse von Donald Trump und Boris Johnson durch Soziale Medien",
+        "title": "Politische Stimmungen zu Trump und Johnson in sozialen Medien",
         "desc": "Analyse der öffentlichen Wahrnehmung von Donald Trump und Boris Johnson (2018–2022) anhand standortbezogener X-Daten (ehemals Twitter) aus Städten wie New York, Los Angeles, London und Birmingham. Einsatz von Machine Learning, VADER-Sentimentanalyse und Ereigniserkennung zur Bewertung von Popularität und Kontroversität. Nutzung generativer KI zur Effizienzsteigerung bei Recherche, Programmierung und Ergebnisaufbereitung.",
         "files": {
           "final_presentation": "Präsentation",
@@ -146,7 +146,7 @@
         "desc": "Im Vertiefungsmodul <em>Principles of Entrepreneurship</em> arbeiteten wir mit dem Münsteraner Startup <em>pivoty</em> zusammen, das eine KI-gestützte Analysesoftware entwickelt, um Innovationspotenziale aus Online-Diskussionen abzuleiten (<a href='#bibliography'>Schäper et al. 2021a</a>). Gemeinsam mit zwei Teammitgliedern konzipierte und implementierte ich einen skalierbaren Web Scraper mit <em>Scrapy</em>, der anhand der Struktur gängiger Forenframeworks rund 90&nbsp;% aller deutschsprachigen Diskussionsforen abdeckt. Die gewonnenen Daten bilden die Grundlage, um aus unvoreingenommenen Nutzerbeiträgen neue Produkt- und Dienstleistungsideen zu identifizieren (<a href='#bibliography'>Schäper et al. 2021b</a>)."
       },
       "goc": {
-        "title": "Förderung der Führungskräfte von Morgen: Eine Webbasierte Simulation für die Öffentliche Verwaltung",
+        "title": "Webbasierte Simulation für Führungskräfte in der öffentlichen Verwaltung",
         "desc": "Wir haben die Fortbildung für das Personal im öffentlichen Dienst durch 'Game of Competences', eine webbasierte Simulationsplattform entwickelt mit Vue.js und Flask, erheblich verbessert. Als Leiter des Frontend-Teams hatte ich die Gelegenheit, meine Kollegen in fortgeschrittenen Frontend-Techniken mit Vue.js 3 zu schulen und weiterzubilden. Dieses Projekt war nicht nur außerordentlich bereichernd, sondern erreichte auch einen beachtlichen Erfolg, gekennzeichnet durch eine Gesamtnote von 1,3."
       },
       "TitleCase": {
@@ -158,7 +158,7 @@
         "desc": "Entwicklung und Umsetzung einer WordPress-Website zur Steigerung der Online-Sichtbarkeit der Beratungsleistungen einer Anwaltskanzlei. Fokus auf einfache Selbstverwaltung, damit der Kunde Inhalte eigenständig pflegen kann."
       },
       "portfolioWebDevelopment": {
-        "title": "Mein Digitales Schaufenster: Portfolio-Website mit Vue.js",
+        "title": "Portfolio-Website mit Vue.js",
         "desc": "Seit 2021 betreue ich meine eigene Portfolio-Website, die mit Vue.js 3 implementiert wurde. Dieses Projekt dient nicht nur als digitales Schaufenster meiner bisherigen Arbeiten, sondern unterstreicht auch meinen kreativen Ansatz und meine Fähigkeiten im Bereich der Webentwicklung. Die Wahl von Vue.js 2 für die Umsetzung zeigt meine Kompetenz im Umgang mit modernen JavaScript-Frameworks und meine Fähigkeit, ansprechende sowie benutzerfreundliche Webanwendungen zu entwickeln. Die kontinuierliche Wartung und Aktualisierung der Website spiegeln mein Engagement für qualitativ hochwertige Arbeit und das Streben nach technischer Exzellenz wider. Dieses Projekt demonstriert effektiv, wie ich innovative Technologien einsetze, um kreative Lösungen zu schaffen, die sowohl ästhetisch als auch funktional überzeugen."
       },
       "eBusinessWebDevelopment": {
@@ -166,7 +166,7 @@
         "desc": "Im Projektteam entwickelte ich eine Online-Videoplattform mit modernem Design, erklärenden Produktvideos und maßgeschneiderten WordPress-Anpassungen. In enger Abstimmung mit dem Kunden setzten wir dessen Anforderungen effizient um. Das Projekt verdeutlicht meine Erfahrung in technischer Umsetzung, Teamarbeit und kundenorientierter Entwicklung digitaler Lösungen."
       },
       "watchtrainer": {
-        "title": "Sportler Stärken: Frontend-Innovation für eine Wearable-Sportplattform",
+        "title": "Frontend-Innovation für eine Wearable-Sportplattform",
         "desc": "WatchTrainer spielte eine bedeutende Rolle in der Weiterentwicklung tragbarer Sporttechnologien und bot eine auf dem Austausch basierende Sportplattform, die die Möglichkeiten von Geräten wie der Apple Watch nutzt. In diesem innovativen Projekt war ich für die Leitung der Frontend-Entwicklung mit Vue.js verantwortlich, um eine intuitive und nahtlose Benutzererfahrung zu sicherstellen. Diese Erfahrung hebt meine Fähigkeit hervor, ansprechende digitale Lösungen zu entwickeln, die sich reibungslos in die neueste Technologie einfügen."
       }
     },
