@@ -35,8 +35,8 @@
               </v-card-title>
               <v-card-text class="d-flex flex-column align-center text-justify">
                 {{ $t("home.homeIntro.text") }}
-                <v-btn class="ma-8 mt-12" rounded :style="gradientBtn"
-                  :href="`/CV/CV-Leo-Giesen-${$i18n.locale.toUpperCase()}.pdf`">
+                <v-btn class="ma-8 mt-12" rounded :style="gradientBtn" :href="`/CV/CV-Leo-Giesen-DE.pdf`">
+                  <!-- DE/EN: ${$i18n.locale.toUpperCase()} -->
                   <v-icon class="me-2">mdi-account-tie</v-icon>
                   {{ $t("home.homeIntro.downloadCV") }}
                 </v-btn>
@@ -117,6 +117,42 @@ const gradientTitle = computed(() => ({
 }))
 
 const skillCardGroup = [
+  {
+    title: 'AnalysisQuantitativeSkillsTitle',
+    textSrc: 'AnalysisQuantitativeSkills',
+    backgroundImage: require('@/assets/stock/explain.jpeg'),
+    icon: 'calculator',
+    aria: 'Analysis and Quantitative Skills'
+  },
+  // {
+  //   title: 'Title',
+  //   textSrc: 'xxx',
+  //   backgroundImage: require('@/assets/home/xxx.webp'),
+  //   icon: 'xxx',
+  //   aria: 'xxx'
+  // }, 
+  // {
+  //   title: 'Title',
+  //   textSrc: 'xxx',
+  //   backgroundImage: require('@/assets/home/xxx.webp'),
+  //   icon: 'xxx',
+  //   aria: 'xxx'
+  // }, 
+  // {
+  //   title: 'Title',
+  //   textSrc: 'xxx',
+  //   backgroundImage: require('@/assets/home/xxx.webp'),
+  //   icon: 'xxx',
+  //   aria: 'xxx'
+  // }, 
+  // {
+  //   title: 'Title',
+  //   textSrc: 'xxx',
+  //   backgroundImage: require('@/assets/home/xxx.webp'),
+  //   icon: 'xxx',
+  //   aria: 'xxx'
+  // },
+
   {
     title: 'mlbiTitle',
     textSrc: 'mlbi',
