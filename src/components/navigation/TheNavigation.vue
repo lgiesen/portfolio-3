@@ -91,7 +91,7 @@ const views = ref([
   },
   {
     tag_en: "About",
-    tag_de: "Über Mich",
+    tag_de: "Über mich",
     to: { name: "About" },
     icon: "information-outline",
   },

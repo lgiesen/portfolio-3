@@ -16,7 +16,7 @@ const parallaxImagePath = new URL('@/assets/background/Aegina_port.webp', import
 const smallImgPath = new URL('@/assets/workExperience/kongress-presentation.webp', import.meta.url).href;
 const employment = [
   {
-    title_en: "First Chairman - Human Resources, Quality Management and IT",
+    title_en: "Chairman of the Board - Human Resources, Quality Management and IT",
     title_de:
       "Vorstandsvorsitzender für Personal, Qualitätsmanagement und IT",
     institution: "move",
@@ -25,8 +25,8 @@ const employment = [
     location: "Münster",
     startDate: "08/2023",
     endDate: "07/2024",
-    description_en: `I took on my first leadership role as the founding board member responsible for HR, Quality Management, and IT in our student consultancy. From the start, I focused on creating a team culture built on trust and good communication - which led to noticeably stronger engagement from our members. In our projects, I developed a structured, quality-focused mindset and helped us achieve a green audit from the BDSU. Curious about how tech can make things better, I dove into digital tools that helped our team work more smoothly. This experience didn’t just sharpen my leadership skills - it also taught me how rewarding it is to support others and drive things forward together.`,
-    description_de: `Als Vorstandsvorsitzender durfte ich die studentische Unternehmensberatung leiten. Dabei habe ich die Ressorts Personal, Qualitätsmanagement und IT verantwortet. Von Anfang an war mir eine offene Kommunikation und ein vertrauensvolles Miteinander wichtig - das hat die Beteiligung und Motivation im Team deutlich gesteigert. In unseren Projekten habe ich einen Blick für Qualität und eine strukturierte Herangehensweise entwickelt. So konnten wir unter anderem ein grünes Audit des BDSU erreichen. Besonders spannend fand ich, wie digitale Tools unsere Arbeit erleichtern können - hier habe ich viel ausprobiert und umgesetzt. Diese Zeit hat mich nicht nur als Führungskraft geprägt, sondern mir gezeigt, wie viel Freude es macht, gemeinsam etwas zu bewegen und andere zu unterstützen.`,
+    description_en: `I took on my first leadership role as chairman of the board responsible for HR, Quality Management, and IT in our student consultancy. From the start, I focused on creating a team culture built on trust and good communication - which led to noticeably stronger engagement from our members. In our projects, I developed a structured, quality-focused mindset and helped us achieve a green audit from the BDSU. Curious about how tech can make things better, I dove into digital tools that helped our team work more smoothly. This experience didn’t just sharpen my leadership skills - it also taught me how rewarding it is to support others and drive things forward together.`,
+    description_de: `Als Vorstandsvorsitzender durfte ich die studentische Unternehmensberatung leiten. Dabei habe ich die Ressorts Personal, Qualitätsmanagement und IT verantwortet. Von Anfang an waren mir eine offene Kommunikation und ein vertrauensvolles Miteinander wichtig - das hat die Beteiligung und Motivation im Team deutlich gesteigert. In unseren Projekten habe ich einen Blick für Qualität und eine strukturierte Herangehensweise entwickelt. So konnten wir unter anderem ein grünes Audit des BDSU erreichen. Besonders spannend fand ich, wie digitale Tools unsere Arbeit erleichtern können - hier habe ich viel ausprobiert und umgesetzt. Diese Zeit hat mich nicht nur als Führungskraft geprägt, sondern mir gezeigt, wie viel Freude es macht, gemeinsam etwas zu bewegen und andere zu unterstützen.`,
   },
   {
     title_en: "Software Developer",
@@ -37,14 +37,12 @@ const employment = [
     location: "Münster",
     startDate: "08/2021",
     endDate: "12/2021",
-    description_en: `During my software development internship at zeb, I worked on a Machine 
-        Learning (ML) project where I gained experience with Natural Language Processing (NLP). 
-        By selecting and implementing an alternative Support Vector Machine (SVM) approach, I 
+    description_en: `During my software development internship at zeb, I worked on a Machine
+        Learning (ML) project where I gained experience with Natural Language Processing (NLP).
+        By selecting and implementing an alternative Support Vector Machine (SVM) approach, I
         was able to increase the accuracy of the ML algorithm from 50% to 83%.`,
-    description_de: `Im Software Development Praktikum bei zeb habe ich an einem Machine 
-        Learning (ML) Projekt gearbeitet, wo ich Erfahrung mit Natural Language Processing (NLP) 
-        gemacht habe. Durch die Auswahl und Implementation eines alternativen Support Vector Machine 
-        (SVM) Ansatzes konnte ich die ML-Algorithmus Genauigkeit von 50% auf 83% erhöhen.`,
+    description_de: `Im Praktikum in der Softwareentwicklung bei zeb habe ich an einem Machine-Learning-Projekt (ML) gearbeitet, bei dem ich Erfahrung mit Natural Language Processing (NLP)
+        gesammelt habe. Durch die Auswahl und Implementierung eines alternativen Support-Vector-Machine-Ansatzes (SVM) konnte ich die Genauigkeit des ML-Algorithmus von 50 % auf 83 % erhöhen.`,
   },
   {
     title_en: "Working Student in Data Science",
@@ -67,10 +65,10 @@ const employment = [
     location: "Münster",
     startDate: "10/2019",
     endDate: "03/2023",
-    description_en: `I enthusiastically worked as a student assistant for Dr. Chasin at the chair of Information Systems and Information Management for IT projects and contributed to scientific research at the European Research Center for Information Systems / University of Münster, where I gained insights into modern technologies and co-create and prepare lectures.`,
-    description_de: `Mit Begeisterung arbeitete ich als studentische Hilfskraft für 
-        Dr. Chasin an IT- Projekten und wirkte an der wissenschaftlichen Forschung am 
-        European Research Center for Information Systems / Universität Münster mit, wo ich Einblicke in 
+    description_en: `I enthusiastically worked as a student assistant for Dr. Chasin at the chair of Information Systems and Information Management for IT projects and contributed to scientific research at the European Research Center for Information Systems / University of Münster, where I gained insights into modern technologies and co-created and prepared lectures.`,
+    description_de: `Mit Begeisterung arbeitete ich als studentische Hilfskraft für
+        Dr. Chasin an IT-Projekten und wirkte an der wissenschaftlichen Forschung am
+        European Research Center for Information Systems / Universität Münster mit, wo ich Einblicke in
         moderne Technologien gewinnen und Vorlesungen mitgestalten und vorbereiten konnte.`,
   },
   {
@@ -82,13 +80,13 @@ const employment = [
     location: "Münster",
     startDate: "03/2019",
     endDate: "",
-    description_en: `At move, I developed excellent communication skills and learned 
-        how to contribute an innovative perspective to foster productive teamwork. 
-        Through intense group work in projects, my work became very goal-orientated, and 
-        I improved my time management and developed the ability of precise project planning.`,
-    description_de: `Bei move habe ich große Kommunikationsfähigkeiten entwickelt und
-        gelernt, eine innovative Perspektive einzubringen, um produktive Teamarbeit zu fördern. 
-        Durch den Verlauf meiner Projekte mit intensiver Gruppenarbeit erwarb ich die Fähigkeit 
+    description_en: `At move, I developed excellent communication skills and learned
+        how to contribute an innovative perspective to foster productive teamwork.
+        Through intense group work in projects, my work became very goal-orientated, and
+        I improved my time management and developed the ability to plan projects precisely.`,
+    description_de: `Bei move habe ich ausgeprägte Kommunikationsfähigkeiten entwickelt und
+        gelernt, eine innovative Perspektive einzubringen, um produktive Teamarbeit zu fördern.
+        Durch die intensive Zusammenarbeit in meinen Projekten erwarb ich die Fähigkeit
         zu zielorientiertem Arbeiten, überzeugendem Zeitmanagement und präziser Projektplanung.`,
   },
   // {
@@ -143,20 +141,17 @@ const education = [
     startDate: "10/2018",
     endDate: "03/2022",
     description_en: `At the University of Münster, I acquired foundational knowledge
-        about economics, information systems, and computer science. Additionally, I 
-        picked up modeling languages and various programming languages, which I 
-        improved in my free time. Moreover, my project seminar team successfully
-        implemented a complex web application, where I led the frontend team. 
+        about economics, information systems, and computer science. Additionally, I
+        picked up modeling languages and various programming languages, and developed my proficiency in them in my free time. Moreover, my project seminar team successfully
+        implemented a complex web application, where I led the frontend team.
         In addition, I acquired important deep learning skills in the advanced module "Deep Learning with Python".
-        These have paved the way and laid a foundation for my bachelor thesis, where I implemented a U-Net 
-        (technological Deep Learning approach) to derive the tree stock from satellite images.`,
-    description_de: `An der Universität Münster eignete ich mir grundlegendes Wissen der BWL, Wirtschafts- 
-        und Informatik an. Zusätzlich habe ich mir Modellierungs- und verschiedene Programmiersprachen 
-        angeeignet, die ich in meiner Freizeit verbessert habe. Außerdem leitete ich das 
-        Projektseminar Frontend-Team, in dem eine komplexe Webanwendung erfolgreich implementiert wurde. 
-        Darüber hinaus habe ich im Vertiefungsmodul "Deep Learning mit Python" wichtige Deep Learning 
-        Kenntnisse erworben. Diese haben eine Basis für meine Bachelorarbeit gelegt, wo ich ein U-Net 
-        (technologischer Deep Learning Ansatz) implementieren habe, um aus Satelitenbilder 
+        These have paved the way and laid a foundation for my bachelor’s thesis, where I implemented a U-Net
+        (a deep learning architecture) to derive the tree stock from satellite images.`,
+    description_de: `An der Universität Münster eignete ich mir grundlegendes Wissen in BWL, Wirtschaftsinformatik und Informatik an. Zusätzlich habe ich mir Modellierungs- und verschiedene Programmiersprachen
+        angeeignet und meine Kenntnisse darin in meiner Freizeit vertieft. Außerdem leitete ich das
+        Frontend-Team im Projektseminar, in dem eine komplexe Webanwendung erfolgreich implementiert wurde.
+        Darüber hinaus habe ich im Vertiefungsmodul "Deep Learning mit Python" wichtige Deep-Learning-Kenntnisse erworben. Diese haben eine Basis für meine Bachelorarbeit gelegt, in der ich ein U-Net
+        (eine Deep-Learning-Architektur) implementiert habe, um aus Satellitenbildern
         Baumbestände abzuleiten.`,
   },
   {
@@ -168,12 +163,11 @@ const education = [
     location: "Gütersloh",
     startDate: "06/2016",
     endDate: "06/2018",
-    description_en: `I completed my Abitur at the Evangelisch 
-        Stiftischem Gymnasium (ESG), which is a technology-oriented secondary school. My advanced modules were Maths and English.
-        I achieved a C1-level English through bilingual classes and a term at Cambridge International School. 
+    description_en: `I completed my Abitur at the Evangelisch Stiftisches Gymnasium (ESG), which is a technology-oriented secondary school. My advanced courses were mathematics and English.
+        I achieved C1-level proficiency in English through bilingual classes and a term at Cambridge International School.
         I advanced my French skills on an exchange near Lyon and developed strong computer and Microsoft Office skills through daily use at school.`,
-    description_de: `Ich habe mein Abitur an dem Evangelisch Stiftischem Gymnasium (ESG) abgeschlossen. An diesem technisch orientierten Gymnasium habe
-        ich die Leistungskurse Mathe und Englisch.
+    description_de: `Ich habe mein Abitur an dem Evangelisch Stiftischen Gymnasium (ESG) abgeschlossen. An diesem technisch orientierten Gymnasium belegte
+        ich die Leistungskurse Mathematik und Englisch.
         Ich habe ein C1-Niveau in Englisch durch bilingualen Unterricht und ein Trimester an der Cambridge International
         School erreicht. Außerdem habe ich fundierte Computer- und Microsoft-Office-Kenntnisse durch tägliche Anwendung in der Schule entwickelt.
         `,
@@ -205,18 +199,18 @@ const education = [
 
   <!-- Recommendation
   section
-    v-container 
+    v-container
       h1.display-2.font-weight-thin.mb-12.text-center {{ $t("recommendationsTitle") }}
       v-carousel
-        v-carousel-item(v-for="(recommendation, index) in recommendations" 
-          :key="index" :src="recommendation.src" 
+        v-carousel-item(v-for="(recommendation, index) in recommendations"
+          :key="index" :src="recommendation.src"
           reverse-transition="fade-transition" transition="fade-transition")
           v-row.fill-height(align="center")
             v-col.text-center.pa-12
               v-container.pa-12
                 h2.mb-5.display-1 {{ recommendation.title }}
                 h4.ma-5.overline {{ recommendation.location }}
-                p.mt-10.font-italic.text-justify 
+                p.mt-10.font-italic.text-justify
                   | "{{ isDE ? recommendation.description_de : recommendation.description_en }}" -->
 
 </template>
